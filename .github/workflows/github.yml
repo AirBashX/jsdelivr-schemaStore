@@ -1,0 +1,30 @@
+name: Jsdelivr Schema Catalog
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *' # 每天 0 点执行
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Download json file
+      run: |
+        curl -o catalog.json https://www.schemastore.org/api/json/catalog.json
+
+    - name: Replace GitHub links with jsdelivr
+      run: |
+        sed -i 's#raw.githubusercontent.com/\([^/]*\)/\([^/]*\)\/\([^/]*\)#fastly.jsdelivr.net/gh/\1/\2@\3#g' catalog.json
+
+    - name: Commit changes and push to repository
+      run: |
+        git config --global user.name ${{ github.actor }}
+        git config --global user.email ${{ secrets.GIT_EMAIL }}
+        git add .
+        git commit -m "Replace GitHub links with jsdelivr"
+        git push
