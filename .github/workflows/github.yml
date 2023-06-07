@@ -28,3 +28,4 @@ jobs:
         git add .
         git commit -m "Replace GitHub links with jsdelivr"
         git push
+      continue-on-error: true
