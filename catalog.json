@@ -3069,6 +3069,12 @@
       "url": "https://json.schemastore.org/rancher-fleet.json"
     },
     {
+      "name": "config.yaml",
+      "description": "Projektor settings",
+      "fileMatch": ["**/.projektor/config.yaml"],
+      "url": "https://json.schemastore.org/projektor.json"
+    },
+    {
       "name": "Read the Docs",
       "description": "Read the Docs configuration file",
       "fileMatch": [
@@ -3282,6 +3288,11 @@
       "name": "sarif-2.1.0-rtm.5",
       "description": "Static Analysis Results Format (SARIF), Version 2.1.0-rtm.5",
       "url": "https://json.schemastore.org/sarif-2.1.0-rtm.5.json"
+    },
+    {
+      "name": "sarif-2.1.0-rtm.6",
+      "description": "Static Analysis Results Format (SARIF), Version 2.1.0-rtm.6",
+      "url": "https://json.schemastore.org/sarif-2.1.0-rtm.6.json"
     },
     {
       "name": "sarif-external-property-file-2.1.0-rtm.5",
@@ -3637,7 +3648,7 @@
       "name": "tmLanguage",
       "description": "Language grammar description files in Textmate and compatible editors",
       "fileMatch": ["*.tmLanguage.json"],
-      "url": "https://fastly.jsdelivr.net/gh/Septh/tmlanguage@master/tmlanguage.json"
+      "url": "https://json.schemastore.org/tmlanguage.json"
     },
     {
       "name": "TestEnvironment.json",
@@ -5092,6 +5103,12 @@
       "description": "Bashly strings",
       "fileMatch": ["bashly-strings.yml", "bashly-strings.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/DannyBen/bashly@master/schemas/strings.json"
+    },
+    {
+      "name": "bpkg",
+      "description": "A lightweight Bash package manager",
+      "fileMatch": ["bpkg.json"],
+      "url": "https://json.schemastore.org/bpkg.json"
     },
     {
       "name": "micro-settings.json",
