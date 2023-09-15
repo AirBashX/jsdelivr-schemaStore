@@ -2258,7 +2258,7 @@
         "krakend.json",
         "krakend.toml"
       ],
-      "url": "https://www.krakend.io/schema/v3.json"
+      "url": "https://www.krakend.io/schema/krakend.json"
     },
     {
       "name": "Datadog Service Definition",
@@ -4445,7 +4445,7 @@
       "name": "Gradle Enterprise",
       "description": "Gradle Enterprise configuration schema",
       "fileMatch": ["*gradle-enterprise.yml", "*gradle-enterprise.yaml"],
-      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
+      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
       "versions": {
         "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
         "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
@@ -4453,7 +4453,8 @@
         "4.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
         "5.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json",
         "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
-        "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json"
+        "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
+        "8.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json"
       }
     },
     {
@@ -4477,12 +4478,6 @@
       "description": "JSON Schema for Yarnrc files",
       "fileMatch": [".yarnrc.yml"],
       "url": "https://yarnpkg.com/configuration/yarnrc.json"
-    },
-    {
-      "name": "beau.yml",
-      "description": "JSON Schema for a Beaujs Requests file.",
-      "fileMatch": ["beau.yml"],
-      "url": "https://beaujs.com/schema.json"
     },
     {
       "name": "Better Code Hub",
@@ -5256,6 +5251,24 @@
       "description": "A file format for describing custom elements",
       "url": "https://fastly.jsdelivr.net/gh/webcomponents/custom-elements-manifest@main/schema.json",
       "fileMatch": ["custom-elements.json"]
+    },
+    {
+      "name": "warp-keysets.json",
+      "description": "Warp keyboard shortcut presets",
+      "url": "https://json.schemastore.org/warp-keysets.json",
+      "fileMatch": ["**/.warp/keybindings.yaml"]
+    },
+    {
+      "name": "warp-themes.json",
+      "description": "Warp themes",
+      "url": "https://json.schemastore.org/warp-themes.json",
+      "fileMatch": ["**/.warp/themes/*.yaml"]
+    },
+    {
+      "name": "warp-workflows.json",
+      "description": "Warp workflows",
+      "url": "https://json.schemastore.org/warp-workflows.json",
+      "fileMatch": ["**/.warp/workflows/*.yaml"]
     }
   ],
   "version": 1
