@@ -4396,7 +4396,7 @@
     },
     {
       "name": "docker-compose.yml",
-      "description": "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications. ",
+      "description": "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.",
       "fileMatch": [
         "**/docker-compose.yml",
         "**/docker-compose.yaml",
@@ -4486,10 +4486,10 @@
       "url": "https://json.schemastore.org/bettercodehub.json"
     },
     {
-      "name": "comet",
-      "description": "JSON Schema for a Comet Data Pipeline.",
-      "fileMatch": ["*.comet.yaml", "*.comet.yml"],
-      "url": "https://json.schemastore.org/comet.json"
+      "name": "starlake",
+      "description": "JSON Schema for a Starlake Data Pipeline.",
+      "fileMatch": ["*.sl.yml"],
+      "url": "https://json.schemastore.org/starlake.json"
     },
     {
       "name": "swcrc",
