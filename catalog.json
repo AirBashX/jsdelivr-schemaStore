@@ -1882,6 +1882,12 @@
       "url": "https://json.schemastore.org/golangci-lint.json"
     },
     {
+      "name": "go-feature-flag Flag Configuration",
+      "description": "go-feature-flag flag configuration file",
+      "fileMatch": ["*.goff.yml", "*.goff.yaml", "*.goff.json", "*.goff.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/thomaspoignant/go-feature-flag@main/.schema/flag-schema.json"
+    },
+    {
       "name": "Goreleaser",
       "description": "Goreleaser configuration file",
       "fileMatch": [
@@ -2405,7 +2411,7 @@
     },
     {
       "name": "lsdlschema.json",
-      "description": "Linguistic Language files",
+      "description": "Power BI linguistic schema definition",
       "fileMatch": ["*.lsdl.yaml", "*.lsdl.json"],
       "url": "https://json.schemastore.org/lsdlschema.json"
     },
