@@ -5305,6 +5305,17 @@
       "description": "Goblet serverless framework config",
       "url": "https://fastly.jsdelivr.net/gh/goblet/goblet@main/goblet.schema.json",
       "fileMatch": ["**/.goblet/config.json"]
+    },
+    {
+      "name": "Databricks Asset Bundles",
+      "description": "Databricks Asset Bundles config",
+      "url": "https://json.schemastore.org/databricks-asset-bundles.json",
+      "fileMatch": ["**/.databricks.yml"]
+    },
+    {
+      "name": "JSON Schema Draft 7 (unofficial strict)",
+      "description": "Meta-validation JSON Schema Draft 7 (unofficial strict)",
+      "url": "https://json.schemastore.org/metaschema-draft-07-unofficial-strict.json"
     }
   ],
   "version": 1
