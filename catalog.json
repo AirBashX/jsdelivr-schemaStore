@@ -3029,6 +3029,12 @@
       "url": "https://json.schemastore.org/pocketmine-plugin.json"
     },
     {
+      "name": "Poetry",
+      "description": "Poetry, a Python packaging tool",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/poetry.json"
+    },
+    {
       "name": "plagiarize.yaml",
       "description": "Yaml Plagiarize",
       "fileMatch": ["plagiarize.yaml", "plagiarize.json"],
@@ -3840,9 +3846,13 @@
       "url": "https://json.schemastore.org/tldr.json"
     },
     {
-      "name": "tmLanguage",
-      "description": "Language grammar description files in Textmate and compatible editors",
-      "fileMatch": ["*.tmLanguage.json"],
+      "name": "TextMate Grammar",
+      "description": "Language grammar description files for TextMate and compatible editors",
+      "fileMatch": [
+        "*.tmLanguage.json",
+        "*.tmLanguage.yaml",
+        "*.tmLanguage.yml"
+      ],
       "url": "https://json.schemastore.org/tmlanguage.json"
     },
     {
