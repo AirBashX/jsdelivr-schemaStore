@@ -1725,6 +1725,12 @@
       "url": "https://fastly.jsdelivr.net/gh/firebase/firebase-tools@master/schema/firebase-config.json"
     },
     {
+      "name": "Google Chrome Related Website Sets",
+      "description": "Google Chrome Related Website Sets (formerly First Party Sets)",
+      "url": "https://fastly.jsdelivr.net/gh/GoogleChrome/related-website-sets@main/SCHEMA.json",
+      "fileMatch": ["**/.well-known/first-party-set.json"]
+    },
+    {
       "name": "first-timers-bot",
       "description": "A bot that helps onboarding new open-source contributors",
       "fileMatch": ["**/.github/first-timers.yml"],
@@ -3399,6 +3405,21 @@
       "url": "https://docs.renovatebot.com/renovate-schema.json"
     },
     {
+      "description": "RenderCV input file",
+      "fileMatch": [
+        "*_CV.yml",
+        "*_CV.yaml",
+        "*_CV.json",
+        "*_CV.json5",
+        "*_cv.yml",
+        "*_cv.yaml",
+        "*_cv.json",
+        "*_cv.json5"
+      ],
+      "name": "RenderCV",
+      "url": "https://fastly.jsdelivr.net/gh/sinaatalay/rendercv@main/schema.json"
+    },
+    {
       "name": "RoadRunner",
       "description": "Spiral Roadrunner config file",
       "url": "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json",
@@ -4454,6 +4475,12 @@
       "url": "https://fastly.jsdelivr.net/gh/hadolint/hadolint@master/contrib/hadolint.json"
     },
     {
+      "name": "Hatch",
+      "description": "Python package build tool",
+      "fileMatch": ["hatch.toml"],
+      "url": "https://json.schemastore.org/hatch.json"
+    },
+    {
       "name": "helmfile",
       "description": "Helmfile is a declarative spec for deploying helm charts",
       "fileMatch": ["helmfile.yaml", "**/helmfile.d/**/*.yaml"],
@@ -4982,15 +5009,28 @@
       "url": "https://fastly.jsdelivr.net/gh/Relativ-IT/Butane-Schemas@Release/Butane-Schema.json"
     },
     {
-      "name": "Updatecli",
-      "description": "Updatecli manifest",
+      "name": "Updatecli Compose",
+      "description": "Updatecli Compose file",
+      "fileMatch": ["update-compose.yaml"],
+      "url": "https://www.updatecli.io/schema/latest/compose/config.json"
+    },
+    {
+      "name": "Updatecli Policy Manifest",
+      "description": "Updatecli Policy Manifest",
       "fileMatch": [
         "**/updatecli.d/**/*.yaml",
         "**/updatecli.d/**/*.yml",
+        "**/updatecli.d/**/*.json",
         "updatecli.yml",
         "updatecli.yaml"
       ],
-      "url": "https://www.updatecli.io/schema/latest/config.json"
+      "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json"
+    },
+    {
+      "name": "Updatecli Policy Metadata",
+      "description": "Updatecli Policy Metadata",
+      "fileMatch": ["**/updatecli/**/Policy.yaml"],
+      "url": "https://www.updatecli.io/schema/latest/policy/metadata/config.json"
     },
     {
       "name": "GeoJSON.json latest",
