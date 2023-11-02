@@ -2262,8 +2262,9 @@
       "name": "JReleaser",
       "description": "JReleaser config file",
       "fileMatch": ["jreleaser.yml", "jreleaser.json"],
-      "url": "https://json.schemastore.org/jreleaser-1.8.0.json",
+      "url": "https://json.schemastore.org/jreleaser-1.9.0.json",
       "versions": {
+        "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
         "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
         "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
         "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json"
@@ -2679,6 +2680,12 @@
       "description": "MkDocs configuration file",
       "fileMatch": ["mkdocs.yml"],
       "url": "https://json.schemastore.org/mkdocs-1.0.json"
+    },
+    {
+      "name": "monospace.yml",
+      "description": "MonoSpace configuration file",
+      "fileMatch": ["monospace.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/software-t-rex/monospace@main/apps/monospace/schemas/monospace.schema.json"
     },
     {
       "name": "MS2Rescore Configuration",
