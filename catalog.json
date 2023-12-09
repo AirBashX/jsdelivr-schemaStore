@@ -2390,6 +2390,12 @@
       "url": "https://fastly.jsdelivr.net/gh/derailed/k9s@master/plugins/schema.json"
     },
     {
+      "name": "KIMMDY config file",
+      "description": "KIMMDY config file, see: hits-mbm-dev.github.io/kimmdy",
+      "fileMatch": ["kimmdy.yml", "kimmdy.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/hits-mbm-dev/kimmdy@main/src/kimmdy/kimmdy-yaml-schema.json"
+    },
+    {
       "name": "KrakenD",
       "description": "KrakenD API Gateway configuration file",
       "fileMatch": [
@@ -3405,6 +3411,12 @@
         ".rehyperc.yml"
       ],
       "url": "https://json.schemastore.org/rehyperc.json"
+    },
+    {
+      "name": "release-plz.toml",
+      "description": "Release-plz configuration file",
+      "fileMatch": ["release-plz.toml", ".release-plz.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/MarcoIeni/release-plz@main/.schema/latest.json"
     },
     {
       "name": ".remarkrc",
