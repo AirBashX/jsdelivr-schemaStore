@@ -87,6 +87,21 @@
       }
     },
     {
+      "name": "AIConfig",
+      "description": "AIConfig that is used to store generative AI prompts, models and model parameters",
+      "fileMatch": [
+        "aiconfig.json",
+        "aiconfig.jsonc",
+        "*.aiconfig.json",
+        "*.aiconfig.jsonc",
+        "aiconfig.yml",
+        "aiconfig.yaml",
+        "*.aiconfig.yml",
+        "*.aiconfig.yaml"
+      ],
+      "url": "https://json.schemastore.org/aiconfig-1.0.json"
+    },
+    {
       "name": "Airlock Microgateway",
       "description": "Airlock Microgateway configuration",
       "fileMatch": [
@@ -838,6 +853,12 @@
       "description": "cibuildwheel, a Python redistributable wheel builder",
       "fileMatch": ["cibuildwheel.toml", ".cibuildwheel.toml"],
       "url": "https://json.schemastore.org/cibuildwheel.json"
+    },
+    {
+      "name": "partial-cibuildwheel",
+      "description": "cibuildwheel, a Python redistributable wheel builder",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/partial-cibuildwheel.json"
     },
     {
       "name": "CityJSON",
@@ -2011,6 +2032,15 @@
       "url": "https://fastly.jsdelivr.net/gh/thomaspoignant/go-feature-flag@main/.schema/flag-schema.json"
     },
     {
+      "name": "Gorder",
+      "description": "Gorder configuration",
+      "fileMatch": ["gorder.json"],
+      "url": "https://json.schemastore.org/gorder-r06.json",
+      "versions": {
+        "r06": "https://json.schemastore.org/gorder-r06.json"
+      }
+    },
+    {
       "name": "Goreleaser",
       "description": "Goreleaser configuration file",
       "fileMatch": [
@@ -3154,6 +3184,12 @@
       "url": "https://json.schemastore.org/poetry.json"
     },
     {
+      "name": "Partial-poetry",
+      "description": "Poetry, a Python packaging tool",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/partial-poetry.json"
+    },
+    {
       "name": "plagiarize.yaml",
       "description": "Yaml Plagiarize",
       "fileMatch": ["plagiarize.yaml", "plagiarize.json"],
@@ -3734,6 +3770,12 @@
       "description": "Setuptools, the classic Python buildsystem",
       "fileMatch": [],
       "url": "https://json.schemastore.org/setuptools.json"
+    },
+    {
+      "name": "Partial-Setuptools",
+      "description": "Setuptools, the classic Python buildsystem",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/partial-setuptools.json"
     },
     {
       "name": "sfdx-hardis configuration",
@@ -5056,6 +5098,12 @@
       "description": "Pyproject configuration for scikit-build-core",
       "fileMatch": [],
       "url": "https://json.schemastore.org/scikit-build.json"
+    },
+    {
+      "name": "partial-scikit-build",
+      "description": "Pyproject configuration for scikit-build-core",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/partial-scikit-build.json"
     },
     {
       "name": "StackHawk Scanner Configuration",
