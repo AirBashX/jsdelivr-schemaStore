@@ -80,10 +80,11 @@
       "name": ".aiproj.json",
       "description": "Settings for project analysis by the Application Inspector",
       "fileMatch": [".aiproj.json"],
-      "url": "https://json.schemastore.org/aiproj-1.1.json",
+      "url": "https://json.schemastore.org/aiproj-1.2.json",
       "versions": {
         "1.0": "https://json.schemastore.org/aiproj-1.0.json",
-        "1.1": "https://json.schemastore.org/aiproj-1.1.json"
+        "1.1": "https://json.schemastore.org/aiproj-1.1.json",
+        "1.2": "https://json.schemastore.org/aiproj-1.2.json"
       }
     },
     {
@@ -468,6 +469,12 @@
       "versions": {
         "0.9.9": "https://fastly.jsdelivr.net/gh/hexagonkt/codecv@0.9.9/cv.schema.json"
       }
+    },
+    {
+      "name": "latexindent configuration",
+      "description": "Configuration file for latexindent",
+      "fileMatch": ["latexindent.yaml", ".latexindent.yaml"],
+      "url": "https://github.com/cmhughes/latexindent.pl/raw/main/documentation/latexindent-yaml-schema.json"
     },
     {
       "name": "Lobe AI Agent",
@@ -5156,7 +5163,7 @@
     {
       "name": "Alacritty Configuration",
       "description": "Alacritty configuration yaml file",
-      "fileMatch": [".alacritty.yml", "alacritty.yml"],
+      "fileMatch": [".alacritty.yml", "alacritty.yml", "alacritty.toml"],
       "url": "https://fastly.jsdelivr.net/gh/distinction-dev/alacritty-schema@main/alacritty/reference.json"
     },
     {
