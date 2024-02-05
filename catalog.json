@@ -438,7 +438,11 @@
       "name": "bottom configuration",
       "description": "Configuration file for bottom",
       "fileMatch": ["bottom.toml"],
-      "url": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/nightly/bottom.json"
+      "url": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v1.0/bottom.json",
+      "versions": {
+        "nightly": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/nightly/bottom.json",
+        "1.0": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v1.0/bottom.json"
+      }
     },
     {
       "name": "buf.yaml",
