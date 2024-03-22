@@ -2027,6 +2027,17 @@
       }
     },
     {
+      "name": "Gitea Issue Template forms",
+      "description": "YAML Gitea issue forms",
+      "fileMatch": [
+        "**/.gitea/ISSUE_TEMPLATE/**.yml",
+        "**/.gitea/ISSUE_TEMPLATE/**.yaml",
+        "**/.forgejo/ISSUE_TEMPLATE/**.yml",
+        "**/.forgejo/ISSUE_TEMPLATE/**.yaml"
+      ],
+      "url": "https://json.schemastore.org/gitea-issue-forms.json"
+    },
+    {
       "name": "GitHub Action",
       "description": "YAML GitHub Actions",
       "fileMatch": ["action.yml", "action.yaml"],
@@ -2052,15 +2063,11 @@
       "url": "https://json.schemastore.org/github-funding.json"
     },
     {
-      "name": "GitHub issue forms",
+      "name": "GitHub Issue Template forms",
       "description": "YAML GitHub issue forms",
       "fileMatch": [
         "**/.github/ISSUE_TEMPLATE/**.yml",
-        "**/.github/ISSUE_TEMPLATE/**.yaml",
-        "**/.gitea/ISSUE_TEMPLATE/**.yml",
-        "**/.gitea/ISSUE_TEMPLATE/**.yaml",
-        "**/.forgejo/ISSUE_TEMPLATE/**.yml",
-        "**/.forgejo/ISSUE_TEMPLATE/**.yaml"
+        "**/.github/ISSUE_TEMPLATE/**.yaml"
       ],
       "url": "https://json.schemastore.org/github-issue-forms.json"
     },
@@ -2948,6 +2955,12 @@
       "description": "Webpack modernizr-loader configuration file",
       "fileMatch": [".modernizrrc"],
       "url": "https://json.schemastore.org/modernizrrc.json"
+    },
+    {
+      "name": "Monade CLI Stack Configuration",
+      "description": "The configuration file to get a local stack up and running with Monade CLI",
+      "fileMatch": ["monade.yaml", "monade.yml", ".monade.yaml", ".monade.yml"],
+      "url": "https://json.schemastore.org/monade-stack-config.json"
     },
     {
       "name": "mycode.json",
@@ -4219,6 +4232,12 @@
       "url": "https://fastly.jsdelivr.net/gh/transcend-io/cli@main/transcend-yml-schema-v4.json"
     },
     {
+      "name": "trime.yaml",
+      "description": "trime configuration file",
+      "fileMatch": ["trime.yaml", "trime.yml", "*.trime.yaml", "*.trime.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/osfans/trime@develop/doc/trime-schema.json"
+    },
+    {
       "name": "trunk.yaml",
       "description": "Configuration trunk, a powerful linter runner. Documentation: https://docs.trunk.io",
       "fileMatch": ["trunk.yaml"],
@@ -4358,7 +4377,8 @@
       "versions": {
         "current": "https://json.schemastore.org/utam-page-object.json",
         "1.5.0": "https://json.schemastore.org/utam-page-object-1.5.0.json",
-        "2.0.3": "https://json.schemastore.org/utam-page-object-2.0.3.json"
+        "2.0.3": "https://json.schemastore.org/utam-page-object-2.0.3.json",
+        "2.2.0": "https://json.schemastore.org/utam-page-object-2.2.0.json"
       }
     },
     {
