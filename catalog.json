@@ -915,6 +915,12 @@
       "url": "https://fastly.jsdelivr.net/gh/cityjson/specs@master/schemas/cityjson.min.schema.json"
     },
     {
+      "name": "conda-forge",
+      "description": "Conda-forge configuration file",
+      "fileMatch": ["conda-forge.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/conda-forge/conda-smithy@main/conda_smithy/data/conda-forge.json"
+    },
+    {
       "name": "Conjure",
       "description": "Conjure Human-Readable Format",
       "fileMatch": ["**/conjure/**.yml"],
@@ -3311,6 +3317,12 @@
       "url": "https://json.schemastore.org/pattern.json"
     },
     {
+      "name": "pixi.toml",
+      "description": "Pixi configuration file",
+      "fileMatch": ["pixi.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/prefix-dev/pixi@main/schema/schema.json"
+    },
+    {
       "name": ".pmbot.yml",
       "description": "Pmbot configuration file",
       "fileMatch": [".pmbot.yml"],
@@ -3595,6 +3607,12 @@
       "url": "https://www.qgoda.net/schemas/qgoda.json"
     },
     {
+      "name": "Rattler-build",
+      "description": "Rattler-build recipe",
+      "fileMatch": ["recipe.yaml", "recipe.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/prefix-dev/recipe-format@main/schema.json"
+    },
+    {
       "name": "Red-DiscordBot Cog",
       "description": "Red-DiscordBot Cog metadata file",
       "fileMatch": ["info.json"],
@@ -3851,6 +3869,33 @@
       "description": "Scoop bucket app manifest",
       "fileMatch": ["**/bucket/**.json"],
       "url": "https://fastly.jsdelivr.net/gh/lukesampson/scoop@master/schema.json"
+    },
+    {
+      "name": "SDMX structure message",
+      "description": "Statistical Data and Metadata eXchange (ISO 17369) structure message",
+      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
+      "versions": {
+        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/1.0/sdmx-json-structure-schema.json",
+        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json"
+      }
+    },
+    {
+      "name": "SDMX metadata message",
+      "description": "Statistical Data and Metadata eXchange (ISO 17369) metadata message",
+      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+      "versions": {
+        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/1.0/sdmx-json-metadata-schema.json",
+        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json"
+      }
+    },
+    {
+      "name": "SDMX data message",
+      "description": "Statistical Data and Metadata eXchange (ISO 17369) data message",
+      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+      "versions": {
+        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/1.0/sdmx-json-data-schema.json",
+        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json"
+      }
     },
     {
       "name": "Semantic Data Fabric (SDF) file",
@@ -5081,6 +5126,12 @@
       "url": "https://fastly.jsdelivr.net/gh/arvinxx/components@master/packages/journey-map/schema/journey-map.schema.json"
     },
     {
+      "name": "Render Blueprints",
+      "description": "Blueprints are Render’s infrastructure-as-code model for defining, deploying, and managing multiple resources with a single YAML file",
+      "fileMatch": ["**/*render.yaml"],
+      "url": "https://render.com/schema/render.yaml.json"
+    },
+    {
       "name": "RKE Cluster Configuration YAML",
       "description": "the cluster.yml configuration file for RKE",
       "fileMatch": ["cluster.yml", "cluster.yaml"],
@@ -5205,10 +5256,10 @@
       "url": "https://fastly.jsdelivr.net/gh/DavidAnson/markdownlint@main/schema/markdownlint-config-schema.json"
     },
     {
-      "name": "markdown-lint-check",
-      "description": "markdown-lint-check",
-      "fileMatch": [".markdown-lint-check.json"],
-      "url": "https://json.schemastore.org/markdown-lint-check.json"
+      "name": "markdown-link-check",
+      "description": "markdown-link-check",
+      "fileMatch": [".markdown-link-check.json"],
+      "url": "https://json.schemastore.org/markdown-link-check.json"
     },
     {
       "name": "Mason Registry",
