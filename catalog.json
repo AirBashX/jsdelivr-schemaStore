@@ -963,6 +963,12 @@
       "url": "https://fastly.jsdelivr.net/gh/SFDO-Tooling/CumulusCI@main/cumulusci/schema/cumulusci.jsonschema.json"
     },
     {
+      "name": "Clawject config",
+      "description": "Clawject configuration file",
+      "fileMatch": [".clawjectrc", ".clawjectrc.json"],
+      "url": "https://fastly.jsdelivr.net/gh/clawject/clawject@main/packages/clawject/src/compile-time/config/schema.json"
+    },
+    {
       "name": "DataYoga Connections",
       "description": "Collection of defined source and target connections used within DataYoga jobs",
       "fileMatch": ["connections.dy.yaml"],
@@ -3746,7 +3752,7 @@
     },
     {
       "name": "rustfmt",
-      "description": "fustfmt, a tool to format Rust code",
+      "description": "rustfmt, a tool to format Rust code",
       "fileMatch": ["rustfmt.toml"],
       "url": "https://json.schemastore.org/rustfmt.json"
     },
