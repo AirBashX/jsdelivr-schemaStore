@@ -6066,6 +6066,18 @@
       "description": "Bioimage.io resource descriptions may be produced or consumed by bioimage.io-compatible software",
       "fileMatch": ["bioimageio.yaml", "*.bioimageio.yaml"],
       "url": "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json"
+    },
+    {
+      "name": "CWL",
+      "description": "The Common Workflow Language Configuration",
+      "fileMatch": ["*.cwl"],
+      "url": "https://fastly.jsdelivr.net/gh/common-workflow-lab/cwl-ts-auto@main/json_schemas/cwl_schema.json"
+    },
+    {
+      "name": "shard.yml",
+      "description": "Shards configuration file",
+      "fileMatch": ["shard.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/crystal-lang/shards@master/docs/shard.yml.schema.json"
     }
   ]
 }
