@@ -6069,6 +6069,12 @@
       "url": "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json"
     },
     {
+      "name": "Flow.json Configurations",
+      "description": "Project configuration for Cadence projects on Flow Blockchain",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/onflow/flow-cli@master/flowkit/schema.json"
+    },
+    {
       "name": "CWL",
       "description": "The Common Workflow Language Configuration",
       "fileMatch": ["*.cwl"],
@@ -6079,6 +6085,25 @@
       "description": "Shards configuration file",
       "fileMatch": ["shard.yml"],
       "url": "https://fastly.jsdelivr.net/gh/crystal-lang/shards@master/docs/shard.yml.schema.json"
+    },
+    {
+      "name": "Erda Pipeline",
+      "description": "Erda Pipeline Configuration File",
+      "fileMatch": [
+        "pipeline.yaml",
+        "pipeline.yml",
+        "**/.erda/pipelines/*.yaml",
+        "**/.erda/pipelines/*.yml",
+        "**/.dice/pipelines/*.yaml",
+        "**/.dice/pipelines/*.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/erda-project/erda@master/.erda/schemas/pipeline.yaml.json"
+    },
+    {
+      "name": "Erda Runtime",
+      "description": "Erda Runtime Configuration File",
+      "fileMatch": ["dice.yaml", "erda.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/erda-project/erda@master/.erda/schemas/dice.yaml.json"
     }
   ]
 }
