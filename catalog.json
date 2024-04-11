@@ -1009,13 +1009,13 @@
       "name": "Devbox Config",
       "description": "Configuration for a Devbox shell environment",
       "fileMatch": ["devbox.json"],
-      "url": "https://fastly.jsdelivr.net/gh/jetpack-io/devbox@main/.schema/devbox.schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/jetify-com/devbox@main/.schema/devbox.schema.json"
     },
     {
       "name": "Devbox Plugin",
       "description": "Configuration for a Devbox plugin specification",
       "fileMatch": ["devbox-plugin.json"],
-      "url": "https://fastly.jsdelivr.net/gh/jetpack-io/devbox@main/.schema/devbox-plugin.schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/jetify-com/devbox@main/.schema/devbox-plugin.schema.json"
     },
     {
       "name": "Drupal Breakpoints",
@@ -2040,6 +2040,17 @@
       }
     },
     {
+      "name": "Gitea Issue Template configuration",
+      "description": "YAML configuring Gitea Issue Templates",
+      "fileMatch": [
+        "**/.gitea/ISSUE_TEMPLATE/config.yml",
+        "**/.gitea/ISSUE_TEMPLATE/config.yaml",
+        "**/.forgejo/ISSUE_TEMPLATE/config.yml",
+        "**/.forgejo/ISSUE_TEMPLATE/config.yaml"
+      ],
+      "url": "https://json.schemastore.org/gitea-issue-config.json"
+    },
+    {
       "name": "Gitea Issue Template forms",
       "description": "YAML Gitea issue forms",
       "fileMatch": [
@@ -2089,11 +2100,7 @@
       "description": "YAML configuring GitHub Issue Templates",
       "fileMatch": [
         "**/.github/ISSUE_TEMPLATE/config.yml",
-        "**/.github/ISSUE_TEMPLATE/config.yaml",
-        "**/.gitea/ISSUE_TEMPLATE/config.yml",
-        "**/.gitea/ISSUE_TEMPLATE/config.yaml",
-        "**/.forgejo/ISSUE_TEMPLATE/config.yml",
-        "**/.forgejo/ISSUE_TEMPLATE/config.yaml"
+        "**/.github/ISSUE_TEMPLATE/config.yaml"
       ],
       "url": "https://json.schemastore.org/github-issue-config.json"
     },
@@ -3919,10 +3926,11 @@
       "name": "Semantic Data Fabric (SDF) file",
       "description": "SDF blocks",
       "fileMatch": ["*.sdf.yml"],
-      "url": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
+      "url": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
       "versions": {
         "1.0": "https://cdn.sdf.com/schemas/sdf-schema-1.0.json",
-        "1.1": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json"
+        "1.1": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
+        "1.2": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json"
       }
     },
     {
