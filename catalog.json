@@ -970,6 +970,12 @@
       "url": "https://fastly.jsdelivr.net/gh/clawject/clawject@main/packages/clawject/src/compile-time/config/schema.json"
     },
     {
+      "name": "Cycle Stack File",
+      "description": "A Cycle.io stack file for environments as code",
+      "fileMatch": ["cycle.json", "cycle.yml", "cycle.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/cycleplatform/api-spec@main/stackspec/stackspec.json"
+    },
+    {
       "name": "DataYoga Connections",
       "description": "Collection of defined source and target connections used within DataYoga jobs",
       "fileMatch": ["connections.dy.yaml"],
@@ -2745,7 +2751,7 @@
     {
       "name": "A micro editor config",
       "description": "A micro editor config",
-      "fileMatch": ["*.settings.json"],
+      "fileMatch": ["settings.json"],
       "url": "https://json.schemastore.org/micro.json"
     },
     {
