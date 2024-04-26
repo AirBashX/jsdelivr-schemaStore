@@ -1525,6 +1525,25 @@
       "url": "https://fastly.jsdelivr.net/gh/datacontract/datacontract-specification@main/datacontract.schema.json"
     },
     {
+      "name": "Data Product Specification",
+      "description": "Data Product Specification file",
+      "fileMatch": [
+        "dataproduct.yaml",
+        "dataproduct.yml",
+        "*-dataproduct.yaml",
+        "*-dataproduct.yml",
+        "*.dataproduct.yaml",
+        "*.dataproduct.yml",
+        "dataproduct-*.yaml",
+        "dataproduct-*.yml",
+        "**/dataproduct/*.yml",
+        "**/dataproduct/*.yaml",
+        "**/dataproducts/*.yml",
+        "**/dataproducts/*.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/datamesh-architecture/dataproduct-specification@main/dataproduct.schema.json"
+    },
+    {
       "name": "datalogic-scan2deploy-android",
       "description": "Datalogic Scan2Deploy Android file",
       "fileMatch": [".dla.json"],
@@ -3089,6 +3108,12 @@
       "description": "nodemon.json configuration files",
       "fileMatch": ["nodemon.json"],
       "url": "https://json.schemastore.org/nodemon.json"
+    },
+    {
+      "name": "notebook.mod.json",
+      "description": "Metadata file for notebook mods",
+      "fileMatch": ["notebook.mod.json"],
+      "url": "https://fastly.jsdelivr.net/gh/BookkeepersMC/notebook-schemas@master/notebook.mod.json/schemas/main.json"
     },
     {
       "name": "NOX Framework (Service)",
