@@ -2489,9 +2489,9 @@
     },
     {
       "name": "Infrahub",
-      "description": "Model definition for Infrahub by OpsMill",
-      "fileMatch": ["*.infrahub.yml", "*.infrahub.yaml"],
-      "url": "https://schema.infrahub.app/infrahub/schema/latest.json"
+      "description": "Repository config definition for Infrahub by OpsMill",
+      "fileMatch": [".infrahub.yml", ".infrahub.yaml"],
+      "url": "https://schema.infrahub.app/python-sdk/repository-config/latest.json"
     },
     {
       "name": "ioBroker Configuration",
@@ -6351,6 +6351,12 @@
         "**/.well-known/fursona.json"
       ],
       "url": "https://fastly.jsdelivr.net/gh/pyrox0/fursona-schema@main/schema-07.json"
+    },
+    {
+      "name": "changelogging",
+      "description": "changelogging configuration file",
+      "fileMatch": ["**/changelogging.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/nekitdev/changelogging@main/changelogging.schema.json"
     }
   ]
 }
