@@ -4124,7 +4124,12 @@
         ".semgrep.yaml",
         ".semgrep.yml"
       ],
-      "url": "https://json.schemastore.org/semgrep.json"
+      "url": "https://json.schemastore.org/semgrep.json",
+      "versions": {
+        "v1.72.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.72.0/rule_schema_v1.yaml",
+        "v1.73.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.73.0/rule_schema_v1.yaml",
+        "v1.74.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.74.0/rule_schema_v1.yaml"
+      }
     },
     {
       "name": "Serenity Code Generator (Sergen)",
@@ -6374,6 +6379,12 @@
       "description": "An optional configuration file used by the various Configu interfaces to customize its behavior",
       "fileMatch": [".configu"],
       "url": "https://fastly.jsdelivr.net/gh/configu/configu@main/packages/schema/.configu.json"
+    },
+    {
+      "name": "Qt Creator workspace file",
+      "description": "Qt Creator project json file",
+      "fileMatch": ["**/.qtcreator/project.json"],
+      "url": "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json"
     }
   ]
 }
