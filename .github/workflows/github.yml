@@ -15,7 +15,7 @@ jobs:
 
     - name: Download json file
       run: |
-        curl -o catalog.json https://www.schemastore.org/api/json/catalog.json
+        curl -o catalog.json https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/api/json/catalog.json
 
     - name: Replace GitHub links with jsdelivr
       run: |
