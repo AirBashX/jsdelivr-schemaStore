@@ -2936,9 +2936,11 @@
       "name": "Kestra flow file",
       "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
       "fileMatch": ["**/flows/*.yml"],
-      "url": "https://json.schemastore.org/kestra-0.18.json",
+      "url": "https://json.schemastore.org/kestra-0.18.2.json",
       "versions": {
-        "0.18": "https://json.schemastore.org/kestra-0.18.json"
+        "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
+        "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
+        "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json"
       }
     },
     {
@@ -5500,7 +5502,7 @@
       "name": "Gradle Enterprise",
       "description": "Gradle Enterprise configuration",
       "fileMatch": ["*gradle-enterprise.yml", "*gradle-enterprise.yaml"],
-      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
+      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
       "versions": {
         "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
         "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
@@ -5510,7 +5512,8 @@
         "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
         "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
         "8.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
-        "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json"
+        "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
+        "10.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json"
       }
     },
     {
@@ -6760,6 +6763,12 @@
       "description": "Tycho.yaml file",
       "fileMatch": ["**/tycho.yml", "**/tycho.yaml"],
       "url": "https://deployments.allegrogroup.com/tycho/schema"
+    },
+    {
+      "name": "Elm",
+      "description": "elm.json file",
+      "fileMatch": ["elm.json"],
+      "url": "https://json.schemastore.org/elm.json"
     }
   ]
 }
