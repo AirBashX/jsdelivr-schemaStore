@@ -807,6 +807,12 @@
       "url": "https://json.schemastore.org/bundleconfig.json"
     },
     {
+      "name": "bunfig.toml",
+      "description": "bunfig.toml file",
+      "fileMatch": ["bunfig.toml"],
+      "url": "https://json.schemastore.org/bunfig.json"
+    },
+    {
       "name": "BungeeCord plugin.yml",
       "description": "BungeeCord plugin description files",
       "fileMatch": ["plugin.yml", "bungee.yml"],
@@ -3130,6 +3136,12 @@
       "description": "Power BI linguistic schema definition",
       "fileMatch": ["*.lsdl.yaml", "*.lsdl.json"],
       "url": "https://json.schemastore.org/lsdlschema.json"
+    },
+    {
+      "name": "MapEHR Mapping",
+      "description": "Mapping for MapEHR.com",
+      "fileMatch": [".map.yml", ".map.yaml", ".map.json"],
+      "url": "https://json.schemastore.org/mapehr.json"
     },
     {
       "name": "A micro editor config",
@@ -6778,6 +6790,12 @@
       "description": "elm.json file",
       "fileMatch": ["elm.json"],
       "url": "https://json.schemastore.org/elm.json"
+    },
+    {
+      "name": "Cloud Run Spec v1",
+      "description": "Specification for Cloud Run Admin API v1",
+      "fileMatch": ["cloud-run-v1.yml", "cloud-run-v1.yaml"],
+      "url": "https://json.schemastore.org/cloud-run-v1.json"
     }
   ]
 }
