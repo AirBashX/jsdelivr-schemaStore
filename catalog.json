@@ -2964,11 +2964,12 @@
       "name": "Kestra flow file",
       "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
       "fileMatch": ["**/flows/*.yml"],
-      "url": "https://json.schemastore.org/kestra-0.18.2.json",
+      "url": "https://json.schemastore.org/kestra-0.18.3.json",
       "versions": {
         "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
         "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
-        "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json"
+        "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json",
+        "0.18.3": "https://json.schemastore.org/kestra-0.18.3.json"
       }
     },
     {
@@ -5041,6 +5042,17 @@
         "2.1.0": "https://fastly.jsdelivr.net/gh/conventional-changelog/conventional-changelog-config-spec@master/versions/2.1.0/schema.json",
         "2.2.0": "https://fastly.jsdelivr.net/gh/conventional-changelog/conventional-changelog-config-spec@master/versions/2.2.0/schema.json"
       }
+    },
+    {
+      "name": "vhwdebugger-binding.yaml",
+      "description": "Configuration of the Vector CANoe hardware debugger binding",
+      "fileMatch": [
+        "vhwdebugger-binding.yaml",
+        "*.vhwdebugger-binding.yaml",
+        "vhwdebugger-binding.yml",
+        "*.vhwdebugger-binding.yml"
+      ],
+      "url": "https://json.schemastore.org/vhwdebugger-binding-schema.json"
     },
     {
       "name": "vim-addon-info",
