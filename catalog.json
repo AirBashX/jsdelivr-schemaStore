@@ -2690,7 +2690,7 @@
       "name": "IBM Zapp document",
       "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       "fileMatch": ["zapp.yaml", "zapp.json"],
-      "url": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.0.0.json"
+      "url": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.2.1.json"
     },
     {
       "name": "IBM zCodeFormatSettings",
@@ -6819,6 +6819,12 @@
       "description": "Specification for Cloud Run Admin API v1",
       "fileMatch": ["cloud-run-v1.yml", "cloud-run-v1.yaml"],
       "url": "https://json.schemastore.org/cloud-run-v1.json"
+    },
+    {
+      "name": "YouTrack App",
+      "description": "JetBrains YouTrack App manifest file",
+      "fileMatch": ["manifest.json"],
+      "url": "https://json.schemastore.org/youtrack-app.json"
     }
   ]
 }
