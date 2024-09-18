@@ -6872,6 +6872,30 @@
       "description": "YaWL specification file",
       "fileMatch": ["*.yawl.yaml", "*.yawl.yml"],
       "url": "https://fastly.jsdelivr.net/gh/yandex-cloud/json-schema-store@master/serverless/workflows/yawl.json"
+    },
+    {
+      "name": "Application list for a WinUtil",
+      "description": "Application list for a WinUtil",
+      "fileMatch": ["**/*winutil*/config/applications.json"],
+      "url": "https://json.schemastore.org/winutil-applications.json"
+    },
+    {
+      "name": "Preset list for a WinUtil",
+      "description": "Preset list for a WinUtil",
+      "fileMatch": ["**/*winutil*/config/preset.json"],
+      "url": "https://json.schemastore.org/winutil-preset.json"
+    },
+    {
+      "name": "Tab list for a LinUtil",
+      "description": "Tab list for a LinUtil",
+      "fileMatch": ["**/*linutil*/**/tabs.toml"],
+      "url": "https://json.schemastore.org/linutil-tabs.json"
+    },
+    {
+      "name": "Tab data for a LinUtil",
+      "description": "Tab data for a LinUtil",
+      "fileMatch": ["**/*linutil*/**/tab_data.toml"],
+      "url": "https://json.schemastore.org/linutil-tab-data.json"
     }
   ]
 }
