@@ -4535,10 +4535,10 @@
       "url": "https://fastly.jsdelivr.net/gh/hardisgroupcom/sfdx-hardis@main/config/sfdx-hardis.jsonschema.json"
     },
     {
-      "name": "Sigma",
-      "description": "The Sigma detection format. Documentation: https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
+      "name": "Sigma Detection Rule",
+      "description": "The Sigma detection rule format. Documentation: https://github.com/SigmaHQ/sigma-specification/blob/main/specification/sigma-rules-specification.md and https://github.com/SigmaHQ/sigma",
       "fileMatch": ["**/sigma/**/*.yml"],
-      "url": "https://fastly.jsdelivr.net/gh/SigmaHQ/sigma-specification@main/sigma-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/SigmaHQ/sigma-specification@main/json-schema/sigma-detection-rule-schema.json"
     },
     {
       "name": "Sigrid scope configuration file",
@@ -4778,6 +4778,12 @@
       "description": "Taurus bzt cli framework config",
       "fileMatch": ["bzt.yml", "bzt.yaml", "taurus.yml", "taurus.yaml"],
       "url": "https://json.schemastore.org/taurus.json"
+    },
+    {
+      "name": "Tauticord",
+      "description": "Tauticord configuration (v2)",
+      "fileMatch": ["tauticord.yml", "tauticord.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/nwithan8/tauticord@master/.schema/config_v2.schema.json"
     },
     {
       "name": "template.json",
