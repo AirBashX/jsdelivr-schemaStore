@@ -7053,6 +7053,30 @@
       "description": "Tab data for a LinUtil",
       "fileMatch": ["**/*linutil*/**/tab_data.toml"],
       "url": "https://json.schemastore.org/linutil-tab-data.json"
+    },
+    {
+      "name": "Eidolon Resource",
+      "description": "Resource definitions for Eidolon",
+      "fileMatch": [
+        "*.eidolon.yaml",
+        "*.eidolon.yml",
+        "**/eidolon_resources/**/*.yaml",
+        "**/eidolon_resources/**/*.yml"
+      ],
+      "url": "https://www.eidolonai.com/json_schema/v1/resources/overview.json"
+    },
+    {
+      "name": "Waku Config",
+      "description": "Configuration file for the Waku CLI",
+      "fileMatch": [
+        "**/waku.yml",
+        "**/waku.yaml",
+        "**/waku.json",
+        "**/.waku.yml",
+        "**/.waku.yaml",
+        "**/.waku.json"
+      ],
+      "url": "https://waku.ngjx.org/static/schema.json"
     }
   ]
 }
