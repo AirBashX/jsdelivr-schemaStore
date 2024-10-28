@@ -7089,6 +7089,12 @@
       "description": "Mod manifset file for the CCLoader mod loader for the game CrossCode",
       "fileMatch": ["ccmod.json"],
       "url": "https://fastly.jsdelivr.net/gh/CCDirectLink/CCModDB@refs/heads/master/ccmod-json-schema.json"
+    },
+    {
+      "name": "moon.yml",
+      "description": "Moonrepo project configuration file",
+      "fileMatch": ["moon.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/moonrepo/moon@master/website/static/schemas/project.json"
     }
   ]
 }
