@@ -4099,7 +4099,7 @@
       "name": "Problem package generators",
       "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
       "fileMatch": ["generators.yml", "generators.yaml"],
-      "url": "https://json.schemastore.org/problem_package_generators.json"
+      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/master/support/schemas/generators_yaml_schema.json"
     },
     {
       "name": "project.json",
@@ -5434,9 +5434,15 @@
     },
     {
       "name": "KSP-CKAN",
-      "description": "Metadata spec for KSP-CKAN",
+      "description": "Metadata spec for CKAN meta files",
       "fileMatch": ["*.ckan"],
       "url": "https://fastly.jsdelivr.net/gh/KSP-CKAN/CKAN@master/CKAN.schema"
+    },
+    {
+      "name": "KSP-NetKAN",
+      "description": "Metadata spec for NetKAN files",
+      "fileMatch": ["*.netkan", "*.frozen"],
+      "url": "https://fastly.jsdelivr.net/gh/KSP-CKAN/CKAN@master/NetKAN.schema"
     },
     {
       "name": "JSON Schema Draft 4",
