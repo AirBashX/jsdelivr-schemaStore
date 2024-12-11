@@ -3685,7 +3685,7 @@
     {
       "name": "Okteto",
       "description": "The Okteto Manifest",
-      "fileMatch": ["okteto.json"],
+      "fileMatch": ["okteto.yml", "okteto.yaml", "okteto.json"],
       "url": "https://fastly.jsdelivr.net/gh/okteto/okteto@refs/heads/master/schema.json"
     },
     {
