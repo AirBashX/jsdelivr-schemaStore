@@ -431,7 +431,7 @@
       "name": "Biome Formatter Config",
       "description": "Configuration file for the Biome formatter",
       "fileMatch": ["biome.json", "biome.jsonc"],
-      "url": "https://fastly.jsdelivr.net/gh/biomejs/biome@refs/heads/main/packages/%40biomejs/biome/configuration_schema.json"
+      "url": "https://biomejs.dev/schemas/latest/schema.json"
     },
     {
       "name": "bottom configuration",
@@ -4728,7 +4728,16 @@
         "v1.88.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.88.0/rule_schema_v1.yaml",
         "v1.89.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.89.0/rule_schema_v1.yaml",
         "v1.90.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.90.0/rule_schema_v1.yaml",
-        "v1.91.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.91.0/rule_schema_v1.yaml"
+        "v1.91.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.91.0/rule_schema_v1.yaml",
+        "v1.92.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.92.0/rule_schema_v1.yaml",
+        "v1.93.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.93.0/rule_schema_v1.yaml",
+        "v1.94.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.94.0/rule_schema_v1.yaml",
+        "v1.95.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.95.0/rule_schema_v1.yaml",
+        "v1.96.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.96.0/rule_schema_v1.yaml",
+        "v1.97.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.97.0/rule_schema_v1.yaml",
+        "v1.98.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.98.0/rule_schema_v1.yaml",
+        "v1.99.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.99.0/rule_schema_v1.yaml",
+        "v1.100.0": "https://fastly.jsdelivr.net/gh/returntocorp/semgrep-interfaces@v1.100.0/rule_schema_v1.yaml"
       }
     },
     {
@@ -5898,7 +5907,7 @@
       "name": "Gradle Enterprise",
       "description": "Gradle Enterprise configuration",
       "fileMatch": ["*gradle-enterprise.yml", "*gradle-enterprise.yaml"],
-      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
+      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-11.json",
       "versions": {
         "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json",
         "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
@@ -5909,7 +5918,8 @@
         "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
         "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
         "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
-        "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json"
+        "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
+        "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json"
       }
     },
     {
