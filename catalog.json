@@ -977,7 +977,7 @@
       "name": "Chromia Model",
       "description": "Chromia Model Config File",
       "fileMatch": ["chromia.yml", "chromia.yaml"],
-      "url": "https://gitlab.com/chromaway/core-tools/chromia-cli/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
+      "url": "https://gitlab.com/chromaway/core-tools/chromia-cli-tools/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
     },
     {
       "name": "cibuildwheel",
@@ -2352,19 +2352,11 @@
       "description": "YAML GitHub Funding",
       "fileMatch": [
         "**/.github/FUNDING.yml",
+        "**/.github/FUNDING.yaml",
         "**/.github/funding.yml",
         "**/.github/funding.yaml"
       ],
       "url": "https://json.schemastore.org/github-funding.json"
-    },
-    {
-      "name": "GitHub Issue Template forms",
-      "description": "YAML GitHub issue forms",
-      "fileMatch": [
-        "**/.github/ISSUE_TEMPLATE/**.yml",
-        "**/.github/ISSUE_TEMPLATE/**.yaml"
-      ],
-      "url": "https://json.schemastore.org/github-issue-forms.json"
     },
     {
       "name": "GitHub Issue Template configuration",
@@ -2374,6 +2366,15 @@
         "**/.github/ISSUE_TEMPLATE/config.yaml"
       ],
       "url": "https://json.schemastore.org/github-issue-config.json"
+    },
+    {
+      "name": "GitHub Issue Template forms",
+      "description": "YAML GitHub issue forms",
+      "fileMatch": [
+        "**/.github/ISSUE_TEMPLATE/**.yml",
+        "**/.github/ISSUE_TEMPLATE/**.yaml"
+      ],
+      "url": "https://json.schemastore.org/github-issue-forms.json"
     },
     {
       "name": "GitHub Workflow",
@@ -7235,6 +7236,19 @@
       "url": "https://fastly.jsdelivr.net/gh/bitmovin/bitmovin-api-sdk-examples@main/bitmovin-encoding-template.json"
     },
     {
+      "name": "dtool dataset metadata",
+      "description": "Metadata attached to a dtool dataset",
+      "fileMatch": [
+        "dtool-dataset.yml",
+        "dtool-dataset.yaml",
+        "dtool-dataset.json"
+      ],
+      "url": "https://json.schemastore.org/dtool-dataset-metadata-1.0.json",
+      "versions": {
+        "v1.0": "https://json.schemastore.org/dtool-dataset-metadata-1.0.json"
+      }
+    },
+    {
       "name": "pnpm Workspace (pnpm-workspace.yaml)",
       "description": "Workspace file for pnpm",
       "fileMatch": ["pnpm-workspace.yaml"],
@@ -7251,6 +7265,12 @@
       "description": "Chamaleon environment",
       "fileMatch": ["**/environments/*-cha.json"],
       "url": "https://fastly.jsdelivr.net/gh/gerardorodriguezdev/chamaleon@refs/heads/master/schemas/environment-schema.json"
+    },
+    {
+      "name": "ctfd-setup configuration file",
+      "description": "CTFer.io ctfd-setup utility configuration file",
+      "fileMatch": [".ctfd.yaml"],
+      "url": "https://json.schemastore.org/ctfd.json"
     }
   ]
 }
