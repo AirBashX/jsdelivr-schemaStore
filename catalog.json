@@ -1815,6 +1815,19 @@
       "url": "https://json.schemastore.org/docfx.json"
     },
     {
+      "name": "Dofigen",
+      "description": "Dofigen configuration file. Documentation: https://github.com/lenra-io/dofigen",
+      "fileMatch": [
+        "dofigen.yaml",
+        "dofigen.json",
+        "dofigen.yml",
+        "*.dofigen.yaml",
+        "*.dofigen.json",
+        "*.dofigen.yml"
+      ],
+      "url": "https://json.schemastore.org/dofigen.json"
+    },
+    {
       "name": "Dolittle Artifacts",
       "description": "A Dolittle bounded context's artifacts",
       "fileMatch": ["**/.dolittle/artifacts.json"],
@@ -4505,6 +4518,12 @@
         "*_cv.json5"
       ],
       "url": "https://fastly.jsdelivr.net/gh/sinaatalay/rendercv@main/schema.json"
+    },
+    {
+      "name": "renv.lock",
+      "description": "Lockfile for recording R project dependencies with renv package",
+      "fileMatch": ["renv.lock"],
+      "url": "https://fastly.jsdelivr.net/gh/rstudio/renv@refs/heads/main/inst/schema/draft-07.renv.lock.schema.json"
     },
     {
       "name": "RoadRunner",
