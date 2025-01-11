@@ -5072,6 +5072,16 @@
       "url": "https://json.schemastore.org/swagger-2.0.json"
     },
     {
+      "name": "Synadia Connect Component",
+      "description": "Synadia Connect component definition",
+      "fileMatch": [
+        "**/.connect/scanners/*.yml",
+        "**/.connect/sources/*.yml",
+        "**/.connect/sinks/*.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/synadia-io/connect@main/schemas/component.json"
+    },
+    {
       "name": "task.json",
       "description": "VSCode Task file",
       "fileMatch": ["task.json", "tasks.json"],
@@ -7025,12 +7035,6 @@
       "description": "Kaitai Struct format description file",
       "fileMatch": ["*.ksy"],
       "url": "https://fastly.jsdelivr.net/gh/kaitai-io/ksy_schema@master/ksy_schema.json"
-    },
-    {
-      "name": "JSON-WF",
-      "description": "A blogroll interchange format",
-      "fileMatch": [],
-      "url": "https://www.json-wf.org.uk/json-wf-schema-1.0.json"
     },
     {
       "name": "Cloud Foundry Application Manifest",
