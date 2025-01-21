@@ -840,6 +840,12 @@
       }
     },
     {
+      "name": "bun.lock",
+      "description": "bun.lock file",
+      "fileMatch": ["bun.lock"],
+      "url": "https://json.schemastore.org/bun.lock.json"
+    },
+    {
       "name": "bundleconfig.json",
       "description": "bundleconfig.json files",
       "fileMatch": ["bundleconfig.json"],
@@ -7356,14 +7362,20 @@
     {
       "name": "Chamaleon template",
       "description": "Chamaleon template",
-      "fileMatch": ["**/environments/cha-template.json"],
+      "fileMatch": ["template.chamaleon.json"],
       "url": "https://fastly.jsdelivr.net/gh/gerardorodriguezdev/chamaleon@refs/heads/master/schemas/template-schema.json"
     },
     {
       "name": "Chamaleon environment",
       "description": "Chamaleon environment",
-      "fileMatch": ["**/environments/*-cha.json"],
+      "fileMatch": ["*.environment.chamaleon.json"],
       "url": "https://fastly.jsdelivr.net/gh/gerardorodriguezdev/chamaleon@refs/heads/master/schemas/environment-schema.json"
+    },
+    {
+      "name": "Chamaleon properties",
+      "description": "Chamaleon properties",
+      "fileMatch": ["properties.chamaleon.json"],
+      "url": "https://fastly.jsdelivr.net/gh/gerardorodriguezdev/chamaleon@refs/heads/master/schemas/properties-schema.json"
     },
     {
       "name": "ctfd-setup configuration file",
