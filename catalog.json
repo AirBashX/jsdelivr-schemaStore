@@ -3520,6 +3520,12 @@
       }
     },
     {
+      "name": "mrdocs.yml",
+      "description": "MrDocs configuration file",
+      "fileMatch": ["mrdocs.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/cppalliance/mrdocs@refs/heads/master/docs/mrdocs.schema.json"
+    },
+    {
       "name": "MLOS Configs",
       "description": "Config files for the mlos_bench utility in MLOS",
       "fileMatch": ["*.mlos.jsonc", "*.mlos.json", "*.mlos.yaml", "*.mlos.yml"],
@@ -5218,6 +5224,16 @@
       "url": "https://json.schemastore.org/traefik-v2-file-provider.json"
     },
     {
+      "name": "Traefik v3",
+      "description": "Traefik v3 YAML configuration file",
+      "url": "https://json.schemastore.org/traefik-v3.json"
+    },
+    {
+      "name": "Traefik v3 File Provider",
+      "description": "Traefik v3 Dynamic Configuration File Provider",
+      "url": "https://json.schemastore.org/traefik-v3-file-provider.json"
+    },
+    {
       "name": "transcend.yml",
       "description": "Define personal data in code using Transcend",
       "fileMatch": ["transcend.yml", "transcend.yaml"],
@@ -6072,7 +6088,7 @@
       "name": "swcrc",
       "description": "swc configuration files",
       "fileMatch": [".swcrc"],
-      "url": "https://json.schemastore.org/swcrc.json"
+      "url": "https://swc.rs/schema.json"
     },
     {
       "name": "OpenWeather Road Risk API",
