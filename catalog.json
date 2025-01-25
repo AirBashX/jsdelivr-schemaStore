@@ -843,7 +843,7 @@
       "name": "bun.lock",
       "description": "bun.lock file",
       "fileMatch": ["bun.lock"],
-      "url": "https://json.schemastore.org/bun.lock.json"
+      "url": "https://json.schemastore.org/bun-lock.json"
     },
     {
       "name": "bundleconfig.json",
@@ -2215,6 +2215,12 @@
         "*_FiQuS.yml"
       ],
       "url": "https://gitlab.cern.ch/steam/fiqus/-/raw/master/docs/schema.json"
+    },
+    {
+      "name": "FlexGet Config",
+      "description": "FlexGet config file",
+      "fileMatch": ["**/.flexget/config.yml", "**/flexget/config.yml"],
+      "url": "https://github.com/Flexget/Flexget/releases/latest/download/flexget-config.schema.json"
     },
     {
       "name": "first-timers-bot",
@@ -6375,13 +6381,13 @@
       "name": "Shopware CLI Extension Store Configuration",
       "description": "Shopware CLI Extension Store Configuration",
       "fileMatch": [".shopware-extension.yml", ".shopware-extension.yaml"],
-      "url": "https://fastly.jsdelivr.net/gh/FriendsOfShopware/shopware-cli@main/extension/shopware-extension-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/shopware/shopware-cli@main/extension/shopware-extension-schema.json"
     },
     {
       "name": "Shopware CLI Project Store Configuration",
       "description": "Shopware CLI Project Store Configuration",
       "fileMatch": [".shopware-project.yml", ".shopware-project.yaml"],
-      "url": "https://fastly.jsdelivr.net/gh/FriendsOfShopware/shopware-cli@main/shop/shopware-project-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/shopware/shopware-cli@main/shop/shopware-project-schema.json"
     },
     {
       "name": "Qodana",
@@ -6998,10 +7004,10 @@
       "url": "https://json.schemastore.org/glazewm.json"
     },
     {
-      "name": "CGS Custom Card Game (CardGameDef.json)",
-      "description": "Card Game Simulator (CGS) custom card game specification",
-      "fileMatch": ["CardGameDef.json"],
-      "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json"
+      "name": "CGS Card Game Specification (cgs.json)",
+      "description": "Card Game Simulator (CGS) Card Game Specification",
+      "fileMatch": ["cgs.json"],
+      "url": "https://www.cardgamesimulator.com/schema/cgs.json"
     },
     {
       "name": "Custom Machinery Machine",
@@ -7443,6 +7449,12 @@
         "**/testdata/insurance/insurance.yaml"
       ],
       "url": "https://json.schemastore.org/gematik-test-hcpis.json"
+    },
+    {
+      "name": "gematik tiger test environment configuration",
+      "description": "A configuration file for the test environment of the gematik Tiger test platform",
+      "fileMatch": ["**/tiger.yml", "**/tiger.yaml"],
+      "url": "https://json.schemastore.org/gematik-tiger.json"
     }
   ]
 }
