@@ -4985,6 +4985,12 @@
       "url": "https://fastly.jsdelivr.net/gh/speakeasy-api/sdk-gen-config@main/schemas/workflow.schema.json"
     },
     {
+      "name": "Speakeasy Generation Config File",
+      "description": "Speakeasy generation configuration file. Read more at https://www.speakeasy.com/docs/speakeasy-reference/generation/gen-yaml",
+      "fileMatch": ["**/.speakeasy/gen.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/speakeasy-api/sdk-gen-config@main/schemas/gen.config.schema.json"
+    },
+    {
       "name": "SpecIF",
       "description": "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. Documentation: https://specif.de and https://github.com/GfSE",
       "fileMatch": ["*.specif", "*.specif.json"],
@@ -5443,7 +5449,7 @@
       "name": "Vela Pipeline Configuration",
       "description": "Vela Pipeline Configuration File",
       "fileMatch": [".vela.yml", ".vela.yaml"],
-      "url": "https://github.com/go-vela/types/releases/latest/download/schema.json"
+      "url": "https://github.com/go-vela/server/releases/latest/download/schema.json"
     },
     {
       "name": "venvironment.yaml",
