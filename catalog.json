@@ -4313,6 +4313,12 @@
       "url": "https://json.schemastore.org/project-1.0.0-rc2.json"
     },
     {
+      "name": "project.owasp.yaml",
+      "description": "OWASP project",
+      "fileMatch": ["project.owasp.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/OWASP/Nest@main/schema/project.json"
+    },
+    {
       "name": "prometheus.json",
       "description": "Prometheus configuration file",
       "fileMatch": ["prometheus.yml", "prometheus.yaml"],
@@ -7467,6 +7473,12 @@
       "description": "Configuration file for Tugboat QA",
       "fileMatch": ["**/.tugboat/config.yml"],
       "url": "https://fastly.jsdelivr.net/gh/TugboatQA/docs@refs/heads/main/static/config-schema.json"
+    },
+    {
+      "name": "C4InterFlow",
+      "description": "C4InterFlow Architecture as Code file",
+      "fileMatch": ["**/*.c4interflow.yaml", "**/*.c4interflow.json"],
+      "url": "https://fastly.jsdelivr.net/gh/SlavaVedernikov/C4InterFlow@refs/heads/master/C4InterFlow/schema.json"
     }
   ]
 }
