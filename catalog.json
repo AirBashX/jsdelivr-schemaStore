@@ -2299,7 +2299,7 @@
         "*.ksail.yaml",
         "*.ksail.yml"
       ],
-      "url": "https://github.com/devantler/ksail/blob/main/schemas/ksail-cluster-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/devantler/ksail@refs/heads/main/schemas/ksail-cluster-schema.json"
     },
     {
       "name": "function.json",
@@ -7491,6 +7491,12 @@
       "description": "Wake - development, testing, and static analysis framework for Solidity",
       "fileMatch": ["**/*wake.toml", "**/*.wake.toml"],
       "url": "https://fastly.jsdelivr.net/gh/Ackee-Blockchain/wake@refs/heads/main/docs/wake-schema.json"
+    },
+    {
+      "name": "Trident",
+      "description": "Trident - Rust-based fuzzing framework for Solana programs to help ship secure code",
+      "fileMatch": ["**/*Trident.toml", "**/*.Trident.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/Ackee-Blockchain/trident@refs/heads/master/trident-spec.json"
     }
   ]
 }
