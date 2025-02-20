@@ -99,13 +99,14 @@
       "name": ".aiproj.json",
       "description": "Settings for project analysis by the Application Inspector",
       "fileMatch": [".aiproj.json"],
-      "url": "https://json.schemastore.org/aiproj-1.4.json",
+      "url": "https://json.schemastore.org/aiproj-1.5.json",
       "versions": {
         "1.0": "https://json.schemastore.org/aiproj-1.0.json",
         "1.1": "https://json.schemastore.org/aiproj-1.1.json",
         "1.2": "https://json.schemastore.org/aiproj-1.2.json",
         "1.3": "https://json.schemastore.org/aiproj-1.3.json",
-        "1.4": "https://json.schemastore.org/aiproj-1.4.json"
+        "1.4": "https://json.schemastore.org/aiproj-1.4.json",
+        "1.5": "https://json.schemastore.org/aiproj-1.5.json"
       }
     },
     {
@@ -6787,7 +6788,7 @@
       "name": "Pantsbuild",
       "description": "Pantsbuild configuration file",
       "fileMatch": ["pants*.toml"],
-      "url": "https://json.schemastore.org/pantsbuild-2.21.0.json",
+      "url": "https://json.schemastore.org/pantsbuild-2.24.0.json",
       "versions": {
         "2.14.0": "https://json.schemastore.org/pantsbuild-2.14.0.json",
         "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
@@ -6796,7 +6797,8 @@
         "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
         "2.19.0": "https://json.schemastore.org/pantsbuild-2.19.0.json",
         "2.20.0": "https://json.schemastore.org/pantsbuild-2.20.0.json",
-        "2.21.0": "https://json.schemastore.org/pantsbuild-2.21.0.json"
+        "2.21.0": "https://json.schemastore.org/pantsbuild-2.21.0.json",
+        "2.24.0": "https://json.schemastore.org/pantsbuild-2.24.0.json"
       }
     },
     {
@@ -7554,6 +7556,12 @@
       "description": "Trident - Rust-based fuzzing framework for Solana programs to help ship secure code",
       "fileMatch": ["**/*Trident.toml", "**/*.Trident.toml"],
       "url": "https://fastly.jsdelivr.net/gh/Ackee-Blockchain/trident@refs/heads/master/trident-spec.json"
+    },
+    {
+      "name": "Restate",
+      "description": "Restate Server configuration file",
+      "fileMatch": ["**/restate.toml", "**/restate-server.toml"],
+      "url": "https://docs.restate.dev/schemas/restate-server-configuration-schema.json"
     }
   ]
 }
