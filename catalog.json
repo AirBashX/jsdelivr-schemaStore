@@ -2281,7 +2281,7 @@
       "name": "Karakum configuration file",
       "description": "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
       "fileMatch": ["karakum.config.json"],
-      "url": "https://fastly.jsdelivr.net/gh/karakum-team/karakum@master/schema/karakum-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/karakum-team/karakum@master/karakum-schema/karakum-schema.json"
     },
     {
       "name": "Knative Functions - func.yaml",
@@ -6023,6 +6023,11 @@
       "url": "https://json.schemastore.org/winget-pkgs-locale-1.0.0.json"
     },
     {
+      "name": "Winutil",
+      "description": "Configuration for files in \"ChrisTitusTech/winutil\"",
+      "url": "https://json.schemastore.org/winutil-presets.json"
+    },
+    {
       "name": "commitlint (.commitlintrc)",
       "description": "commitlint configuration files",
       "fileMatch": [".commitlintrc", ".commitlintrc.json"],
@@ -7341,13 +7346,13 @@
       "name": "Settings for a Cinnamon spice",
       "description": "Settings for a Cinnamon spice",
       "fileMatch": ["**/*@*/**/settings-schema.json"],
-      "url": "https://raw.githubusercontent.com/cinnamon-spice-settings.json"
+      "url": "https://json.schemastore.org/cinnamon-spice-settings.json"
     },
     {
       "name": "Metadata for a Cinnamon spice",
       "description": "Metadata for a Cinnamon spice",
       "fileMatch": ["**/*@*/**/metadata.json"],
-      "url": "https://raw.githubusercontent.com/cinnamon-spice-metadata.json"
+      "url": "https://json.schemastore.org/cinnamon-spice-metadata.json"
     },
     {
       "name": "Yandex Workflow Language",
@@ -7562,6 +7567,12 @@
       "description": "Restate Server configuration file",
       "fileMatch": ["**/restate.toml", "**/restate-server.toml"],
       "url": "https://docs.restate.dev/schemas/restate-server-configuration-schema.json"
+    },
+    {
+      "name": "Telefonistka",
+      "description": "Telefonistka - Safe and Controlled GitOps Promotion Across Environments/Failure-Domains",
+      "fileMatch": ["**/telefonistka.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/commercetools/telefonistka@refs/heads/main/schema/telefonistka.json"
     }
   ]
 }
