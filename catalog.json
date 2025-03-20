@@ -2796,6 +2796,12 @@
       "url": "https://hazelcast.com/schema/config/hazelcast-config-5.5.json"
     },
     {
+      "name": "Homer dashboard configuration",
+      "description": "Home dashboard configuration file. Documentation: https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/bastienwirtz/homer@main/.schema/config-schema.json"
+    },
+    {
       "name": "host.json",
       "description": "Azure Functions host.json files",
       "fileMatch": ["host.json"],
@@ -7742,6 +7748,18 @@
       "description": "Configuration for Sake, Swift-based utility for managing project commands",
       "fileMatch": [".sake.yml"],
       "url": "https://json.schemastore.org/sake.json"
+    },
+    {
+      "name": "Open Know-How",
+      "description": "Open Source Hardware project metadata",
+      "fileMatch": ["okh.{json,toml,yml,yaml}"],
+      "url": "https://json.schemastore.org/okh.json"
+    },
+    {
+      "name": "Contextive Glossary",
+      "description": "A Contextive Domain Language Glossary",
+      "fileMatch": ["**/.contextive/definitions.yml", "*.glossary.yml"],
+      "url": "https://json.schemastore.org/contextive-glossary.json"
     }
   ]
 }
