@@ -1036,6 +1036,12 @@
       "url": "https://fastly.jsdelivr.net/gh/conda-forge/conda-smithy@main/conda_smithy/data/conda-forge.json"
     },
     {
+      "name": "Convex",
+      "description": "Configuration for Convex project settings",
+      "fileMatch": ["convex.json"],
+      "url": "https://json.schemastore.org/convex.json"
+    },
+    {
       "name": "Conjure",
       "description": "Conjure Human-Readable Format",
       "fileMatch": ["**/conjure/**.yml"],
@@ -1530,7 +1536,7 @@
         "cloudformation.yml",
         "cloudformation.yaml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/awslabs/goformation@master/schema/cloudformation.schema.json"
+      "url": "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json"
     },
     {
       "name": "AWS CloudFormation Serverless Application Model (SAM)",
@@ -5961,6 +5967,12 @@
       }
     },
     {
+      "name": "Node.js configuration",
+      "description": "The Node.js configuration file",
+      "fileMatch": ["node.config.json"],
+      "url": "https://nodejs.org/docs/latest/node-config-schema.json"
+    },
+    {
       "name": "now",
       "description": "ZEIT Now project configuration file",
       "fileMatch": ["now.json"],
@@ -7752,7 +7764,7 @@
     {
       "name": "Open Know-How",
       "description": "Open Source Hardware project metadata",
-      "fileMatch": ["okh.{json,toml,yml,yaml}"],
+      "fileMatch": ["?(*.)okh.{json,toml,yml,yaml}"],
       "url": "https://json.schemastore.org/okh.json"
     },
     {
