@@ -235,6 +235,18 @@
       "url": "https://fastly.jsdelivr.net/gh/Scandltd/storm-petrel@main/generator/assets/appsettings.StormPetrel.Schema.json"
     },
     {
+      "name": "aqua.yaml",
+      "description": "aqua configuration file",
+      "fileMatch": [".aqua.yaml", ".aqua.yml", "aqua.yaml", "aqua.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/aquaproj/aqua@main/json-schema/aqua-yaml.json"
+    },
+    {
+      "name": "aqua-policy.yaml",
+      "description": "aqua policy configuration file",
+      "fileMatch": [".aqua-policy.yaml", "aqua-policy.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/aquaproj/aqua@main/json-schema/policy.json"
+    },
+    {
       "name": "arb.json",
       "description": "Application Resource Bundle",
       "fileMatch": ["arb.json"],
@@ -307,10 +319,11 @@
       "name": "Aurora Agile Meta-Framework",
       "description": "Yaml for Aurora Agile Meta-Framework",
       "fileMatch": ["*.aurora.yaml", "*.aurora.yml"],
-      "url": "https://json.schemastore.org/aurora-1.1.json",
+      "url": "https://json.schemastore.org/aurora-1.2.json",
       "versions": {
         "1.0": "https://json.schemastore.org/aurora-1.0.json",
-        "1.1": "https://json.schemastore.org/aurora-1.1.json"
+        "1.1": "https://json.schemastore.org/aurora-1.1.json",
+        "1.2": "https://json.schemastore.org/aurora-1.2.json"
       }
     },
     {
@@ -1633,6 +1646,12 @@
       "description": "CoffeeLint configuration file",
       "fileMatch": ["coffeelint.json"],
       "url": "https://json.schemastore.org/coffeelint.json"
+    },
+    {
+      "name": "committed.toml",
+      "description": "committed configuration file",
+      "fileMatch": ["committed.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/crate-ci/committed@master/config.schema.json"
     },
     {
       "name": "composer.json",
@@ -3274,7 +3293,22 @@
       "name": "Lefthook",
       "description": "Fast and powerful Git hooks manager",
       "fileMatch": [
-        "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}"
+        ".lefthook.json",
+        ".lefthook.toml",
+        ".lefthook.yaml",
+        ".lefthook.yml",
+        ".lefthook-local.json",
+        ".lefthook-local.toml",
+        ".lefthook-local.yaml",
+        ".lefthook-local.yml",
+        "lefthook.json",
+        "lefthook.toml",
+        "lefthook.yaml",
+        "lefthook.yml",
+        "lefthook-local.json",
+        "lefthook-local.toml",
+        "lefthook-local.yaml",
+        "lefthook-local.yml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/evilmartians/lefthook@master/schema.json"
     },
@@ -4595,6 +4629,18 @@
       "url": "https://json.schemastore.org/rehyperc.json"
     },
     {
+      "name": "release-please-config.json",
+      "description": "Release Please manifest configuration file",
+      "fileMatch": ["release-please-config.json"],
+      "url": "https://fastly.jsdelivr.net/gh/googleapis/release-please@main/schemas/config.json"
+    },
+    {
+      "name": "release-please-manifest.json",
+      "description": "Release Please manifest versions file",
+      "fileMatch": [".release-please-manifest.json"],
+      "url": "https://fastly.jsdelivr.net/gh/googleapis/release-please@main/schemas/manifest.json"
+    },
+    {
       "name": "release-plz.toml",
       "description": "Release-plz configuration file",
       "fileMatch": ["release-plz.toml", ".release-plz.toml"],
@@ -5464,6 +5510,12 @@
       "url": "https://json.schemastore.org/typo3.json"
     },
     {
+      "name": "typos.toml",
+      "description": "typos configuration file",
+      "fileMatch": ["typos.toml", "_typos.toml", ".typos.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/crate-ci/typos@master/config.schema.json"
+    },
+    {
       "name": "typings.json",
       "description": "Typings TypeScript definitions manager definition file",
       "fileMatch": ["typings.json"],
@@ -5905,7 +5957,12 @@
     {
       "name": "mirrord config",
       "description": "mirrord",
-      "fileMatch": ["*.mirrord.{toml,json,yaml,yml}"],
+      "fileMatch": [
+        "*.mirrord.json",
+        "*.mirrord.toml",
+        "*.mirrord.yaml",
+        "*.mirrord.yml"
+      ],
       "url": "https://fastly.jsdelivr.net/gh/metalbear-co/mirrord@main/mirrord-schema.json"
     },
     {
@@ -5917,7 +5974,11 @@
         "mise.toml",
         "mise.*.toml",
         "**/.mise/config.toml",
-        "**/mise/config.toml"
+        "**/.mise/config.*.toml",
+        "**/.mise/conf.d/*.toml",
+        "**/mise/config.toml",
+        "**/mise/config.*.toml",
+        "**/mise/conf.d/*.toml"
       ],
       "url": "https://mise.jdx.dev/schema/mise.json"
     },
@@ -7688,7 +7749,7 @@
     {
       "name": "Viash Component Config",
       "description": "Viash component config file",
-      "fileMatch": ["*.vsh.{yml,yaml}"],
+      "fileMatch": ["*.vsh.yaml", "*.vsh.yml"],
       "url": "https://fastly.jsdelivr.net/gh/viash-io/viash-schemas@refs/heads/main/json_schemas/latest/config.schema.json",
       "versions": {
         "0.7.5": "https://fastly.jsdelivr.net/gh/viash-io/viash-schemas@refs/heads/main/json_schemas/0.7.5/config.schema.json",
@@ -7707,7 +7768,7 @@
     {
       "name": "Viash Package Config",
       "description": "Viash package config file",
-      "fileMatch": ["_viash.{yml,yaml}"],
+      "fileMatch": ["_viash.yaml", "_viash.yml"],
       "url": "https://fastly.jsdelivr.net/gh/viash-io/viash-schemas@refs/heads/main/json_schemas/latest/package.schema.json",
       "versions": {
         "0.7.5": "https://fastly.jsdelivr.net/gh/viash-io/viash-schemas@refs/heads/main/json_schemas/0.7.5/package.schema.json",
