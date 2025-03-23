@@ -241,6 +241,12 @@
       "url": "https://fastly.jsdelivr.net/gh/aquaproj/aqua@main/json-schema/aqua-yaml.json"
     },
     {
+      "name": "aqua-generate-registry.yaml",
+      "description": "aqua generate registry configuration file",
+      "fileMatch": ["aqua-generate-registry.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/aquaproj/aqua@main/json-schema/aqua-generate-registry.json"
+    },
+    {
       "name": "aqua-policy.yaml",
       "description": "aqua policy configuration file",
       "fileMatch": [".aqua-policy.yaml", "aqua-policy.yaml"],
@@ -7833,6 +7839,12 @@
       "description": "A Contextive Domain Language Glossary",
       "fileMatch": ["**/.contextive/definitions.yml", "*.glossary.yml"],
       "url": "https://json.schemastore.org/contextive-glossary.json"
+    },
+    {
+      "name": "Google Digital Assetlinks",
+      "description": "JSON-encoded statement list in a well-known location on a principal",
+      "fileMatch": ["assetlinks.json"],
+      "url": "https://json.schemastore.org/assetlinks.json"
     }
   ]
 }
