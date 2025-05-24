@@ -853,7 +853,7 @@
       "name": "partial-black.json",
       "description": "black, a Python formatter",
       "fileMatch": [],
-      "url": "https://json.schemastore.org/partial-black.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/partial-black.json"
     },
     {
       "name": "bozr.suite.json",
@@ -1094,7 +1094,7 @@
       "name": "cibuildwheel",
       "description": "cibuildwheel, a Python redistributable wheel builder",
       "fileMatch": ["cibuildwheel.toml", ".cibuildwheel.toml"],
-      "url": "https://json.schemastore.org/cibuildwheel.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/cibuildwheel.json"
     },
     {
       "name": "CityJSON",
@@ -1623,7 +1623,7 @@
         "cloudformation.yml",
         "cloudformation.yaml"
       ],
-      "url": "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json"
+      "url": "https://fastly.jsdelivr.net/gh/awslabs/goformation@master/schema/cloudformation.schema.json"
     },
     {
       "name": "AWS CloudFormation Serverless Application Model (SAM)",
@@ -4670,7 +4670,7 @@
       "name": "PyProject",
       "description": "Python project metadata and configuration",
       "fileMatch": ["pyproject.toml"],
-      "url": "https://json.schemastore.org/pyproject.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/pyproject.json"
     },
     {
       "name": "Pyright",
@@ -4681,7 +4681,7 @@
     {
       "name": "pytest",
       "description": "pytest configuration",
-      "url": "https://json.schemastore.org/partial-pytest.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/partial-pytest.json"
     },
     {
       "name": "Qgoda",
@@ -5769,7 +5769,7 @@
       "name": "uv",
       "description": "uv, a fast Python package installer",
       "fileMatch": ["uv.toml"],
-      "url": "https://json.schemastore.org/uv.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/uv.json"
     },
     {
       "name": "Vector",
@@ -5797,7 +5797,7 @@
     },
     {
       "name": "venvironment.yaml",
-      "description": "Simulation and test environment for Vector CANoe4SW Server Edition",
+      "description": "Simulation and test environment for Vector CANoe Server Editions",
       "fileMatch": [
         "venvironment.yaml",
         "*.venvironment.yaml",
@@ -5806,7 +5806,7 @@
         "venvironment.json",
         "*.venvironment.json"
       ],
-      "url": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+      "url": "https://json.schemastore.org/venvironment-schema-v4.0.0.json",
       "versions": {
         "1.0.0": "https://json.schemastore.org/venvironment-schema-v1.0.0.json",
         "1.1.0": "https://json.schemastore.org/venvironment-schema-v1.1.0.json",
@@ -5816,7 +5816,8 @@
         "2.2.0": "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
         "3.0.0": "https://json.schemastore.org/venvironment-schema-v3.0.0.json",
         "3.1.0": "https://json.schemastore.org/venvironment-schema-v3.1.0.json",
-        "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
+        "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+        "4.0.0": "https://json.schemastore.org/venvironment-schema-v4.0.0.json"
       }
     },
     {
@@ -5830,14 +5831,47 @@
         "venvironment-basic.json",
         "*.venvironment-basic.json"
       ],
-      "url": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+      "url": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json",
       "versions": {
         "1.0.0": "https://json.schemastore.org/venvironment-basic-schema-v1.0.0.json",
         "1.1.0": "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json",
         "2.0.0": "https://json.schemastore.org/venvironment-basic-schema-v2.0.0.json",
         "2.1.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
         "3.0.0": "https://json.schemastore.org/venvironment-basic-schema-v3.0.0.json",
-        "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+        "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+        "4.0.0": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json"
+      }
+    },
+    {
+      "name": "venvplus.yaml",
+      "description": "venvplus settings of Vector CANoe Server Editions",
+      "fileMatch": [
+        "venvplus.yaml",
+        "*.venvplus.yaml",
+        "venvplus.yml",
+        "*.venvplus.yml",
+        "venvplus.json",
+        "*.venvplus.json"
+      ],
+      "url": "https://json.schemastore.org/venvplus-schema-v1.0.0.json",
+      "versions": {
+        "1.0.0": "https://json.schemastore.org/venvplus-schema-v1.0.0.json"
+      }
+    },
+    {
+      "name": "venvplus-basic.yaml",
+      "description": "venvplus-basic settings of Vector Test Unit Runner",
+      "fileMatch": [
+        "venvplus-basic.yaml",
+        "*.venvplus-basic.yaml",
+        "venvplus-basic.yml",
+        "*.venvplus-basic.yml",
+        "venvplus-basic.json",
+        "*.venvplus-basic.json"
+      ],
+      "url": "https://json.schemastore.org/venvplus-basic-schema-v1.0.0.json",
+      "versions": {
+        "1.0.0": "https://json.schemastore.org/venvplus-basic-schema-v1.0.0.json"
       }
     },
     {
@@ -5937,7 +5971,8 @@
         "2.0.0": "https://json.schemastore.org/vtesttree-schema-v2.0.0.json",
         "2.1.0": "https://json.schemastore.org/vtesttree-schema-v2.1.0.json",
         "2.2.0": "https://json.schemastore.org/vtesttree-schema-v2.2.0.json",
-        "2.3.0": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json"
+        "2.3.0": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
+        "2.4.0": "https://json.schemastore.org/vtesttree-schema-v2.4.0.json"
       }
     },
     {
@@ -6277,7 +6312,7 @@
       "name": "Hatch",
       "description": "Python package build tool",
       "fileMatch": ["hatch.toml"],
-      "url": "https://json.schemastore.org/hatch.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/hatch.json"
     },
     {
       "name": "helmfile",
@@ -7985,7 +8020,7 @@
       "name": "Python script metadata",
       "description": "Metadata of a Python script, as defined by PEP 723",
       "fileMatch": [],
-      "url": "https://json.schemastore.org/pep-723.json"
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/pep-723.json"
     },
     {
       "name": "vtcfg",
@@ -8020,7 +8055,11 @@
     {
       "name": "Contextive Glossary",
       "description": "A Contextive Domain Language Glossary",
-      "fileMatch": ["**/.contextive/definitions.yml", "*.glossary.yml"],
+      "fileMatch": [
+        "**/.contextive/definitions.yml",
+        "*.glossary.yml",
+        "*.glossary.yaml"
+      ],
       "url": "https://json.schemastore.org/contextive-glossary.json"
     },
     {
@@ -8052,6 +8091,36 @@
       "description": "Aider configuration file",
       "fileMatch": [".aider.conf.yml"],
       "url": "https://json.schemastore.org/aider-0.82.json"
+    },
+    {
+      "name": "CDK Environment Manager, environment definition",
+      "description": "ti&m CDK Environment Manager environment definition file",
+      "fileMatch": [
+        "**/environment-definition.json",
+        "**/environment-definition.yaml",
+        "**/environment-definition.yml"
+      ],
+      "url": "https://json.schemastore.org/ti8m-cdk-environment-definition.json"
+    },
+    {
+      "name": "CDK Environment Manager, concrete environments definition",
+      "description": "ti&m CDK Environment Manager concrete environments definition file",
+      "fileMatch": [
+        "**/concrete-environments.json",
+        "**/concrete-environments.yaml",
+        "**/concrete-environments.yml"
+      ],
+      "url": "https://json.schemastore.org/ti8m-cdk-concrete-environments.json"
+    },
+    {
+      "name": "CDK Environment Manager, concrete environment configuration",
+      "description": "ti&m CDK Environment Manager concrete environment configuration file",
+      "fileMatch": [
+        "**/environment_config/*.json",
+        "**/environment_config/*.yaml",
+        "**/environment_config/*.yml"
+      ],
+      "url": "https://json.schemastore.org/ti8m-cdk-concrete-environment-config.json"
     },
     {
       "name": "tm_devices configuration file",
