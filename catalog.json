@@ -547,6 +547,12 @@
       "url": "https://json.schemastore.org/buf.work.json"
     },
     {
+      "name": "cargo-mutants-config.yaml",
+      "description": "cargo-mutants configuration file",
+      "fileMatch": ["**/.cargo/mutants.toml"],
+      "url": "https://json.schemastore.org/cargo-mutants-config.json"
+    },
+    {
       "name": "Cinnamon Spice info.json",
       "description": "The 'info.json' metadata file used in Cinnamon Spice components",
       "fileMatch": [],
@@ -1726,7 +1732,7 @@
       "name": "Citation File Format",
       "description": "A YAML file with citation metadata for software or datasets",
       "fileMatch": ["CITATION.cff"],
-      "url": "https://fastly.jsdelivr.net/gh/citation-file-format/citation-file-format@main/schema.json",
+      "url": "https://fastly.jsdelivr.net/gh/citation-file-format/citation-file-format@1.2.0/schema.json",
       "versions": {
         "1.2.0": "https://fastly.jsdelivr.net/gh/citation-file-format/citation-file-format@1.2.0/schema.json"
       }
@@ -3728,9 +3734,9 @@
       "url": "https://fastly.jsdelivr.net/gh/cppalliance/mrdocs@refs/heads/master/docs/mrdocs.schema.json"
     },
     {
-      "name": "MLOS Configs",
-      "description": "Config files for the mlos_bench utility in MLOS",
-      "fileMatch": ["*.mlos.jsonc", "*.mlos.json", "*.mlos.yaml", "*.mlos.yml"],
+      "name": "MLOS Config (*.mlos.jsonc, *.mlos.json5, *.mlos.json)",
+      "description": "Config files for the mlos_bench utility in MLOS. See Also: https://aka.ms/MLOS",
+      "fileMatch": ["*.mlos.jsonc", "*.mlos.json5", "*.mlos.json"],
       "url": "https://fastly.jsdelivr.net/gh/microsoft/MLOS@main/mlos_bench/mlos_bench/config/schemas/mlos-bench-config-schema.json"
     },
     {
