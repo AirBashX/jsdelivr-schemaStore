@@ -3133,6 +3133,17 @@
       "url": "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json"
     },
     {
+      "name": "Jocker",
+      "description": "Rust mono-repo binaries runner",
+      "fileMatch": [
+        "jocker.yml",
+        "jocker.yaml",
+        "jocker.override.yml",
+        "jocker.override.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/Wykiki/jocker@main/schema.json"
+    },
+    {
       "name": "Jovo Language Models",
       "description": "Jovo language Models. Documentation: https://www.jovo.tech/docs/model",
       "url": "https://json.schemastore.org/jovo-language-model.json"
@@ -6721,7 +6732,15 @@
         "v4beta2": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta2.json",
         "v4beta3": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta3.json",
         "v4beta4": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta4.json",
-        "v4beta5": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta5.json"
+        "v4beta5": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta5.json",
+        "v4beta6": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta6.json",
+        "v4beta7": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta7.json",
+        "v4beta8": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta8.json",
+        "v4beta9": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta9.json",
+        "v4beta10": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta10.json",
+        "v4beta11": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta11.json",
+        "v4beta12": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta12.json",
+        "v4beta13": "https://fastly.jsdelivr.net/gh/GoogleContainerTools/skaffold@main/docs-v2/content/en/schemas/v4beta13.json"
       }
     },
     {
@@ -8178,6 +8197,17 @@
       "description": "Power Pages configuration file for Bring Your Own Code (BYOC) sites",
       "fileMatch": ["powerpages.config.json"],
       "url": "https://json.schemastore.org/powerpages.config.json"
+    },
+    {
+      "name": "Hecate Input Schema",
+      "description": "Input schema for Hecate, for generating PDE simulation code",
+      "fileMatch": [
+        "*.hecate.yml",
+        "*.hecate.yaml",
+        "*.hecate",
+        "*.hecate.json"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/ShaitanLyss/these@main/hecate/hecate-json-schema.json"
     }
   ]
 }
