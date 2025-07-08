@@ -127,7 +127,7 @@
       "name": ".aiproj.json",
       "description": "Settings for project analysis by the Application Inspector",
       "fileMatch": [".aiproj.json"],
-      "url": "https://www.schemastore.org/aiproj-1.6.json",
+      "url": "https://www.schemastore.org/aiproj-1.7.json",
       "versions": {
         "1.0": "https://www.schemastore.org/aiproj-1.0.json",
         "1.1": "https://www.schemastore.org/aiproj-1.1.json",
@@ -135,7 +135,8 @@
         "1.3": "https://www.schemastore.org/aiproj-1.3.json",
         "1.4": "https://www.schemastore.org/aiproj-1.4.json",
         "1.5": "https://www.schemastore.org/aiproj-1.5.json",
-        "1.6": "https://www.schemastore.org/aiproj-1.6.json"
+        "1.6": "https://www.schemastore.org/aiproj-1.6.json",
+        "1.7": "https://www.schemastore.org/aiproj-1.7.json"
       }
     },
     {
@@ -6125,6 +6126,12 @@
       "url": "https://www.schemastore.org/web-types.json"
     },
     {
+      "name": "WP-CLI",
+      "description": "WP-CLI is the official command-line tool for WordPress",
+      "fileMatch": ["wp-cli.local.yml", "wp-cli.yml", "**/.wp-cli/config.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/wp-cli/wp-cli@refs/heads/main/schemas/wp-cli-config.json"
+    },
+    {
       "name": "Wrangler CLI",
       "description": "Wrangler is a command-line tool for building with Cloudflare developer products",
       "fileMatch": ["wrangler.json", "wrangler.toml"],
@@ -7925,9 +7932,16 @@
     },
     {
       "name": "WireMock stub mapping",
-      "description": "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
-      "fileMatch": ["wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml"],
-      "url": "https://www.schemastore.org/wiremock-stub-mapping.json"
+      "description": "WireMock single or multiple stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+      "fileMatch": [
+        "wiremock-stub-mapping.yml",
+        "wiremock-stub-mapping.yaml",
+        "stubs.json",
+        "stub-mappings.json",
+        "stubs.yaml",
+        "stub-mappings.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/wiremock/wiremock@refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json"
     },
     {
       "name": "Bitmovin Encoding Template",
@@ -8271,6 +8285,12 @@
         "*.hecate.json"
       ],
       "url": "https://fastly.jsdelivr.net/gh/ShaitanLyss/these@main/hecate/hecate-json-schema.json"
+    },
+    {
+      "name": "Jujutsu (jj) VCS config",
+      "description": "Jujutsu (jj) configuration file",
+      "fileMatch": ["**/.jj/repo/config.toml", "**/jj/config.toml"],
+      "url": "https://jj-vcs.github.io/jj/latest/config-schema.json"
     }
   ]
 }
