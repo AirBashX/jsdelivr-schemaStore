@@ -1098,6 +1098,12 @@
       "url": "https://www.schemastore.org/catalog-info.json"
     },
     {
+      "name": "Changie",
+      "description": "Changie configuration file",
+      "fileMatch": [".changie.yaml", ".changie.yml"],
+      "url": "https://changie.dev/schema.json"
+    },
+    {
       "name": "Charmcraft",
       "description": "Charmcraft project. Documentation: https://canonical-charmcraft.readthedocs-hosted.com",
       "fileMatch": ["charmcraft.yaml"],
@@ -5864,7 +5870,7 @@
     {
       "name": "TSTyche",
       "description": "TSTyche configuration file",
-      "fileMatch": ["tstyche.config.json"],
+      "fileMatch": ["tstyche.json", "tstyche.config.json"],
       "url": "https://tstyche.org/schemas/config.json"
     },
     {
