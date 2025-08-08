@@ -521,6 +521,7 @@
       "url": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.10/bottom.json",
       "versions": {
         "nightly": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/nightly/bottom.json",
+        "0.11": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.11/bottom.json",
         "0.10": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.10/bottom.json",
         "0.9": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.9/bottom.json"
       }
@@ -5730,6 +5731,12 @@
         "v1": "https://fastly.jsdelivr.net/gh/WordPress/gutenberg@b40b61fabf13a6229c616527689d9a7024f81535/schemas/json/theme.json",
         "trunk": "https://fastly.jsdelivr.net/gh/WordPress/gutenberg@trunk/schemas/json/theme.json"
       }
+    },
+    {
+      "name": "Threagile",
+      "description": "Threagile Threat Model file",
+      "fileMatch": ["threagile.yaml", "threat-model.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/Threagile/threagile@refs/heads/master/support/schema.json"
     },
     {
       "name": "tizen_workspace.json",
