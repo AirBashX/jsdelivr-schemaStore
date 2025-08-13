@@ -6689,7 +6689,7 @@
         "**/compose.*.yml",
         "**/compose.*.yaml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/compose-spec/compose-spec@master/schema/compose-spec.json"
+      "url": "https://fastly.jsdelivr.net/gh/compose-spec/compose-go@master/schema/compose-spec.json"
     },
     {
       "name": "devinit",
