@@ -1095,7 +1095,7 @@
     {
       "name": "Catalog Info Backstage",
       "description": "Backstage Catalog Info",
-      "fileMatch": ["catalog-info.yaml"],
+      "fileMatch": ["catalog-info.yaml", "*.catalog-info.yaml"],
       "url": "https://www.schemastore.org/catalog-info.json"
     },
     {
@@ -5639,6 +5639,12 @@
       "url": "https://fastly.jsdelivr.net/gh/Shravan-1908/stellapy@master/schema.json"
     },
     {
+      "name": "Streamlit configuration file",
+      "description": "Streamlit configuration file",
+      "fileMatch": ["**/.streamlit/config.toml"],
+      "url": "https://www.schemastore.org/streamlit-config.json"
+    },
+    {
       "name": "stripe-app.json",
       "description": "Stripe Apps manifest file",
       "fileMatch": ["stripe-app.json"],
@@ -6445,6 +6451,17 @@
         ".lintstagedrc.yml"
       ],
       "url": "https://www.schemastore.org/lintstagedrc.schema.json"
+    },
+    {
+      "name": ".mdxlintrc",
+      "description": "An mdxlint configuration file",
+      "fileMatch": [
+        ".mdxlintrc",
+        ".mdxlintrc.json",
+        ".mdxlintrc.yaml",
+        ".mdxlintrc.yml"
+      ],
+      "url": "https://www.schemastore.org/mdxlintrc.json"
     },
     {
       "name": "mirrord config",
