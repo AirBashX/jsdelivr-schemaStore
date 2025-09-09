@@ -8526,6 +8526,12 @@
       "url": "https://fastly.jsdelivr.net/gh/ShaitanLyss/these@main/hecate/hecate-json-schema.json"
     },
     {
+      "name": "Revel Digital Gadget Definition File",
+      "description": "Revel Digital gadget definition file. See https://developer.reveldigital.com/gadgets for more information",
+      "fileMatch": ["gadget.yml", "gadget.yaml"],
+      "url": "https://www.schemastore.org/gadget-yaml.json"
+    },
+    {
       "name": "Jujutsu (jj) VCS config",
       "description": "Jujutsu (jj) configuration file",
       "fileMatch": ["**/.jj/repo/config.toml", "**/jj/config.toml"],
@@ -8560,6 +8566,16 @@
       "description": "Space Station 14 RSI validation",
       "fileMatch": ["**/*.rsi/meta.json"],
       "url": "https://fastly.jsdelivr.net/gh/space-wizards/RobustToolbox@refs/heads/master/Schemas/rsi.json"
+    },
+    {
+      "name": "EUDR IOP Standard Exchange Format (EUDR-X)",
+      "description": "structured exchange of data related to the EU Deforestation Regulation (EUDR)",
+      "fileMatch": ["*eudr-x.json"],
+      "url": "https://fastly.jsdelivr.net/gh/initiative-online-print/eudr-iop-standard-exchange-format@refs/heads/main/json/schema.json",
+      "versions": {
+        "1.0.0": "https://fastly.jsdelivr.net/gh/initiative-online-print/eudr-iop-standard-exchange-format@refs/tags/v1.0.0/json/schema.json",
+        "2.0.0": "https://fastly.jsdelivr.net/gh/initiative-online-print/eudr-iop-standard-exchange-format@refs/tags/v2.0.0/json/schema.json"
+      }
     }
   ]
 }
