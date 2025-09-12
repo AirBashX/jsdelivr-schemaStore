@@ -1465,7 +1465,7 @@
       "name": "Helm Unittest Test Suite",
       "description": "A Helm Unittest Test Suite file",
       "fileMatch": ["**/charts/*/tests/*.yaml"],
-      "url": "https://fastly.jsdelivr.net/gh/helm-unittest/helm-unittest@v0.5.1/schema/helm-testsuite.json"
+      "url": "https://fastly.jsdelivr.net/gh/helm-unittest/helm-unittest@refs/heads/main/schema/helm-testsuite.json"
     },
     {
       "name": "CircleCI config.yml",
@@ -2715,7 +2715,7 @@
         "**/*.gitlab-ci.yml",
         "**/*.gitlab-ci.yaml"
       ],
-      "url": "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
+      "url": "https://gitlab.com/gitlab-org/gitlab-foss/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     },
     {
       "name": "Gitpod Automations",
@@ -8589,6 +8589,15 @@
       "url": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
       "versions": {
         "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
+      }
+    },
+    {
+      "name": "Evolving Resolutive Process notation",
+      "description": "For describing contradiction-based processes with storing changes and authors",
+      "fileMatch": ["*.erpn.yml", "*.erpn.yaml", "*.erpn.toml", "*.erpn.json"],
+      "url": "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json",
+      "versions": {
+        "1.0": "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json"
       }
     }
   ]
