@@ -4733,7 +4733,7 @@
       "name": "project.owasp.yaml",
       "description": "OWASP project",
       "fileMatch": ["project.owasp.yaml"],
-      "url": "https://fastly.jsdelivr.net/gh/OWASP/Nest@main/schema/project.json"
+      "url": "https://fastly.jsdelivr.net/gh/OWASP/nest-schema@main/project.json"
     },
     {
       "name": "prometheus.json",
