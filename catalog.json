@@ -583,9 +583,9 @@
         "*.cv.yml",
         "*.cv.toml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/hexagonkt/codecv@master/cv.schema.json",
+      "url": "https://fastly.jsdelivr.net/gh/codecv-co/codecv@master/cv.schema.json",
       "versions": {
-        "0.9.9": "https://fastly.jsdelivr.net/gh/hexagonkt/codecv@0.9.9/cv.schema.json"
+        "0.9.24": "https://fastly.jsdelivr.net/gh/codecv-co/codecv@0.9.24/cv.schema.json"
       }
     },
     {
