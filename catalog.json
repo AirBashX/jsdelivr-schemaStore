@@ -4005,6 +4005,12 @@
       "url": "https://fastly.jsdelivr.net/gh/netascode/schema@main/schema.json"
     },
     {
+      "name": "Next Gen UI Agent Configuration",
+      "description": "NextGen UI Agent configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/guide/configuration/",
+      "fileMatch": ["ngui_*.yaml", "ngui_*.yml", "ngui_*.json"],
+      "url": "https://fastly.jsdelivr.net/gh/RedHat-UX/next-gen-ui-agent@refs/heads/main/spec/config/agent_config.schema.json"
+    },
+    {
       "name": "nFPM",
       "description": "nFPM configuration file",
       "fileMatch": ["nfpm.yaml"],
@@ -5637,6 +5643,12 @@
         "1.0": "https://www.schemastore.org/specif-1.0.json",
         "1.1": "https://www.schemastore.org/specif-1.1.json"
       }
+    },
+    {
+      "name": "Specmatic Configuration",
+      "description": "Configuration file for Specmatic, a contract-driven testing tool",
+      "fileMatch": ["specmatic.json", "specmatic.yaml", "specmatic.yml"],
+      "url": "https://www.schemastore.org/specmatic.json"
     },
     {
       "name": "Sponge Mixin configuration",
