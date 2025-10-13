@@ -3220,6 +3220,15 @@
       "url": "https://fastly.jsdelivr.net/gh/ioBroker/ioBroker.js-controller@master/schemas/io-package.json"
     },
     {
+      "name": "ixpect.conf.yaml",
+      "description": "IXpect configuration file",
+      "fileMatch": ["ixpect.conf.yaml"],
+      "url": "https://ixpect.net/0.1/schema/ixpect.conf.schema.json",
+      "versions": {
+        "0.1": "https://ixpect.net/0.1/schema/ixpect.conf.schema.json"
+      }
+    },
+    {
       "name": "Jasmine",
       "description": "jasmine JSON config file",
       "fileMatch": ["jasmine.json"],
@@ -7337,7 +7346,11 @@
       "name": "clang-format (.clang-format)",
       "description": "yaml clang-format config",
       "fileMatch": [".clang-format"],
-      "url": "https://www.schemastore.org/clang-format.json"
+      "url": "https://www.schemastore.org/clang-format-21.x.json",
+      "versions": {
+        "18.x": "https://www.schemastore.org/clang-format-18.x.json",
+        "21.x": "https://www.schemastore.org/clang-format-21.x.json"
+      }
     },
     {
       "name": "Estuary Flow Catalog",
