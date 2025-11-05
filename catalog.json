@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "Bacon config",
+      "description": "Bacon configuration file",
+      "fileMatch": ["bacon.toml", "**/bacon/prefs.toml"],
+      "url": "https://dystroy.org/bacon/.bacon.schema.json"
+    },
+    {
       "name": "Upsun config",
       "description": "Upsun configuration file",
       "fileMatch": ["**/.upsun/*.yml", "**/.upsun/*.yaml"],
@@ -2627,6 +2633,16 @@
       "description": "Blueprint Solutions for Google Cloud",
       "fileMatch": ["metadata.yaml", "metadata.display.yaml"],
       "url": "https://www.schemastore.org/gcp-blueprint-metadata.json"
+    },
+    {
+      "name": "Gemini CLI settings",
+      "description": "Configuration for Gemini CLI settings files",
+      "fileMatch": [
+        "**/.gemini/settings.json",
+        "**/gemini-cli/settings.json",
+        "**/GeminiCli/settings.json"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/google-gemini/gemini-cli@refs/heads/main/schemas/settings.schema.json"
     },
     {
       "name": "Global Privacy Control",
