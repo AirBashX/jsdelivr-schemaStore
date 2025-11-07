@@ -3,6 +3,17 @@
   "version": 1,
   "schemas": [
     {
+      "name": "release-hub.json",
+      "description": "Configuration file for Release Hub",
+      "fileMatch": [
+        ".release-hub.json",
+        ".release-hub.config.json",
+        "release-hub.json",
+        "release-hub.config.json"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/teneplaysofficial/release-hub@main/schema/release-hub.schema.json"
+    },
+    {
       "name": "Bacon config",
       "description": "Bacon configuration file",
       "fileMatch": ["bacon.toml", "**/bacon/prefs.toml"],
@@ -2666,7 +2677,8 @@
         "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
         "6.2": "https://gitversion.net/schemas/6.2/GitVersion.configuration.json",
         "6.3": "https://gitversion.net/schemas/6.3/GitVersion.configuration.json",
-        "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json"
+        "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
+        "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json"
       }
     },
     {
