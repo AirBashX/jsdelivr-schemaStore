@@ -8791,6 +8791,12 @@
       "url": "https://fastly.jsdelivr.net/gh/airbytehq/airbyte@refs/heads/master/airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorMetadataDefinitionV0.json"
     },
     {
+      "name": "git-town.toml",
+      "description": "Git Town configuration file",
+      "fileMatch": ["git-town.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/git-town/git-town@refs/heads/main/docs/git-town.schema.json"
+    },
+    {
       "name": "Jarl",
       "description": "Configuration for R linter",
       "fileMatch": ["jarl.toml"],
