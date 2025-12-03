@@ -4231,6 +4231,12 @@
       "url": "https://fastly.jsdelivr.net/gh/inetis-ch/october-schemas@master/fields.json"
     },
     {
+      "name": "Oh My Posh",
+      "description": "Oh My Posh configuration file",
+      "fileMatch": ["*.omp.json", "*.omp.toml", "*.omp.yaml", "*.omp.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/JanDeDobbeleer/oh-my-posh@main/themes/schema.json"
+    },
+    {
       "name": "Okteto",
       "description": "The Okteto Manifest",
       "fileMatch": ["okteto.yml", "okteto.yaml", "okteto.json"],
@@ -5994,7 +6000,8 @@
       "fileMatch": [
         "*.tmLanguage.json",
         "*.tmLanguage.yaml",
-        "*.tmLanguage.yml"
+        "*.tmLanguage.yml",
+        "*.yaml-tmlanguage"
       ],
       "url": "https://www.schemastore.org/tmlanguage.json"
     },
@@ -8094,7 +8101,11 @@
     {
       "name": "Language configuration",
       "description": "Configuration file for language features in VS Code and Visual Studio",
-      "fileMatch": ["language-configuration.json"],
+      "fileMatch": [
+        "language-configuration.json",
+        "language-configuration.yaml",
+        "language-configuration.yml"
+      ],
       "url": "https://www.schemastore.org/language-configuration.json"
     },
     {
@@ -8821,6 +8832,46 @@
       "description": "A fast static site generator in a single binary with everything built-in",
       "fileMatch": ["zola.toml"],
       "url": "https://cscnk52.github.io/json-schemas/zola.schema.json"
+    },
+    {
+      "name": "Tekton Task",
+      "description": "Defines a sequence of steps (containers) to be executed. It is the smallest configurable unit of execution in Tekton Pipelines",
+      "url": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_Task.json",
+      "versions": {
+        "v1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_Task.json",
+        "v1beta1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1beta1_Task.json",
+        "v1alpha1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1alpha1_Task.json"
+      }
+    },
+    {
+      "name": "Tekton TaskRun",
+      "description": "Instantiates and executes a Task with specific inputs, outputs, and parameters in Tekton Pipelines",
+      "url": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_TaskRun.json",
+      "versions": {
+        "v1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_TaskRun.json",
+        "v1beta1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1beta1_TaskRun.json",
+        "v1alpha1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1alpha1_TaskRun.json"
+      }
+    },
+    {
+      "name": "Tekton Pipeline",
+      "description": "Defines a graph of Tasks that execute sequentially or in parallel to define a CI/CD workflow in Tekton Pipelines",
+      "url": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_Pipeline.json",
+      "versions": {
+        "v1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_Pipeline.json",
+        "v1beta1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1beta1_Pipeline.json",
+        "v1alpha1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1alpha1_Pipeline.json"
+      }
+    },
+    {
+      "name": "Tekton PipelineRun",
+      "description": "Instantiates and executes a Pipeline with specific inputs, outputs, and parameters in Tekton Pipelines",
+      "url": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_PipelineRun.json",
+      "versions": {
+        "v1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1_PipelineRun.json",
+        "v1beta1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1beta1_PipelineRun.json",
+        "v1alpha1": "https://fastly.jsdelivr.net/gh/redhat-developer/vscode-tekton@refs/heads/main/scheme/tekton.dev/v1alpha1_PipelineRun.json"
+      }
     }
   ]
 }
