@@ -611,6 +611,12 @@
       "url": "https://www.schemastore.org/cinnamon-spice.info.json"
     },
     {
+      "name": "Cloud.gov Workshop Configuration",
+      "description": "Configuration for IaC managed resources in Cloud.gov Workshop",
+      "fileMatch": ["cg-workshop.yml", "**/cg-workshop/*.yml"],
+      "url": "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workhshop.schema.json"
+    },
+    {
       "name": "cmdx.yaml",
       "description": "cmdx configuration file",
       "fileMatch": [".cmdx.yaml", ".cmdx.yml", "cmdx.yaml", "cmdx.yml"],
@@ -667,6 +673,123 @@
         "*.cloudcannon.config.json"
       ],
       "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-config.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Structures)",
+      "description": "Supporting configuration file for CloudCannon containing Structure definitions",
+      "fileMatch": [
+        "cloudcannon.structures.yml",
+        "cloudcannon.structures.yaml",
+        "cloudcannon.structures.json",
+        "*.cloudcannon.structures.yml",
+        "*.cloudcannon.structures.yaml",
+        "*.cloudcannon.structures.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structures.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Inputs)",
+      "description": "Supporting configuration file for CloudCannon containing Input definitions",
+      "fileMatch": [
+        "cloudcannon.inputs.yml",
+        "cloudcannon.inputs.yaml",
+        "cloudcannon.inputs.json",
+        "*.cloudcannon.inputs.yml",
+        "*.cloudcannon.inputs.yaml",
+        "*.cloudcannon.inputs.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-inputs.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Structure Value)",
+      "description": "Supporting configuration file for CloudCannon containing a single Structure Value definition",
+      "fileMatch": [
+        "cloudcannon.structure-value.yml",
+        "cloudcannon.structure-value.yaml",
+        "cloudcannon.structure-value.json",
+        "*.cloudcannon.structure-value.yml",
+        "*.cloudcannon.structure-value.yaml",
+        "*.cloudcannon.structure-value.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structure-value.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Snippets)",
+      "description": "Supporting configuration file for CloudCannon containing Snippet definitions",
+      "fileMatch": [
+        "cloudcannon.snippets.yml",
+        "cloudcannon.snippets.yaml",
+        "cloudcannon.snippets.json",
+        "*.cloudcannon.snippets.yml",
+        "*.cloudcannon.snippets.yaml",
+        "*.cloudcannon.snippets.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Snippets Imports)",
+      "description": "Supporting configuration file for CloudCannon containing Snippets Imports",
+      "fileMatch": [
+        "cloudcannon.snippets-imports.yml",
+        "cloudcannon.snippets-imports.yaml",
+        "cloudcannon.snippets-imports.json",
+        "*.cloudcannon.snippets-imports.yml",
+        "*.cloudcannon.snippets-imports.yaml",
+        "*.cloudcannon.snippets-imports.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-imports.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Snippets Definitions)",
+      "description": "Supporting configuration file for CloudCannon containing Snippets Definitions",
+      "fileMatch": [
+        "cloudcannon.snippets-definitions.yml",
+        "cloudcannon.snippets-definitions.yaml",
+        "cloudcannon.snippets-definitions.json",
+        "*.cloudcannon.snippets-definitions.yml",
+        "*.cloudcannon.snippets-definitions.yaml",
+        "*.cloudcannon.snippets-definitions.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-definitions.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Editables)",
+      "description": "Supporting configuration file for CloudCannon containing Editables definitions",
+      "fileMatch": [
+        "cloudcannon.editables.yml",
+        "cloudcannon.editables.yaml",
+        "cloudcannon.editables.json",
+        "*.cloudcannon.editables.yml",
+        "*.cloudcannon.editables.yaml",
+        "*.cloudcannon.editables.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-editables.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Collections)",
+      "description": "Supporting configuration file for CloudCannon containing Collections configuration",
+      "fileMatch": [
+        "cloudcannon.collections.yml",
+        "cloudcannon.collections.yaml",
+        "cloudcannon.collections.json",
+        "*.cloudcannon.collections.yml",
+        "*.cloudcannon.collections.yaml",
+        "*.cloudcannon.collections.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-collections.schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration (Collection Structures)",
+      "description": "Supporting configuration file for CloudCannon containing Collection Structure definitions",
+      "fileMatch": [
+        "cloudcannon.schemas.yml",
+        "cloudcannon.schemas.yaml",
+        "cloudcannon.schemas.json",
+        "*.cloudcannon.schemas.yml",
+        "*.cloudcannon.schemas.yaml",
+        "*.cloudcannon.schemas.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-schemas.schema.json"
     },
     {
       "name": "Lando (landofile)",
@@ -3032,6 +3155,19 @@
       "url": "https://www.graphql-code-generator.com/config.schema.json"
     },
     {
+      "name": "GroovyLint configuration",
+      "description": "Rules to apply with npm-groovy-lint tool",
+      "fileMatch": [
+        ".groovylintrc.json",
+        ".groovylintrc.js",
+        ".groovylintrc.cjs",
+        ".groovylintrc.yml",
+        ".groovylintrc.yaml",
+        ".groovylintrc"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/nvuillam/npm-groovy-lint@refs/heads/main/docs/groovy-lint.jsonschema.json"
+    },
+    {
       "name": "Grunt copy task",
       "description": "Grunt copy task configuration file",
       "fileMatch": ["copy.json"],
@@ -3168,7 +3304,7 @@
       "name": "IBM Zapp document",
       "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       "fileMatch": ["zapp.yaml", "zapp.yml", "zapp.json"],
-      "url": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.7.0.json",
+      "url": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.8.0.json",
       "versions": {
         "1.0.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.0.0.json",
         "1.1.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.1.0.json",
@@ -3178,7 +3314,8 @@
         "1.4.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.4.0.json",
         "1.5.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.5.0.json",
         "1.6.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.6.0.json",
-        "1.7.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.7.0.json"
+        "1.7.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.7.0.json",
+        "1.8.0": "https://fastly.jsdelivr.net/gh/IBM/zopeneditor-about@main/zapp/zapp-schema-1.8.0.json"
       }
     },
     {
@@ -3253,6 +3390,18 @@
       "description": "Repository config definition for Infrahub by OpsMill",
       "fileMatch": [".infrahub.yml", ".infrahub.yaml"],
       "url": "https://schema.infrahub.app/python-sdk/repository-config/latest.json"
+    },
+    {
+      "name": "instant_python_config",
+      "description": "Instant Python Configuration",
+      "fileMatch": ["ipy.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/instant-python/instant-python@main/schemas/ipy-schemas.json"
+    },
+    {
+      "name": "instant_python_custom_project",
+      "description": "Instant Python Custom Project Structure",
+      "fileMatch": ["main_structure.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/instant-python/instant-python@main/schemas/main-structure-schema.json"
     },
     {
       "name": "ioBroker Configuration",
@@ -4067,6 +4216,18 @@
       "description": "Cisco Network-as-Code Data Model",
       "fileMatch": ["*.nac.yml", "*.nac.yaml", "*.aac.yml", "*.aac.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/netascode/schema@main/schema.json"
+    },
+    {
+      "name": "Next Gen UI Agent A2A Server Configuration",
+      "description": "Next Gen UI Agent A2A Server configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/spec/a2a/#agent-configuration",
+      "fileMatch": ["ngui-a2a_*.yaml", "ngui-a2a_*.yml", "ngui-a2a_*.json"],
+      "url": "https://fastly.jsdelivr.net/gh/RedHat-UX/next-gen-ui-agent@refs/heads/main/spec/a2a/a2a_agent_config.schema.json"
+    },
+    {
+      "name": "Next Gen UI Agent MCP Server Configuration",
+      "description": "Next Gen UI Agent MCP Server configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/spec/mcp/#agent-configuration",
+      "fileMatch": ["ngui-mcp_*.yaml", "ngui-mcp_*.yml", "ngui-mcp_*.json"],
+      "url": "https://fastly.jsdelivr.net/gh/RedHat-UX/next-gen-ui-agent@refs/heads/main/spec/mcp/mcp_agent_config.schema.json"
     },
     {
       "name": "Next Gen UI Agent Configuration",
@@ -6197,7 +6358,7 @@
         "**/src/main/webapp/manifest.json",
         "**/src/manifest.json"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/SAP/ui5-manifest@master/schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/UI5/manifest@main/schema.json"
     },
     {
       "name": "ui5.yaml",
@@ -6940,9 +7101,11 @@
       "name": "Apollo Router",
       "description": "Apollo Router: The runtime for graph-based API orchestration",
       "fileMatch": ["apollo-router-*.json"],
-      "url": "https://www.schemastore.org/apollo-router-2.8.1.json",
+      "url": "https://www.schemastore.org/apollo-router-2.9.0.json",
       "versions": {
-        "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json"
+        "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json",
+        "2.8.2": "https://www.schemastore.org/apollo-router-2.8.2.json",
+        "2.9.0": "https://www.schemastore.org/apollo-router-2.9.0.json"
       }
     },
     {
