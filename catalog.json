@@ -2748,7 +2748,7 @@
         "ksail.yaml",
         "ksail.yml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/devantler/ksail@refs/heads/main/schemas/ksail-cluster-schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/devantler-tech/ksail@refs/heads/main/schemas/ksail-config.schema.json"
     },
     {
       "name": "function.json",
