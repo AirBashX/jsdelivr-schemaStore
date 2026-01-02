@@ -4938,6 +4938,12 @@
       "url": "https://fastly.jsdelivr.net/gh/PrefectHQ/prefect@refs/heads/main/schemas/settings.schema.json"
     },
     {
+      "name": "prefect.yaml",
+      "description": "Prefect deployment configuration file",
+      "fileMatch": ["prefect.yaml", "prefect.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/PrefectHQ/prefect@refs/heads/main/schemas/prefect.yaml.schema.json"
+    },
+    {
       "name": "prettierrc.json",
       "description": ".prettierrc configuration file",
       "fileMatch": [
@@ -9082,6 +9088,12 @@
       "description": "Changepacks are a way to package changes to a project",
       "fileMatch": ["**/.changepacks/config.json"],
       "url": "https://www.schemastore.org/changepacks.json"
+    },
+    {
+      "name": "Devup",
+      "description": "JSX Zero-Runtime UI Styling Library",
+      "fileMatch": ["devup.json"],
+      "url": "https://www.schemastore.org/devup.json"
     }
   ]
 }
