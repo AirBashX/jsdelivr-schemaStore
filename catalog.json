@@ -5037,10 +5037,28 @@
       "url": "https://fastly.jsdelivr.net/gh/em-al-wi/proactions-schema@main/schema/partial-step.schema.json"
     },
     {
+      "name": "Problem package format",
+      "description": "Problem package metadata for programming tasks in the Kattis/CLICS problem package format",
+      "fileMatch": ["problem.yml", "problem.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/main/bapctools/resources/support/schemas/problem_yaml_schema.json"
+    },
+    {
       "name": "Problem package generators",
       "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
       "fileMatch": ["generators.yml", "generators.yaml"],
-      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/master/support/schemas/generators_yaml_schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/main/bapctools/resources/support/schemas/generators_yaml_schema.json"
+    },
+    {
+      "name": "Problem package submissions",
+      "description": "Submissions metadata for programming tasks in the Kattis/CLICS problem package format",
+      "fileMatch": ["submissions.yml", "submissions.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/main/bapctools/resources/support/schemas/submissions_yaml_schema.json"
+    },
+    {
+      "name": "Problem package test group metadata",
+      "description": "Test group metadata for programming tasks in the Kattis/CLICS problem package format",
+      "fileMatch": ["test_group.yml", "test_group.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/RagnarGrootKoerkamp/BAPCtools@refs/heads/main/bapctools/resources/support/schemas/test_group_yaml_schema.json"
     },
     {
       "name": "project.json",
@@ -8585,6 +8603,19 @@
       "url": "https://fastly.jsdelivr.net/gh/wiremock/wiremock@refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json"
     },
     {
+      "name": "WireMock message stub mapping",
+      "description": "WireMock single or multiple async message stub mapping JSON. See https://wiremock.org/docs/messaging/stubbing/",
+      "fileMatch": [
+        "wiremock-message-stub-mapping.yml",
+        "wiremock-message-stub-mapping.yaml",
+        "message-stubs.json",
+        "message-stub-mappings.json",
+        "message-stubs.yaml",
+        "message-stub-mappings.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/wiremock/wiremock@refs/heads/master/schemas/wiremock-message-stub-mapping-or-mappings.json"
+    },
+    {
       "name": "WireMock CLI local service configuration",
       "description": "WireMock CLI and Runner local service config file format",
       "fileMatch": ["wiremock.yaml"],
@@ -9166,6 +9197,15 @@
         "**/models/**/*.vespertide.yml"
       ],
       "url": "https://www.schemastore.org/vespertide-model.json"
+    },
+    {
+      "name": "openHAB",
+      "description": "Configuration files for openHAB",
+      "fileMatch": ["**/conf/yaml/**/*.yml", "**/conf/yaml/**/*.yaml"],
+      "url": "https://www.schemastore.org/openhab-5.1.json",
+      "versions": {
+        "5.1": "https://www.schemastore.org/openhab-5.1.json"
+      }
     }
   ]
 }
