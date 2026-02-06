@@ -981,6 +981,12 @@
       "url": "https://www.schemastore.org/backportrc.json"
     },
     {
+      "name": "basedpyright",
+      "description": "Basedpyright configuration file",
+      "fileMatch": ["basedpyrightconfig.json"],
+      "url": "https://fastly.jsdelivr.net/gh/DetachHead/basedpyright@refs/heads/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json"
+    },
+    {
       "name": "batect.yml",
       "description": "Batect configuration file",
       "fileMatch": ["batect.yml", "batect-bundle.yml"],
@@ -5031,6 +5037,12 @@
       "url": "https://fastly.jsdelivr.net/gh/PrefectHQ/prefect@refs/heads/main/schemas/prefect.yaml.schema.json"
     },
     {
+      "name": "prek",
+      "description": "Configuration file for prek, a tool for managing git hooks",
+      "fileMatch": ["prek.toml"],
+      "url": "https://www.schemastore.org/prek.json"
+    },
+    {
       "name": "prettierrc.json",
       "description": ".prettierrc configuration file",
       "fileMatch": [
@@ -8404,7 +8416,7 @@
         "vcluster.yaml",
         "vcluster.yml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/loft-sh/vcluster-config@main/vcluster.schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/loft-sh/vcluster@main/chart/values.schema.json"
     },
     {
       "name": "well-known-fursona",
