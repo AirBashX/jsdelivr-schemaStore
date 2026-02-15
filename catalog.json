@@ -1749,7 +1749,7 @@
       "name": ".cirrus.yml",
       "description": "Cirrus CI configuration files",
       "fileMatch": [".cirrus.yml"],
-      "url": "https://www.schemastore.org/cirrus.json"
+      "url": "https://fastly.jsdelivr.net/gh/cirruslabs/cirrus-cli@main/pkg/parser/testdata/cirrus.json"
     },
     {
       "name": ".clasp.json",
@@ -2502,6 +2502,12 @@
         "ecosystem.config.yaml"
       ],
       "url": "https://www.schemastore.org/pm2-ecosystem.json"
+    },
+    {
+      "name": "ECA - Editor Code Assistant",
+      "description": "ECA AI coding agent configuration file",
+      "fileMatch": ["**/eca/config.json", "**/.eca/config.json"],
+      "url": "https://eca.dev/config.json"
     },
     {
       "name": "eksctl",
@@ -9135,7 +9141,8 @@
         "6.0-preview": "https://www.schemastore.org/aio-connector-metadata-6.0-preview.json",
         "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
         "8.0-preview": "https://www.schemastore.org/aio-connector-metadata-8.0-preview.json",
-        "9.0-preview": "https://www.schemastore.org/aio-connector-metadata-9.0-preview.json"
+        "9.0-preview": "https://www.schemastore.org/aio-connector-metadata-9.0-preview.json",
+        "10.0-preview": "https://www.schemastore.org/aio-connector-metadata-10.0-preview.json"
       }
     },
     {
