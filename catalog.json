@@ -28,7 +28,7 @@
     {
       "name": "Upsun config",
       "description": "Upsun configuration file",
-      "fileMatch": ["**/.upsun/*.yml", "**/.upsun/*.yaml"],
+      "fileMatch": ["**/.upsun/config.yml", "**/.upsun/config.yaml"],
       "url": "https://meta.upsun.com/schema/upsun"
     },
     {
@@ -2735,6 +2735,16 @@
         "*_FiQuS.yml"
       ],
       "url": "https://gitlab.cern.ch/steam/fiqus/-/raw/master/docs/schema.json"
+    },
+    {
+      "name": "Flatpak Builder Manifest",
+      "description": "flatpak-builder manifest files",
+      "fileMatch": [
+        "**/*.flatpak.json",
+        "**/*.flatpak.yaml",
+        "**/*.flatpak.yml"
+      ],
+      "url": "https://www.schemastore.org/flatpak-manifest.json"
     },
     {
       "name": "FlexGet Config",
@@ -6350,6 +6360,12 @@
       "description": "Tombi (\u9cf6) is a toolkit for TOML; providing a formatter/linter and language server",
       "fileMatch": ["tombi.toml", "**/tombi/config.toml"],
       "url": "https://www.schemastore.org/tombi.json"
+    },
+    {
+      "name": "tox",
+      "description": "tox configuration for automating Python testing and task management",
+      "fileMatch": ["tox.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/tox-dev/tox@main/src/tox/tox.schema.json"
     },
     {
       "name": "TextMate Grammar",
