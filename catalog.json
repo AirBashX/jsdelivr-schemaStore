@@ -871,9 +871,9 @@
     },
     {
       "name": "Lando (landofile)",
-      "description": "The configuration file for a Lando app. Documentation: https://github.com/4lando/lando-spec",
+      "description": "The configuration file for a Lando app. Documentation: https://github.com/lando-community/lando-spec",
       "fileMatch": [".lando.yml", ".lando.*.yml"],
-      "url": "https://4lando.github.io/lando-spec/landofile-spec.json"
+      "url": "https://lando-community.github.io/lando-spec/landofile-spec.json"
     },
     {
       "name": "latexindent configuration",
@@ -3641,8 +3641,9 @@
       "name": "JReleaser",
       "description": "JReleaser config file",
       "fileMatch": ["jreleaser.yml", "jreleaser.json"],
-      "url": "https://www.schemastore.org/jreleaser-1.22.0.json",
+      "url": "https://www.schemastore.org/jreleaser-1.23.0.json",
       "versions": {
+        "1.23.0": "https://www.schemastore.org/jreleaser-1.23.0.json",
         "1.22.0": "https://www.schemastore.org/jreleaser-1.22.0.json",
         "1.21.0": "https://www.schemastore.org/jreleaser-1.21.0.json",
         "1.20.0": "https://www.schemastore.org/jreleaser-1.20.0.json",
@@ -4264,6 +4265,21 @@
       "description": "Config files for the mlos_bench utility in MLOS. See Also: https://aka.ms/MLOS",
       "fileMatch": ["*.mlos.jsonc", "*.mlos.json5", "*.mlos.json"],
       "url": "https://fastly.jsdelivr.net/gh/microsoft/MLOS@main/mlos_bench/mlos_bench/config/schemas/mlos-bench-config-schema.json"
+    },
+    {
+      "name": "mockd.yaml",
+      "description": "mockd multi-protocol API mock server configuration file. See https://mockd.io",
+      "fileMatch": [
+        "mockd.yaml",
+        "mockd.yml",
+        "mockd.json",
+        ".mockd.yaml",
+        ".mockd.yml",
+        ".mockd.json",
+        "mocks.yaml",
+        "mocks.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/getmockd/mockd@main/schema/mockd.schema.json"
     },
     {
       "name": "monospace.yml",
