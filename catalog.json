@@ -1571,6 +1571,12 @@
       "url": "https://fastly.jsdelivr.net/gh/datayoga-io/datayoga@main/schemas/job.schema.json"
     },
     {
+      "name": "dbt-bouncer",
+      "description": "dbt-bouncer configuration file for enforcing conventions in dbt projects",
+      "fileMatch": ["dbt-bouncer.yml", "dbt-bouncer.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/godatadriven/dbt-bouncer@main/schema.json"
+    },
+    {
       "name": "dbt Dependencies",
       "description": "dbt's dependencies.yml file for external packages and cross-project refs",
       "fileMatch": ["**/*dbt*/dependencies.yaml", "**/*dbt*/dependencies.yml"],
@@ -1625,6 +1631,17 @@
         "**/.config/deck/config-*.yaml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/k1LoW/deck@refs/heads/main/schema.yml"
+    },
+    {
+      "name": "DeepMatch deeplinks spec",
+      "description": "DeepMatch deeplinks YAML configuration file",
+      "fileMatch": [
+        "**/.deeplinks.yml",
+        "**/*.deeplinks.yml",
+        "**/.deeplinks.yaml",
+        "**/*.deeplinks.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/aouledissa/deep-match@main/schemas/deeplinks.schema.json"
     },
     {
       "name": "Dein Config",
@@ -5010,6 +5027,12 @@
       "description": "Pixi configuration file",
       "fileMatch": ["pixi.toml"],
       "url": "https://fastly.jsdelivr.net/gh/prefix-dev/pixi@main/schema/schema.json"
+    },
+    {
+      "name": "partial-pixi.json",
+      "description": "Pixi configuration for pyproject.toml",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/partial-pixi.json"
     },
     {
       "name": ".pmbot.yml",
