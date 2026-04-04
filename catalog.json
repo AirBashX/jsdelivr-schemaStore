@@ -4329,6 +4329,15 @@
       }
     },
     {
+      "name": "ModuleAssembler",
+      "description": "ModuleAssembler configuration file",
+      "fileMatch": ["**/.moduleassembler/moduleproject.json"],
+      "url": "https://fastly.jsdelivr.net/gh/ModuleAssembler/ModuleAssembler-Schema@refs/tags/v1.0.0/schema/moduleassembler.schema.json",
+      "versions": {
+        "1.0.0": "https://fastly.jsdelivr.net/gh/ModuleAssembler/ModuleAssembler-Schema@refs/tags/v1.0.0/schema/moduleassembler.schema.json"
+      }
+    },
+    {
       "name": "mrdocs.yml",
       "description": "MrDocs configuration file",
       "fileMatch": ["mrdocs.yml"],
@@ -5872,6 +5881,12 @@
       "name": "schema.org - Thing",
       "description": "Thing as defined by schema.org",
       "url": "https://www.schemastore.org/schema-org-thing.json"
+    },
+    {
+      "name": "Scarb",
+      "description": "Scarb manifest file (Scarb.toml)",
+      "fileMatch": ["Scarb.toml"],
+      "url": "https://www.schemastore.org/scarb.json"
     },
     {
       "name": "Scoop manifest",
@@ -9576,6 +9591,16 @@
       "versions": {
         "1.0": "https://schema.agentcore.aws.dev/v1/agentcore.json"
       }
+    },
+    {
+      "name": "Ethereum ERC721",
+      "description": "ERC-721 Non-Fungible Token Standard",
+      "url": "https://www.schemastore.org/ethereum-erc721.json"
+    },
+    {
+      "name": "Ethereum ERC1155",
+      "description": "ERC-1155 Multi Token Standard",
+      "url": "https://www.schemastore.org/ethereum-erc1155.json"
     }
   ]
 }
