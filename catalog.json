@@ -716,6 +716,12 @@
       "url": "https://www.schemastore.org/buf.plugin.json"
     },
     {
+      "name": "buf.policy.yaml",
+      "description": "buf.policy.yaml defines a policy containing lint, breaking change detection, and plugin configuration that can be shared across BSR modules",
+      "fileMatch": ["buf.policy.yaml"],
+      "url": "https://www.schemastore.org/buf.policy.json"
+    },
+    {
       "name": "buf.work.yaml",
       "description": "buf.work.yaml is used to define a workspace, which is an advanced local development feature. Workspaces make it possible to consolidate one or more modules into a single buildable unit. They also allow users to run buf operations across multiple modules with a single execution (such as buf lint)",
       "fileMatch": ["buf.work.yaml"],
@@ -949,6 +955,12 @@
       "description": "FasterCI repository configuration file",
       "fileMatch": ["**/.fasterci/config.yaml"],
       "url": "https://fasterci.com/config.schema.json"
+    },
+    {
+      "name": "Fence configuration",
+      "description": "Configuration file for fence, a lightweight, container-free sandbox for running commands with network and filesystem restrictions",
+      "fileMatch": ["fence.json"],
+      "url": "https://fastly.jsdelivr.net/gh/Use-Tusk/fence@refs/heads/main/docs/schema/fence.schema.json"
     },
     {
       "name": "Foxx Manifest",
@@ -9619,6 +9631,18 @@
       "description": "Configuration file for Qwen Code",
       "fileMatch": ["**/.qwen/settings.json"],
       "url": "https://www.schemastore.org/qwen-code-settings.json"
+    },
+    {
+      "name": "Raid Profile",
+      "description": "Definition for one or more Raid Profiles",
+      "fileMatch": ["*.raid.yaml", "*.raid.yml", "*.raid.json"],
+      "url": "https://fastly.jsdelivr.net/gh/8bitAlex/raid@main/schemas/raid-profile.schema.json"
+    },
+    {
+      "name": "Raid Repo Configuration",
+      "description": "Definition for a single repository",
+      "fileMatch": ["raid.yaml", "raid.yml", "raid.json"],
+      "url": "https://fastly.jsdelivr.net/gh/8bitAlex/raid@main/schemas/raid-repo.schema.json"
     }
   ]
 }
