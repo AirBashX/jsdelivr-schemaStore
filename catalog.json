@@ -3,6 +3,17 @@
   "version": 1,
   "schemas": [
     {
+      "name": "revola.json",
+      "description": "Configuration file for Revola",
+      "fileMatch": [
+        ".revola.json",
+        ".revola.config.json",
+        "revola.json",
+        "revola.config.json"
+      ],
+      "url": "https://www.schemastore.org/revola.json"
+    },
+    {
       "name": "Hashgraph Online Skill Manifest",
       "description": "Manifest for Hashgraph Online Registry Broker skill packages",
       "fileMatch": [
@@ -2789,6 +2800,12 @@
       "description": "The EAS config (eas.json) validation and documentation",
       "fileMatch": ["eas.json"],
       "url": "https://fastly.jsdelivr.net/gh/expo/eas-cli@main/packages/eas-json/schema/eas.schema.json"
+    },
+    {
+      "name": "Expoot app config",
+      "description": "The config for creating a React Native Desktop app with best-effort Expo support, used by the expoot CLI",
+      "fileMatch": ["expoot-app.json"],
+      "url": "https://fastly.jsdelivr.net/gh/shirakaba/expoot@main/packages/expoot/schemas/expoot-app.schema.json"
     },
     {
       "name": "EasyVCR .NET",
@@ -5826,6 +5843,12 @@
       "description": "rustfmt, a tool to format Rust code",
       "fileMatch": ["rustfmt.toml"],
       "url": "https://www.schemastore.org/rustfmt.json"
+    },
+    {
+      "name": "ryl",
+      "description": "ryl, a fast YAML linter written in Rust",
+      "fileMatch": ["ryl.toml", ".ryl.toml"],
+      "url": "https://www.schemastore.org/ryl.json"
     },
     {
       "name": "Rust toolchain",
