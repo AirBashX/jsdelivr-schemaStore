@@ -8445,7 +8445,7 @@
       "name": "Declarative Automation Bundles",
       "description": "Declarative Automation Bundles config",
       "fileMatch": ["databricks.yml", "databricks.yaml"],
-      "url": "https://www.schemastore.org/declarative-automation-bundles.json"
+      "url": "https://github.com/databricks/cli/releases/latest/download/jsonschema.json"
     },
     {
       "name": "JSON Schema Draft 4 (unofficial with '$ref' and 'format')",
@@ -9773,6 +9773,12 @@
       "description": "Open standard for AI agent team definitions — declare agents, roles, tools, access policies, and pipelines in a single versioned document",
       "fileMatch": ["*.envelope.json", "team.envelope.json"],
       "url": "https://schema.openenvelope.org/team/v1.json"
+    },
+    {
+      "name": "Acton",
+      "description": "Configuration file for Acton projects",
+      "fileMatch": ["Acton.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/ton-blockchain/acton@master/crates/acton-config/schemas/acton.schema.json"
     }
   ]
 }
