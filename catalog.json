@@ -221,11 +221,12 @@
       "name": "ABCClinicalDemandForecast",
       "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
       "fileMatch": ["abc-clinical-demand-forecast-*.json"],
-      "url": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
+      "url": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
       "versions": {
         "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
         "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
-        "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
+        "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
+        "4.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json"
       }
     },
     {
@@ -9832,9 +9833,13 @@
     },
     {
       "name": "memnex",
-      "description": "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://github.com/UladzKha/memnex",
+      "description": "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://memnex.org",
       "fileMatch": ["*.memnex.json", "meeting-output.json"],
-      "url": "https://fastly.jsdelivr.net/gh/UladzKha/memnex@main/schema/v0.1/meeting-output.schema.json"
+      "url": "https://memnex.org/schema/v0.2/meeting-output.schema.json",
+      "versions": {
+        "0.1": "https://memnex.org/schema/v0.1/meeting-output.schema.json",
+        "0.2": "https://memnex.org/schema/v0.2/meeting-output.schema.json"
+      }
     }
   ]
 }
