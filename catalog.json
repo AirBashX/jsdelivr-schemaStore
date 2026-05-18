@@ -4586,6 +4586,18 @@
       "url": "https://fastly.jsdelivr.net/gh/RedHat-UX/next-gen-ui-agent@refs/heads/main/spec/config/agent_config.schema.json"
     },
     {
+      "name": "cargo-nextest repository configuration",
+      "description": "Repository configuration for cargo-nextest. Documentation: https://nexte.st/docs/configuration/",
+      "fileMatch": ["**/.config/nextest.toml"],
+      "url": "https://nexte.st/schemas/repo-config.json"
+    },
+    {
+      "name": "cargo-nextest user configuration",
+      "description": "User configuration for cargo-nextest. Documentation: https://nexte.st/docs/user-config/",
+      "fileMatch": ["**/nextest/config.toml"],
+      "url": "https://nexte.st/schemas/user-config.json"
+    },
+    {
       "name": "nFPM",
       "description": "nFPM configuration file",
       "fileMatch": ["nfpm.yaml"],
@@ -7524,11 +7536,6 @@
       "url": "https://www.schemastore.org/winget-pkgs-locale-1.0.0.json"
     },
     {
-      "name": "Winutil",
-      "description": "Configuration for files in \"ChrisTitusTech/winutil\"",
-      "url": "https://www.schemastore.org/winutil-presets.json"
-    },
-    {
       "name": "commitlint (.commitlintrc)",
       "description": "commitlint configuration files",
       "fileMatch": [
@@ -8384,7 +8391,7 @@
       "name": "completely.yml",
       "description": "Completely completion",
       "fileMatch": ["completely.yml", "completely.yaml"],
-      "url": "https://github.com/DannyBen/completely/blob/master/schemas/completely.json"
+      "url": "https://fastly.jsdelivr.net/gh/DannyBen/completely@master/schemas/completely.json"
     },
     {
       "name": "Madness (madness.yml)",
@@ -8974,10 +8981,10 @@
       "url": "https://www.schemastore.org/winutil-applications.json"
     },
     {
-      "name": "Preset list for a WinUtil",
+      "name": "Preset list for a \"ChrisTitusTech/winutil\"",
       "description": "Preset list for a WinUtil",
       "fileMatch": ["**/*winutil*/config/preset.json"],
-      "url": "https://www.schemastore.org/winutil-preset.json"
+      "url": "https://www.schemastore.org/winutil-presets.json"
     },
     {
       "name": "GitHub Actions typing",
