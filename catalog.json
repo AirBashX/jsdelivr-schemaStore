@@ -87,6 +87,16 @@
       "url": "https://developer.1password.com/schema/ssh-agent-config.json"
     },
     {
+      "name": "AlgoVoi Compliance Receipt v1",
+      "description": "Categorical compliance screening receipt for agentic-payment flows; emitted at admission time and retained as part of an audit chain under UK MLR 2017, EU AMLD5/6, MiCA Art 80, AMLR Art 56, DORA Art 14",
+      "fileMatch": [
+        "algovoi-compliance-receipt.json",
+        "algovoi-compliance-receipt-*.json",
+        "**/algovoi/compliance-receipt-*.json"
+      ],
+      "url": "https://www.schemastore.org/algovoi-compliance-receipt-v1.json"
+    },
+    {
       "name": "Application Accelerator",
       "description": "Application Accelerator for VMware Tanzu",
       "fileMatch": ["accelerator.yaml"],
@@ -5418,6 +5428,12 @@
       "url": "https://www.schemastore.org/pgap_yaml_input_reader.json"
     },
     {
+      "name": "pgrls",
+      "description": "Configuration for pgrls, the Postgres Row-Level Security linter (pgrls.toml)",
+      "fileMatch": ["pgrls.toml"],
+      "url": "https://www.schemastore.org/pgrls.json"
+    },
+    {
       "name": "pattern.json",
       "description": "Patternplate pattern manifest file",
       "fileMatch": ["pattern.json"],
@@ -8899,7 +8915,7 @@
     {
       "name": "GlazeWM settings",
       "description": "GlazeWM settings",
-      "fileMatch": ["**/.glaze-wm/config.yaml"],
+      "fileMatch": ["**/.glaze-wm/config.yaml", "**/glazewm/config.yaml"],
       "url": "https://www.schemastore.org/glazewm.json"
     },
     {
@@ -10164,7 +10180,7 @@
     {
       "name": "Qlik Talend Cloud Pipeline - Transformation Data Flow",
       "description": "Transformation data flow definition for QTCP tasks",
-      "fileMatch": ["**/qtcp_tasks/*/transformationDataflow/*.yaml"],
+      "fileMatch": ["**/qtcp_tasks/*/transformationDataFlows/*.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/qlik-oss/schemas@refs/heads/main/qtcp/task.transformationdataflow.schema.json"
     },
     {
@@ -10172,6 +10188,12 @@
       "description": "Default configurations for creating new QTCP tasks (via the UI)",
       "fileMatch": ["**/qtcp_tasks/newTaskDefaults.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/qlik-oss/schemas@refs/heads/main/qtcp/newtaskdefaults.schema.json"
+    },
+    {
+      "name": "QuikRun Configuration",
+      "description": "Configuration for QuikRun",
+      "fileMatch": ["quikrun.toml"],
+      "url": "https://www.schemastore.org/quikrun.json"
     }
   ]
 }
