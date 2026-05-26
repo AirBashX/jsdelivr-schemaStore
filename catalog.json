@@ -10200,6 +10200,23 @@
       "description": "Configuration for QuikRun",
       "fileMatch": ["quikrun.toml"],
       "url": "https://www.schemastore.org/quikrun.json"
+    },
+    {
+      "name": "Caido Proxy Configuration",
+      "description": "Caido Proxy configuration file",
+      "fileMatch": ["caido.yml", "caido.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/caido/schemas@main/.schemastore/proxy/config.schema.json"
+    },
+    {
+      "name": "amxx-builder manifest",
+      "description": "amxx-builder (amxb) project manifest",
+      "fileMatch": [
+        "amxbuild.yml",
+        "amxbuild.yaml",
+        "amxbuild.*.yml",
+        "amxbuild.*.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/AmxxModularEcosystem/amxx-builder@master/schema/amxbuild.schema.json"
     }
   ]
 }
