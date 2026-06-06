@@ -3966,6 +3966,22 @@
       "url": "https://www.schemastore.org/importmap.json"
     },
     {
+      "name": "Infinispan Configuration",
+      "description": "Infinispan distributed cache configuration",
+      "fileMatch": ["infinispan.json", "infinispan.yaml", "infinispan.yml"],
+      "url": "https://infinispan.org/schemas/infinispan-config.json"
+    },
+    {
+      "name": "Infinispan Server Configuration",
+      "description": "Infinispan Server configuration",
+      "fileMatch": [
+        "infinispan-server.json",
+        "infinispan-server.yaml",
+        "infinispan-server.yml"
+      ],
+      "url": "https://infinispan.org/schemas/infinispan-server.json"
+    },
+    {
       "name": "Infrahub",
       "description": "Repository config definition for Infrahub by OpsMill",
       "fileMatch": [".infrahub.yml", ".infrahub.yaml"],
@@ -5180,8 +5196,9 @@
         "otel*.yaml",
         "otel*.yml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.0.0/opentelemetry_configuration.json",
+      "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
       "versions": {
+        "1.1.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
         "1.0.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.0.0/opentelemetry_configuration.json"
       }
     },
@@ -5474,6 +5491,12 @@
       "description": "AI agent capability declaration (pactspec.dev)",
       "fileMatch": ["*.pactspec.json", "*.pactspec.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/pactspec.json"
+    },
+    {
+      "name": "Panache",
+      "description": "Configuration file for Panache, a language server, formatter, and linter for Markdown, Quarto, and R Markdown documents",
+      "fileMatch": ["panache.toml", ".panache.toml"],
+      "url": "https://panache.bz/panache.schema.json"
     },
     {
       "name": "Paper paper-plugin.yml",
