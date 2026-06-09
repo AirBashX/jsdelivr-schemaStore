@@ -1888,6 +1888,12 @@
       "url": "https://fastly.jsdelivr.net/gh/helm-unittest/helm-unittest@refs/heads/main/schema/helm-testsuite.json"
     },
     {
+      "name": "Hex file",
+      "description": "Hex notebook file format - create and maintain data notebooks on Hex.tech",
+      "fileMatch": ["*.hex.yaml"],
+      "url": "https://static.hex.site/hex-file-schema.json"
+    },
+    {
       "name": "CircleCI config.yml",
       "description": "CircleCI config files",
       "fileMatch": ["**/.circleci/config.yml"],
@@ -3144,6 +3150,12 @@
         ".eslintrc.yaml"
       ],
       "url": "https://www.schemastore.org/eslintrc.json"
+    },
+    {
+      "name": "ESLint Suppressions",
+      "description": "ESLint bulk suppressions file",
+      "fileMatch": ["eslint-suppressions.json"],
+      "url": "https://www.schemastore.org/eslint-suppressions.json"
     },
     {
       "name": "fabric.mod.json",
@@ -9310,6 +9322,11 @@
       "url": "https://www.schemastore.org/elm.json"
     },
     {
+      "name": "Emmet",
+      "description": "Emmet snippets file",
+      "url": "https://www.schemastore.org/emmet.json"
+    },
+    {
       "name": "Cloud Run Spec v1",
       "description": "Specification for Cloud Run Admin API v1",
       "fileMatch": ["cloud-run-v1.yml", "cloud-run-v1.yaml"],
@@ -10313,6 +10330,15 @@
         "amxbuild.*.yaml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/AmxxModularEcosystem/amxx-builder@master/schema/amxbuild.schema.json"
+    },
+    {
+      "name": "Podman Desktop Extension",
+      "description": "Podman Desktop extension package.json manifest",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/podman-desktop-extension.json",
+      "versions": {
+        "1.27": "https://www.schemastore.org/podman-desktop-extension-1.27.json"
+      }
     }
   ]
 }
