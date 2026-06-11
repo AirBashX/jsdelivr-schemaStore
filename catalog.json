@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "SigmaCV CV",
+      "description": "SigmaCV canonical academic-CV object — open, machine-readable CV metadata (publications, positions, education, funding and narrative sections) generated from open research information",
+      "fileMatch": ["**/*.sigmacv.json"],
+      "url": "https://www.schemastore.org/sigmacv.json"
+    },
+    {
       "name": "revola.json",
       "description": "Configuration file for Revola",
       "fileMatch": [
@@ -64,7 +70,9 @@
       "fileMatch": [
         ".platform.app.yml",
         ".platform.app.yaml",
-        "**/.platform.app.yml"
+        "**/.platform.app.yml",
+        "**/.platform/applications.yml",
+        "**/.platform/applications.yaml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/platformsh/platformify@refs/heads/main/validator/schema/platformsh.application.json"
     },
@@ -1970,6 +1978,12 @@
       "url": "https://www.schemastore.org/codex-hooks.json"
     },
     {
+      "name": "Codex Skill Metadata",
+      "description": "OpenAI Codex skill metadata file",
+      "fileMatch": ["**/agents/openai.yaml"],
+      "url": "https://www.schemastore.org/codex-skill-metadata.json"
+    },
+    {
       "name": "codemagic",
       "description": "Codemagic CI/CD file configuration",
       "fileMatch": ["codemagic.yaml", "codemagic.yml"],
@@ -2440,8 +2454,13 @@
     },
     {
       "name": "dependabot-v2.json",
-      "description": "GitHub Actions' dependabot.yml files",
-      "fileMatch": ["**/.github/dependabot.yml", "**/.github/dependabot.yaml"],
+      "description": "Dependabot v2 configuration files",
+      "fileMatch": [
+        "**/.azuredevops/dependabot.yml",
+        "**/.azuredevops/dependabot.yaml",
+        "**/.github/dependabot.yml",
+        "**/.github/dependabot.yaml"
+      ],
       "url": "https://www.schemastore.org/dependabot-2.0.json"
     },
     {
@@ -10163,6 +10182,12 @@
       "versions": {
         "1.0": "https://schema.agentcore.aws.dev/v1/agentcore.json"
       }
+    },
+    {
+      "name": "AgentLoopKit",
+      "description": "Configuration file for AgentLoopKit, a repo-level engineering loop for coding agents",
+      "fileMatch": ["agentloop.config.json"],
+      "url": "https://fastly.jsdelivr.net/gh/abhiyoheswaran1/AgentLoopKit@main/schema/agentloop.config.schema.json"
     },
     {
       "name": "Ethereum ERC721",
