@@ -4,7 +4,7 @@
   "schemas": [
     {
       "name": "SigmaCV CV",
-      "description": "SigmaCV canonical academic-CV object — open, machine-readable CV metadata (publications, positions, education, funding and narrative sections) generated from open research information",
+      "description": "SigmaCV canonical academic-CV object \u2014 open, machine-readable CV metadata (publications, positions, education, funding and narrative sections) generated from open research information",
       "fileMatch": ["**/*.sigmacv.json"],
       "url": "https://www.schemastore.org/sigmacv.json"
     },
@@ -3395,6 +3395,19 @@
         "**/GeminiCli/settings.json"
       ],
       "url": "https://fastly.jsdelivr.net/gh/google-gemini/gemini-cli@refs/heads/main/schemas/settings.schema.json"
+    },
+    {
+      "name": "Glamour style",
+      "description": "Style configuration for Charmbracelet Glamour and Glow Markdown rendering",
+      "fileMatch": [
+        ".glamour-style.json",
+        "*.glamour-style.json",
+        "*.glamour.json",
+        "*.glow-style.json",
+        "glamour-style.json",
+        "glow-style.json"
+      ],
+      "url": "https://www.schemastore.org/glamour-style.json"
     },
     {
       "name": "Global Privacy Control",
@@ -8142,6 +8155,12 @@
       "description": "Containerlab topology definition files",
       "fileMatch": ["*-clab.yaml", "*-clab.yml", "*.clab.yaml", "*.clab.yml"],
       "url": "https://fastly.jsdelivr.net/gh/srl-labs/containerlab@main/schemas/clab.schema.json"
+    },
+    {
+      "name": "ContractGuard",
+      "description": "ContractGuard API contract prescribing the signatures a built .NET assembly must expose",
+      "fileMatch": ["*.contract.json"],
+      "url": "https://fastly.jsdelivr.net/gh/lxman/ContractGuard@main/schema/contractguard.schema.json"
     },
     {
       "name": "User Journey Map",
