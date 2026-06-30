@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "Specpin spec file",
+      "description": "Specpin business-spec file (.specs/*.spec.json): rules, descriptions, and acceptance criteria pinned to UI elements",
+      "fileMatch": ["**/.specs/*.spec.json"],
+      "url": "https://specpin.ohnice.app/schema/v1.json"
+    },
+    {
       "name": "Burnless SRE config",
       "description": "Burnless sre.yaml \u2014 SLOs, error budgets, runbooks, on-call, and dashboards as code",
       "fileMatch": ["sre.yaml", "sre.yml"],
@@ -552,12 +558,13 @@
       "name": "Aurora Agile Meta-Framework",
       "description": "Yaml for Aurora Agile Meta-Framework",
       "fileMatch": ["*.aurora.yaml", "*.aurora.yml"],
-      "url": "https://www.schemastore.org/aurora-1.3.json",
+      "url": "https://www.schemastore.org/aurora-2.0.json",
       "versions": {
         "1.0": "https://www.schemastore.org/aurora-1.0.json",
         "1.1": "https://www.schemastore.org/aurora-1.1.json",
         "1.2": "https://www.schemastore.org/aurora-1.2.json",
-        "1.3": "https://www.schemastore.org/aurora-1.3.json"
+        "1.3": "https://www.schemastore.org/aurora-1.3.json",
+        "2.0": "https://www.schemastore.org/aurora-2.0.json"
       }
     },
     {
@@ -4214,8 +4221,9 @@
       "name": "JReleaser",
       "description": "JReleaser config file",
       "fileMatch": ["jreleaser.yml", "jreleaser.json"],
-      "url": "https://www.schemastore.org/jreleaser-1.24.0.json",
+      "url": "https://www.schemastore.org/jreleaser-1.25.0.json",
       "versions": {
+        "1.25.0": "https://www.schemastore.org/jreleaser-1.25.0.json",
         "1.24.0": "https://www.schemastore.org/jreleaser-1.24.0.json",
         "1.23.0": "https://www.schemastore.org/jreleaser-1.23.0.json",
         "1.22.0": "https://www.schemastore.org/jreleaser-1.22.0.json",
@@ -6557,6 +6565,12 @@
       }
     },
     {
+      "name": "Secure SDLC Evidence Bundle",
+      "description": "Auditable release-readiness evidence bundle produced by the Secure SDLC Evidence Collector",
+      "fileMatch": ["**/*.evidence-bundle.json"],
+      "url": "https://www.schemastore.org/evidence-bundle.json"
+    },
+    {
       "name": "Semantic Data Fabric (SDF) file",
       "description": "SDF blocks",
       "fileMatch": ["*.sdf.yml"],
@@ -6907,6 +6921,19 @@
       "description": "Configuration file for SpongePowered's Mixin library",
       "fileMatch": ["*.mixins.json"],
       "url": "https://www.schemastore.org/sponge-mixins.json"
+    },
+    {
+      "name": "Spotlight Ruleset",
+      "description": "Spotlight (Spectral-compatible) ruleset for linting OpenAPI, AsyncAPI, Arazzo, APIs.json and other JSON/YAML API descriptions",
+      "fileMatch": [
+        "*.spotlight.json",
+        "*.spotlight.yaml",
+        "*.spotlight.yml",
+        "spotlight-ruleset.json",
+        "spotlight-ruleset.yaml",
+        "spotlight-ruleset.yml"
+      ],
+      "url": "https://api-commons.github.io/spotlight-spec/schema/v1/spotlight-ruleset.schema.json"
     },
     {
       "name": ".sprite files",
