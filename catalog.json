@@ -2802,6 +2802,15 @@
       "url": "https://eca.dev/config.json"
     },
     {
+      "name": "editorconfig-checker",
+      "description": "editorconfig-checker configuration file",
+      "fileMatch": [".editorconfig-checker.json"],
+      "url": "https://fastly.jsdelivr.net/gh/editorconfig-checker/editorconfig-checker@main/.editorconfig-checker.schema.json",
+      "versions": {
+        "3.8.0": "https://fastly.jsdelivr.net/gh/editorconfig-checker/editorconfig-checker@v3.8.0/.editorconfig-checker.schema.json"
+      }
+    },
+    {
       "name": "eksctl",
       "description": "eksctl cluster configuration file",
       "url": "https://fastly.jsdelivr.net/gh/weaveworks/eksctl@main/pkg/apis/eksctl.io/v1alpha5/assets/schema.json"
@@ -4567,6 +4576,17 @@
       "description": "Kubri configuration file",
       "fileMatch": [".kubri.yaml", ".kubri.yml", "kubri.yaml", "kubri.yml"],
       "url": "https://kubri.dev/schema.json"
+    },
+    {
+      "name": "kind cluster",
+      "description": "Configuration file for kind (Kubernetes IN Docker) clusters",
+      "fileMatch": [
+        "kind.yaml",
+        "kind.yml",
+        "**/kind-config.yaml",
+        "**/kind-config.yml"
+      ],
+      "url": "https://www.schemastore.org/kind-cluster.json"
     },
     {
       "name": "kustomization.yaml",
@@ -10652,6 +10672,12 @@
       "description": "Configuration file for the slang-server SystemVerilog language server. Documentation: https://hudson-trading.github.io/slang-server",
       "fileMatch": ["**/.slang/server.json", "**/.slang/local/server.json"],
       "url": "https://fastly.jsdelivr.net/gh/hudson-trading/slang-server@refs/heads/main/clients/vscode/resources/config.schema.json"
+    },
+    {
+      "name": "Heloisa Assistant Plugins Marketplace",
+      "description": "Validation rules for the Heloísa assistant's plugin catalog",
+      "fileMatch": ["heloisa-marketplace.json"],
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/heloisa-marketplace.json"
     },
     {
       "name": "OKF Graph",
