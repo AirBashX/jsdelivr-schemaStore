@@ -147,7 +147,7 @@
     {
       "name": "Applicant Profile Protocol",
       "description": "Structured JSON format for professional profiles, resumes, and CVs with skills, experience, education, and certifications",
-      "fileMatch": ["*.app.json"],
+      "fileMatch": ["*.app-profile.json"],
       "url": "https://app-protocol.org/schema/app-1.0.json"
     },
     {
@@ -537,6 +537,12 @@
       "description": "Artifact Hub repository metadata file",
       "fileMatch": ["artifacthub-repo.yml"],
       "url": "https://www.schemastore.org/artifacthub-repo.json"
+    },
+    {
+      "name": "Are The Types Wrong?",
+      "description": "Configuration for the Are The Types Wrong? CLI",
+      "fileMatch": [".attw.json"],
+      "url": "https://www.schemastore.org/attw.json"
     },
     {
       "name": "asm-lsp",
@@ -1049,6 +1055,24 @@
       "description": "Like Prometheus, but for logs",
       "fileMatch": ["loki.yml", "loki.yaml"],
       "url": "https://www.schemastore.org/loki.json"
+    },
+    {
+      "name": "lsd config",
+      "description": "Configuration for lsd, the next-generation ls command",
+      "fileMatch": ["**/.config/lsd/config.yaml"],
+      "url": "https://www.schemastore.org/lsd-config.json"
+    },
+    {
+      "name": "lsd colors",
+      "description": "Color theme configuration for lsd",
+      "fileMatch": ["**/.config/lsd/colors.yaml"],
+      "url": "https://www.schemastore.org/lsd-colors.json"
+    },
+    {
+      "name": "lsd icons",
+      "description": "Icon theme configuration for lsd",
+      "fileMatch": ["**/.config/lsd/icons.yaml"],
+      "url": "https://www.schemastore.org/lsd-icons.json"
     },
     {
       "name": "Azure Pipelines",
@@ -3492,7 +3516,6 @@
     {
       "name": "GCP Blueprint Metadata",
       "description": "Blueprint Solutions for Google Cloud",
-      "fileMatch": ["metadata.yaml", "metadata.display.yaml"],
       "url": "https://www.schemastore.org/gcp-blueprint-metadata.json"
     },
     {
@@ -3607,6 +3630,12 @@
       "url": "https://www.schemastore.org/github-discussion.json"
     },
     {
+      "name": "GitHub Prompt",
+      "description": "YAML prompt files for GitHub Models (.prompt.yml / .prompt.yaml)",
+      "fileMatch": ["**/*.prompt.yml", "**/*.prompt.yaml"],
+      "url": "https://www.schemastore.org/github-prompt.json"
+    },
+    {
       "name": "GitHub Funding",
       "description": "YAML GitHub Funding",
       "fileMatch": [
@@ -3639,6 +3668,12 @@
       "name": "GitHub Pages Jekyll",
       "description": "YAML Jekyll configuration for sites built by GitHub Pages",
       "url": "https://www.schemastore.org/github-pages-jekyll.json"
+    },
+    {
+      "name": "GitHub Secret Scanning",
+      "description": "YAML configuration for GitHub secret scanning exclusions",
+      "fileMatch": ["**/.github/secret_scanning.yml"],
+      "url": "https://www.schemastore.org/github-secret-scanning.json"
     },
     {
       "name": "GitHub Workflow",
@@ -4059,6 +4094,12 @@
       "description": "HTML-validate is an offline HTML5 validator",
       "fileMatch": [".htmlvalidate.json"],
       "url": "https://html-validate.org/schemas/config.json"
+    },
+    {
+      "name": "Hoverfly Simulation",
+      "description": "Hoverfly API simulation file for captured or authored HTTP request-response pairs",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/SpectoLabs/hoverfly@master/core/handlers/v2/schema.json"
     },
     {
       "name": "Ory Hydra configuration",
@@ -5003,6 +5044,11 @@
       "url": "https://fastly.jsdelivr.net/gh/getmockd/mockd@main/schema/mockd.schema.json"
     },
     {
+      "name": "MockServer Expectation",
+      "description": "MockServer expectation configuration defining a single request matcher and response action. For files holding an array of expectations, use the \"MockServer Expectations\" entry. See https://www.mock-server.com",
+      "url": "https://www.mock-server.com/schema/expectation.json"
+    },
+    {
       "name": "MockServer Expectations",
       "description": "MockServer expectations configuration for defining request matchers and response actions. See https://www.mock-server.com",
       "fileMatch": [
@@ -5326,6 +5372,24 @@
       "description": "October CMS fields files",
       "fileMatch": ["fields.yaml", "*_fields.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/inetis-ch/october-schemas@master/fields.json"
+    },
+    {
+      "name": "ODGS Standard Metrics",
+      "description": "Open Data Governance Standard (ODGS) metric definitions — KPI logic, lineage, and compliance mappings",
+      "fileMatch": ["*.odgs-metrics.json"],
+      "url": "https://www.schemastore.org/odgs-standard-metrics.json"
+    },
+    {
+      "name": "ODGS Data Rules",
+      "description": "ODGS validation and permissibility rules — mechanically executable data governance constraints",
+      "fileMatch": ["*.odgs-rules.json"],
+      "url": "https://www.schemastore.org/odgs-data-rules.json"
+    },
+    {
+      "name": "ODGS Ontology Graph",
+      "description": "ODGS business-entity ontology graph for AI graph traversal",
+      "fileMatch": ["*.odgs-ontology.json"],
+      "url": "https://www.schemastore.org/odgs-ontology-graph.json"
     },
     {
       "name": "ogen",
@@ -6153,7 +6217,7 @@
       "fileMatch": ["**/.github/labeler.yml"],
       "url": "https://www.schemastore.org/pull-request-labeler.json",
       "versions": {
-        "4": "https://www.schemastore.org/pull-request-labeler.json",
+        "4": "https://www.schemastore.org/pull-request-labeler-4.json",
         "5": "https://www.schemastore.org/pull-request-labeler-5.json"
       }
     },
@@ -10543,6 +10607,12 @@
       "description": "Configuration file for Acton projects",
       "fileMatch": ["Acton.toml"],
       "url": "https://fastly.jsdelivr.net/gh/ton-blockchain/acton@master/crates/acton-config/schemas/acton.schema.json"
+    },
+    {
+      "name": "act3",
+      "description": "act3 configuration file",
+      "fileMatch": ["**/act3/act3.yml"],
+      "url": "https://www.schemastore.org/act3.json"
     },
     {
       "name": "memnex",
