@@ -5631,12 +5631,7 @@
     {
       "name": "OpenTelemetry Declarative Configuration",
       "description": "OpenTelemetry declarative configuration for SDKs and instrumentation",
-      "fileMatch": [
-        "opentelemetry*.yaml",
-        "opentelemetry*.yml",
-        "otel*.yaml",
-        "otel*.yml"
-      ],
+      "fileMatch": ["opentelemetry*.yaml", "opentelemetry*.yml"],
       "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
       "versions": {
         "1.1.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
@@ -6619,6 +6614,7 @@
       ],
       "url": "https://docs.renovatebot.com/renovate-schema.json",
       "versions": {
+        "43": "https://www.schemastore.org/renovate-43.json",
         "42": "https://www.schemastore.org/renovate-42.json",
         "41": "https://www.schemastore.org/renovate-41.json",
         "40": "https://www.schemastore.org/renovate-40.json",
@@ -6631,6 +6627,7 @@
       "fileMatch": [],
       "url": "https://docs.renovatebot.com/renovate-global-schema.json",
       "versions": {
+        "43": "https://www.schemastore.org/renovate-global-schema-43.json",
         "42": "https://www.schemastore.org/renovate-global-schema-42.json",
         "41": "https://www.schemastore.org/renovate-global-schema-41.json"
       }
@@ -6641,6 +6638,7 @@
       "fileMatch": [],
       "url": "https://docs.renovatebot.com/renovate-inherited-schema.json",
       "versions": {
+        "43": "https://www.schemastore.org/renovate-inherited-schema-43.json",
         "42": "https://www.schemastore.org/renovate-inherited-schema-42.json"
       }
     },
@@ -7017,6 +7015,34 @@
       "description": "Configuration file for size-limit",
       "fileMatch": [".size-limit.json"],
       "url": "https://www.schemastore.org/size-limit.json"
+    },
+    {
+      "name": "skill-map plugin extension manifest",
+      "description": "Declarative manifest of a skill-map plugin extension (version, description, stability, defaultEnabled), read before any code is imported",
+      "fileMatch": [
+        "**/.skill-map/plugins/*/providers/*/extension.json",
+        "**/.skill-map/plugins/*/extractors/*/extension.json",
+        "**/.skill-map/plugins/*/analyzers/*/extension.json",
+        "**/.skill-map/plugins/*/actions/*/extension.json",
+        "**/.skill-map/plugins/*/formatters/*/extension.json",
+        "**/.skill-map/plugins/*/hooks/*/extension.json"
+      ],
+      "url": "https://skill-map.ai/spec/v1/extensions/extension-manifest.schema.json"
+    },
+    {
+      "name": "skill-map project settings",
+      "description": "Per-project skill-map configuration (.skill-map/settings.json and its .local partner)",
+      "fileMatch": [
+        "**/.skill-map/settings.json",
+        "**/.skill-map/settings.local.json"
+      ],
+      "url": "https://skill-map.ai/spec/v1/project-config.schema.json"
+    },
+    {
+      "name": "skill-map provider kind",
+      "description": "Node-kind descriptor a skill-map Provider plugin declares",
+      "fileMatch": ["**/.skill-map/plugins/*/kinds/*/kind.json"],
+      "url": "https://skill-map.ai/spec/v1/extensions/provider-kind.schema.json"
     },
     {
       "name": "Slack app manifest",
@@ -7569,6 +7595,12 @@
       "url": "https://static.trunk.io/pub/trunk-yaml-schema.json"
     },
     {
+      "name": "tsbuild",
+      "description": "Configuration for the tsbuild TypeScript build system",
+      "fileMatch": ["tsbuild.json"],
+      "url": "https://www.schemastore.org/tsbuild.json"
+    },
+    {
       "name": "tsconfig.json",
       "description": "TypeScript compiler configuration file",
       "fileMatch": ["tsconfig*.json"],
@@ -7887,6 +7919,15 @@
       "description": "vim plugin addon-info.json metadata files",
       "fileMatch": ["**/*vim*/addon-info.json"],
       "url": "https://www.schemastore.org/vim-addon-info.json"
+    },
+    {
+      "name": "Vogi",
+      "description": "Repository configuration for Vogi agents",
+      "fileMatch": [".vogi.yaml"],
+      "url": "https://vogi-control-plane-265712319769.us-central1.run.app/integrations/schema.v1.json",
+      "versions": {
+        "1": "https://vogi-control-plane-265712319769.us-central1.run.app/integrations/schema.v1.json"
+      }
     },
     {
       "name": "vsls.json",
@@ -10601,13 +10642,13 @@
     {
       "name": "oxfmt",
       "description": "Configuration file for Oxfmt, a high-performance formatter for the JavaScript ecosystem",
-      "fileMatch": ["**/.oxfmtrc.json"],
+      "fileMatch": ["**/.oxfmtrc.json", "**/.oxfmtrc.jsonc"],
       "url": "https://fastly.jsdelivr.net/gh/oxc-project/oxc@refs/heads/main/npm/oxfmt/configuration_schema.json"
     },
     {
       "name": "oxlint",
       "description": "Configuration file for Oxlint, a high-performance linter for JavaScript and TypeScript built on the Oxc compiler stack",
-      "fileMatch": ["**/.oxlintrc.json"],
+      "fileMatch": ["**/.oxlintrc.json", "**/.oxlintrc.jsonc"],
       "url": "https://fastly.jsdelivr.net/gh/oxc-project/oxc@refs/heads/main/npm/oxlint/configuration_schema.json"
     },
     {
