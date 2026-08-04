@@ -518,6 +518,30 @@
       "url": "https://fastly.jsdelivr.net/gh/architect/parser@v2.3.0/arc-schema.json"
     },
     {
+      "name": "Archival editor configuration",
+      "description": "Per-object editor configuration for an archival site",
+      "fileMatch": ["archival_editor.toml"],
+      "url": "https://archival.dev/schemas/archival_editor.schema.json"
+    },
+    {
+      "name": "Archival object definitions",
+      "description": "Object definitions for an archival site",
+      "fileMatch": ["archival_objects.toml"],
+      "url": "https://archival.dev/schemas/objects.schema.json"
+    },
+    {
+      "name": "Archival site configuration",
+      "description": "Site configuration for an archival site",
+      "fileMatch": ["archival.toml"],
+      "url": "https://archival.dev/schemas/manifest.schema.json"
+    },
+    {
+      "name": "Archival template definition",
+      "description": "Metadata describing an archival site template",
+      "fileMatch": ["archival_template.toml"],
+      "url": "https://archival.dev/schemas/archival_template.schema.json"
+    },
+    {
       "name": "Argo CD",
       "description": "Argo CD base resources",
       "url": "https://fastly.jsdelivr.net/gh/argoproj/argo-schema-generator@main/schema/argo_cd_kustomize_schema.json"
@@ -3709,6 +3733,17 @@
       "description": "Configuration for the gh-dash GitHub CLI dashboard",
       "fileMatch": [".gh-dash.yml", ".gh-dash.yaml", "**/gh-dash/config.yml"],
       "url": "https://gh-dash.dev/schema.json"
+    },
+    {
+      "name": "gha-doctor",
+      "description": "Configuration for gha-doctor, the GitHub Actions health checker (speed, cost, and reliability of your workflows)",
+      "fileMatch": [
+        ".gha-doctor.yml",
+        ".gha-doctor.yaml",
+        "**/.github/gha-doctor.yml",
+        "**/.github/gha-doctor.yaml"
+      ],
+      "url": "https://linnea-bakshi.github.io/gha-doctor/schema/gha-doctor-config.schema.json"
     },
     {
       "name": "GitHub Action",
