@@ -5666,7 +5666,12 @@
     {
       "name": "OpenTelemetry Declarative Configuration",
       "description": "OpenTelemetry declarative configuration for SDKs and instrumentation",
-      "fileMatch": ["opentelemetry*.yaml", "opentelemetry*.yml"],
+      "fileMatch": [
+        "opentelemetry*.yaml",
+        "opentelemetry*.yml",
+        "otel-sdk*.yaml",
+        "otel-sdk*.yml"
+      ],
       "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
       "versions": {
         "1.1.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
