@@ -3855,6 +3855,12 @@
       "url": "https://gitlab.com/gitlab-org/gitlab-foss/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     },
     {
+      "name": "GitLab Duo Workflow",
+      "description": "YAML configuration for GitLab Duo Workflows",
+      "fileMatch": [".gitlab/duo/flows/*.yaml"],
+      "url": "https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/raw/main/duo_workflow_service/schemas/v1/flow_config.schema.json"
+    },
+    {
       "name": "Gitpod Automations",
       "description": "Configuration for Gitpod Automations",
       "fileMatch": [
@@ -4024,6 +4030,12 @@
       "description": "go-feature-flag flag configuration file",
       "fileMatch": ["*.goff.yml", "*.goff.yaml", "*.goff.json", "*.goff.toml"],
       "url": "https://fastly.jsdelivr.net/gh/thomaspoignant/go-feature-flag@main/.schema/flag-schema.json"
+    },
+    {
+      "name": "gojo.yaml",
+      "description": "gojo project manifest (profiles, agents, schedules)",
+      "fileMatch": ["gojo.yaml", "**/.gojo/project.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/detroitpro/gojo@main/packages/contracts/schemas/gojo.project.schema.json"
     },
     {
       "name": "Goreleaser",
@@ -5698,6 +5710,12 @@
       "versions": {
         "v0.9.0": "https://github.com/bitol-io/open-data-product-standard/blob/main/schema/odps-json-schema-v0.9.0.json"
       }
+    },
+    {
+      "name": "Open Pentest Format",
+      "description": "OPF finding library or engagement export (*.opf.json): portable penetration test findings",
+      "fileMatch": ["*.opf.json"],
+      "url": "https://cairnsecurity.com/opf/schema/opf-1.1.schema.json"
     },
     {
       "name": "OpenSRM",
