@@ -187,6 +187,7 @@
       "fileMatch": [".awc.yaml", ".awc.yml", ".awc.json", ".awc.jsonc", ".awc"],
       "url": "https://www.schemastore.org/anywork-ac-1.1.json",
       "versions": {
+        "1.1": "https://www.schemastore.org/anywork-ac-1.1.json",
         "1.0": "https://www.schemastore.org/anywork-ac-1.0.json"
       }
     },
@@ -815,6 +816,7 @@
       "url": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.10/bottom.json",
       "versions": {
         "nightly": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/nightly/bottom.json",
+        "0.14.9": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.9/bottom.json",
         "0.14.7": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.7/bottom.json",
         "0.14.0": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.0/bottom.json",
         "0.13.0": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.13.0/bottom.json",
@@ -1346,6 +1348,23 @@
       "name": "BOSH Deploy Config",
       "description": "Deploy config for BOSH CLI",
       "url": "https://www.schemastore.org/bosh-deploy-config.json"
+    },
+    {
+      "name": "BOSH Job Spec",
+      "description": "Job Spec for BOSH Releases",
+      "fileMatch": ["**/jobs/*/spec"],
+      "url": "https://www.schemastore.org/bosh-job-spec.json"
+    },
+    {
+      "name": "BOSH Package Spec",
+      "description": "Package Spec for BOSH Releases",
+      "fileMatch": ["**/packages/*/spec"],
+      "url": "https://www.schemastore.org/bosh-package-spec.json"
+    },
+    {
+      "name": "BOSH Ops File",
+      "description": "Ops File for BOSH CLI",
+      "url": "https://www.schemastore.org/bosh-ops-file.json"
     },
     {
       "name": "Boyka Framework",
@@ -1982,6 +2001,16 @@
         "**/.deploystack/config.yaml"
       ],
       "url": "https://cdnx.deploystack.io/schema/config.yml.json"
+    },
+    {
+      "name": "Design Tokens Community Group format",
+      "description": "Design token files using the DTCG format",
+      "url": "https://www.designtokens.org/schemas/2025.10/format.json"
+    },
+    {
+      "name": "Design Tokens Community Group resolver",
+      "description": "DTCG resolver documents",
+      "url": "https://www.designtokens.org/schemas/2025.10/resolver.json"
     },
     {
       "name": "Deta Spacefile",
@@ -2838,13 +2867,13 @@
       "name": "Dolittle Tenant Map Configuration",
       "description": "A Dolittle bounded context's tenant mapping configurations",
       "fileMatch": ["**/.dolittle/tenant-map.json"],
-      "url": "https://fastly.jsdelivr.net/gh/dolittle/DotNET.Fundamentals@master/Schemas/Tenancy.Configuration/tenant-map.json"
+      "url": "https://fastly.jsdelivr.net/gh/dolittle-obsolete/DotNET.Fundamentals@v4.10.0/Schemas/Tenancy.Configuration/tenant-map.json"
     },
     {
       "name": "Dolittle Topology",
       "description": "A Dolittle bounded context's topology",
       "fileMatch": ["**/.dolittle/topology.json"],
-      "url": "https://fastly.jsdelivr.net/gh/dolittle/DotNET.SDK@master/Schemas/Applications.Configuration/topology.json"
+      "url": "https://fastly.jsdelivr.net/gh/dolittle/DotNET.SDK@v5.0.0/Schemas/Applications.Configuration/topology.json"
     },
     {
       "name": "dotnet Release Index manifest",
@@ -2916,7 +2945,7 @@
       "fileMatch": ["devfile.yaml", ".devfile.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/devfile/api@v2.2.0/schemas/latest/devfile.json",
       "versions": {
-        "1.0.0": "https://fastly.jsdelivr.net/gh/eclipse-che/che-server@master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
+        "1.0.0": "https://fastly.jsdelivr.net/gh/eclipse-che/che-server@7.80.0/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
         "2.0.0": "https://fastly.jsdelivr.net/gh/devfile/api@v2.0.0/schemas/latest/devfile.json",
         "2.1.0": "https://fastly.jsdelivr.net/gh/devfile/api@v2.1.0/schemas/latest/devfile.json",
         "2.2.0": "https://fastly.jsdelivr.net/gh/devfile/api@v2.2.0/schemas/latest/devfile.json"
@@ -4100,7 +4129,7 @@
       "name": "tree-sitter grammar.json",
       "description": "tree-sitter grammar.json",
       "fileMatch": ["grammar.json"],
-      "url": "https://fastly.jsdelivr.net/gh/tree-sitter/tree-sitter@master/docs/assets/schemas/config.schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/tree-sitter/tree-sitter@master/docs/src/assets/schemas/config.schema.json"
     },
     {
       "name": "Treefmt",
@@ -4607,7 +4636,7 @@
     {
       "name": "JSON-API",
       "description": "JSON API document",
-      "url": "https://jsonapi.org/schema"
+      "url": "https://fastly.jsdelivr.net/gh/json-api/json-api@v1.1/schema"
     },
     {
       "name": "JSON Document Transform",
@@ -6959,28 +6988,31 @@
     {
       "name": "SDMX structure message",
       "description": "Statistical Data and Metadata eXchange (ISO 17369) structure message",
-      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
+      "url": "https://json.sdmx.org/2.1/sdmx-json-structure-schema.json",
       "versions": {
-        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/1.0/sdmx-json-structure-schema.json",
-        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json"
+        "1.0": "https://json.sdmx.org/1.0/sdmx-json-structure-schema.json",
+        "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-structure-schema.json",
+        "2.1": "https://json.sdmx.org/2.1/sdmx-json-structure-schema.json"
       }
     },
     {
       "name": "SDMX metadata message",
       "description": "Statistical Data and Metadata eXchange (ISO 17369) metadata message",
-      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+      "url": "https://json.sdmx.org/2.1/sdmx-json-metadata-schema.json",
       "versions": {
-        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/1.0/sdmx-json-metadata-schema.json",
-        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json"
+        "1.0": "https://json.sdmx.org/1.0/sdmx-json-metadata-schema.json",
+        "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-metadata-schema.json",
+        "2.1": "https://json.sdmx.org/2.1/sdmx-json-metadata-schema.json"
       }
     },
     {
       "name": "SDMX data message",
       "description": "Statistical Data and Metadata eXchange (ISO 17369) data message",
-      "url": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+      "url": "https://json.sdmx.org/2.1/sdmx-json-data-schema.json",
       "versions": {
-        "1.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/1.0/sdmx-json-data-schema.json",
-        "2.0.0": "https://fastly.jsdelivr.net/gh/sdmx-twg/sdmx-json@master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json"
+        "1.0": "https://json.sdmx.org/1.0/sdmx-json-data-schema.json",
+        "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-data-schema.json",
+        "2.1": "https://json.sdmx.org/2.1/sdmx-json-data-schema.json"
       }
     },
     {
@@ -7536,7 +7568,7 @@
         "**/.connect/sources/*.yml",
         "**/.connect/sinks/*.yml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/synadia-io/connect@main/schemas/component.json"
+      "url": "https://fastly.jsdelivr.net/gh/synadia-io/connect@b647c6bc4448f7790c5a97ce39daae405ead0f0a/schemas/component.json"
     },
     {
       "name": "Tach",
@@ -10828,6 +10860,24 @@
       }
     },
     {
+      "name": "AgentCtl config",
+      "description": "agentctl config file (.ai/config.yaml): runtimes, project name, and sync settings for AI coding-agent configuration",
+      "fileMatch": ["**/.ai/config.yaml", "**/.ai/config.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/itslab42/agentctl@main/schemas/config.schema.json"
+    },
+    {
+      "name": "AgentCtl MCP",
+      "description": "agentctl MCP server declarations (.ai/mcp.yaml): Model Context Protocol servers rendered into each runtime's format",
+      "fileMatch": ["**/.ai/mcp.yaml", "**/.ai/mcp.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/itslab42/agentctl@main/schemas/mcp.schema.json"
+    },
+    {
+      "name": "AgentCtl permissions",
+      "description": "agentctl runtime-neutral permissions (.ai/permissions.yaml): filesystem and shell rules using deny-over-allow precedence",
+      "fileMatch": ["**/.ai/permissions.yaml", "**/.ai/permissions.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/itslab42/agentctl@main/schemas/permissions.schema.json"
+    },
+    {
       "name": "AgentLoopKit",
       "description": "Configuration file for AgentLoopKit, a repo-level engineering loop for coding agents",
       "fileMatch": ["agentloop.config.json"],
@@ -11072,6 +11122,12 @@
       "description": "Workflow definition for the yaml-workflow engine — params, tasks, steps, imports, and flows",
       "fileMatch": ["**/*.yaml-workflow.yaml", "**/*.yaml-workflow.yml"],
       "url": "https://fastly.jsdelivr.net/gh/orieg/yaml-workflow@main/schema/workflow-schema.json"
+    },
+    {
+      "name": "servercn",
+      "description": "Servercn is the backend component registry for node.js inspired by shadcn/ui",
+      "fileMatch": ["servercn.config.json", "servercn.json"],
+      "url": "https://www.akkaldhami.com.np/schema/servercn.config.json"
     }
   ]
 }
