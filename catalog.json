@@ -4294,6 +4294,12 @@
       "url": "https://fastly.jsdelivr.net/gh/HaxeFoundation/haxelib@master/schema.json"
     },
     {
+      "name": "hum",
+      "description": "Hum project process manifest",
+      "fileMatch": ["hum.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/brettinternet/hum@main/hum.schema.json"
+    },
+    {
       "name": "Hayson",
       "description": "Project Haystack data",
       "fileMatch": ["*.hayson.json", "*.hayson.yaml", "*.hayson.yml"],
@@ -5831,8 +5837,9 @@
         "otel-sdk*.yaml",
         "otel-sdk*.yml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
+      "url": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.2.0/opentelemetry_configuration.json",
       "versions": {
+        "1.2.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.2.0/opentelemetry_configuration.json",
         "1.1.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.1.0/opentelemetry_configuration.json",
         "1.0.0": "https://fastly.jsdelivr.net/gh/open-telemetry/opentelemetry-configuration@refs/tags/v1.0.0/opentelemetry_configuration.json"
       }
