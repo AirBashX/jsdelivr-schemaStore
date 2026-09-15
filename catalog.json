@@ -237,6 +237,11 @@
       "url": "https://fastly.jsdelivr.net/gh/aerleon/aerleon@main/schemas/aerleon-policies.schema.json"
     },
     {
+      "name": "Agent Run Metrics",
+      "description": "Report in the Agent Run Metrics format for resource accounting of language-model agent runs (IETF Internet-Draft draft-arsentev-agent-run-metrics)",
+      "url": "https://arsentev.ai/schemas/agent-run-metrics.json"
+    },
+    {
       "name": ".agripparc.json",
       "description": "the Agrippa config file",
       "fileMatch": [".agripparc.json", "agripparc.json"],
@@ -390,6 +395,12 @@
       "description": "Repository governance policy for ai-harness command guardrails, MCP policy, and trust gates",
       "fileMatch": ["aih-org-policy.json"],
       "url": "https://www.schemastore.org/aih-org-policy.json"
+    },
+    {
+      "name": "aibench",
+      "description": "aibench config (aibench.yaml): endpoint profiles and the prompt sets tested against them",
+      "fileMatch": ["aibench.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/petrsx/aibench@main/schema/aibench.schema.json"
     },
     {
       "name": "AIConfig",
@@ -4296,7 +4307,13 @@
     {
       "name": "hum",
       "description": "Hum project process manifest",
-      "fileMatch": ["hum.yaml"],
+      "fileMatch": [
+        "hum.yaml",
+        "hum.*.yaml",
+        "*.hum.yaml",
+        "hum.yml",
+        "*.hum.yml"
+      ],
       "url": "https://fastly.jsdelivr.net/gh/brettinternet/hum@main/hum.schema.json"
     },
     {
@@ -8855,6 +8872,11 @@
       "url": "https://mise.jdx.dev/schema/mise.json"
     },
     {
+      "name": "mise task",
+      "description": "mise config for `task_config.includes` tasks",
+      "url": "https://mise.jdx.dev/schema/mise-task.json"
+    },
+    {
       "name": "mta.yaml",
       "description": "A MTA projects v3.3",
       "fileMatch": ["mta.yaml", "mta.yml"],
@@ -8880,7 +8902,7 @@
     },
     {
       "name": "xs-app.json",
-      "description": "the SAP Application Router v8.2.2",
+      "description": "SAP Application Router configuration file",
       "fileMatch": ["xs-app.json"],
       "url": "https://www.schemastore.org/xs-app.json"
     },
