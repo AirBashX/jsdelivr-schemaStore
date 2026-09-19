@@ -3679,6 +3679,12 @@
       "url": "https://fastly.jsdelivr.net/gh/karakum-team/karakum@master/karakum-schema/karakum-schema.json"
     },
     {
+      "name": "klin.json",
+      "description": "klin quality policy configuration",
+      "fileMatch": ["klin.json"],
+      "url": "https://fastly.jsdelivr.net/gh/brajevicm/klin@main/schemas/klin.json"
+    },
+    {
       "name": "Knative Functions - func.yaml",
       "description": "Knative Functions func.yaml files",
       "fileMatch": ["func.yaml"],
