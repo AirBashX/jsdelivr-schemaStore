@@ -5175,6 +5175,18 @@
       "url": "https://www.schemastore.org/mapehr.json"
     },
     {
+      "name": "mcdreforged.plugin.json",
+      "description": "MCDReforged multi-file plugin metadata file",
+      "fileMatch": ["mcdreforged.plugin.json"],
+      "url": "https://fastly.jsdelivr.net/gh/MCDReforged/schema@master/schemas/mcdreforged-plugin-metadata.json"
+    },
+    {
+      "name": "mcdreforged.linked_directory_plugin.json",
+      "description": "MCDReforged linked directory plugin configuration file",
+      "fileMatch": ["mcdreforged.linked_directory_plugin.json"],
+      "url": "https://fastly.jsdelivr.net/gh/MCDReforged/schema@master/schemas/mcdreforged-link-directory-plugin.json"
+    },
+    {
       "name": "A micro editor config",
       "description": "A micro editor config",
       "fileMatch": ["**/micro/settings.json"],
@@ -6573,6 +6585,17 @@
       "description": "Prometheus Alertmanager configuration file",
       "fileMatch": ["alertmanager.yml", "alertmanager.yaml"],
       "url": "https://www.schemastore.org/prometheus-alertmanager.json"
+    },
+    {
+      "name": "Promtail",
+      "description": "An agent which ships the contents of local logs to a private Grafana Loki instance or Grafana Cloud",
+      "fileMatch": [
+        "promtail.yaml",
+        "promtail.yml",
+        "promtail-config.yaml",
+        "promtail-config.yml"
+      ],
+      "url": "https://www.schemastore.org/promtail.json"
     },
     {
       "name": "proxies.json",
@@ -9208,7 +9231,7 @@
     {
       "name": "djlint",
       "description": "djLint configuration file",
-      "fileMatch": [".djlintrc"],
+      "fileMatch": [".djlintrc", "djlint.toml", ".djlint.toml"],
       "url": "https://www.schemastore.org/djlint.json"
     },
     {
