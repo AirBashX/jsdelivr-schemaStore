@@ -3515,7 +3515,7 @@
       "name": "Expo SDK",
       "description": "Expo SDK app manifest",
       "fileMatch": [],
-      "url": "https://www.schemastore.org/expo-53.0.0.json",
+      "url": "https://www.schemastore.org/expo-57.0.0.json",
       "versions": {
         "37.0.0": "https://www.schemastore.org/expo-37.0.0.json",
         "38.0.0": "https://www.schemastore.org/expo-38.0.0.json",
@@ -3526,7 +3526,11 @@
         "46.0.0": "https://www.schemastore.org/expo-46.0.0.json",
         "50.0.0": "https://www.schemastore.org/expo-50.0.0.json",
         "52.0.0": "https://www.schemastore.org/expo-52.0.0.json",
-        "53.0.0": "https://www.schemastore.org/expo-53.0.0.json"
+        "53.0.0": "https://www.schemastore.org/expo-53.0.0.json",
+        "54.0.0": "https://www.schemastore.org/expo-54.0.0.json",
+        "55.0.0": "https://www.schemastore.org/expo-55.0.0.json",
+        "56.0.0": "https://www.schemastore.org/expo-56.0.0.json",
+        "57.0.0": "https://www.schemastore.org/expo-57.0.0.json"
       }
     },
     {
@@ -5536,6 +5540,12 @@
       "description": "mycode.js files",
       "fileMatch": ["mycode.json"],
       "url": "https://www.schemastore.org/mycode.json"
+    },
+    {
+      "name": "Nais manifests",
+      "description": "Nais manifest files",
+      "fileMatch": ["nais.yaml", "**/.nais/*.yaml"],
+      "url": "https://schemas.nais.io/editor.json"
     },
     {
       "name": "napari plugin manifest",
@@ -11729,6 +11739,66 @@
       "name": "AAES evidence pack manifest (aaes.evidence-pack/1)",
       "description": "Manifest for an AAES evidence pack directory: stated population, explicit coverage exclusions, and file inventory for examiner review of AI agent action evidence",
       "url": "https://aaes.ai/spec/v1/evidence-pack-manifest.schema.json"
+    },
+    {
+      "name": "Allstar Action",
+      "description": "Allstar action policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-action.json"
+    },
+    {
+      "name": "Allstar Administrators",
+      "description": "Allstar repository administrator policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-admin.json"
+    },
+    {
+      "name": "Allstar Binary Artifacts",
+      "description": "Allstar binary artifacts policy configuration",
+      "fileMatch": ["binary_artifacts.yaml"],
+      "url": "https://www.schemastore.org/allstar-binary.json"
+    },
+    {
+      "name": "Allstar Branch Protection",
+      "description": "Allstar branch protection policy configuration",
+      "fileMatch": ["branch_protection.yaml"],
+      "url": "https://www.schemastore.org/allstar-branch.json"
+    },
+    {
+      "name": "Allstar CODEOWNERS",
+      "description": "Allstar CODEOWNERS policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-codeowners.json"
+    },
+    {
+      "name": "Allstar Configuration",
+      "description": "Allstar organization-level configuration file",
+      "fileMatch": ["allstar.yaml"],
+      "url": "https://www.schemastore.org/allstar-config.json"
+    },
+    {
+      "name": "Allstar Dangerous Workflow",
+      "description": "Allstar dangerous workflow policy configuration",
+      "fileMatch": ["dangerous_workflow.yaml"],
+      "url": "https://www.schemastore.org/allstar-workflow.json"
+    },
+    {
+      "name": "Allstar Outside Collaborators",
+      "description": "Allstar outside collaborators policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-outside.json"
+    },
+    {
+      "name": "Allstar Scorecard",
+      "description": "Allstar Scorecard policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-scorecard.json"
+    },
+    {
+      "name": "Allstar Security",
+      "description": "Allstar security policy configuration",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/allstar-security.json"
     }
   ]
 }
