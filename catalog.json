@@ -7331,6 +7331,12 @@
       "url": "https://www.schemastore.org/sergen.json"
     },
     {
+      "name": "serve.json",
+      "description": "Configuration file for Vercel's serve static file server",
+      "fileMatch": ["vercel.serve.json"],
+      "url": "https://www.schemastore.org/serve.json"
+    },
+    {
       "name": "settings.job",
       "description": "Azure Webjob settings file",
       "fileMatch": ["settings.job"],
@@ -9271,11 +9277,12 @@
       "name": "Apollo Router",
       "description": "Apollo Router: The runtime for graph-based API orchestration",
       "fileMatch": ["apollo-router-*.json"],
-      "url": "https://www.schemastore.org/apollo-router-2.9.0.json",
+      "url": "https://www.schemastore.org/apollo-router-2.17.0.json",
       "versions": {
         "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json",
         "2.8.2": "https://www.schemastore.org/apollo-router-2.8.2.json",
-        "2.9.0": "https://www.schemastore.org/apollo-router-2.9.0.json"
+        "2.9.0": "https://www.schemastore.org/apollo-router-2.9.0.json",
+        "2.17.0": "https://www.schemastore.org/apollo-router-2.17.0.json"
       }
     },
     {
@@ -11890,9 +11897,9 @@
       "url": "https://defakto-security.github.io/build-actions/ci.schema.json"
     },
     {
-      "name": "AAES evidence export (aaes.export/v1)",
-      "description": "One JSON value in an aaes.export/v1 JSON Lines evidence export: a header, entry, or anchor line recording authorization decisions for AI agent actions; cryptographic verification is separate from structural validation",
-      "url": "https://aaes.ai/spec/v1/export.schema.json"
+      "name": "AAES evidence export (aaes.export/v2)",
+      "description": "One JSON value in an aaes.export/v2 JSON Lines evidence export: a header, entry, or anchor line recording authorization decisions for AI agent actions; cryptographic verification is separate from structural validation",
+      "url": "https://aaes.ai/spec/v2/export.schema.json"
     },
     {
       "name": "AAES evidence pack manifest (aaes.evidence-pack/1)",
