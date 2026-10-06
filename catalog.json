@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "AI Page Manifest",
+      "description": "AI Page Manifest (AIPM) v1.2.0, per-page .ai.json metadata for AI crawlers and answer engines",
+      "fileMatch": ["*.ai.json"],
+      "url": "https://aigeoradar.com/schemas/aipm/1.2/page-manifest.schema.json"
+    },
+    {
       "name": "Ameba",
       "description": "Configuration file for Ameba, a Crystal linter and formatter",
       "fileMatch": [".ameba.yml", ".ameba.*.yml"],
@@ -10,6 +16,12 @@
       "versions": {
         "1.7.0": "https://fastly.jsdelivr.net/gh/crystal-ameba/ameba@v1.7.0/.ameba.yml.schema.json"
       }
+    },
+    {
+      "name": "CDF workspace config",
+      "description": "Cognitive Delivery governance contract: the .cdf/config.yaml of a CDF-governed workspace (adoption tier, review policy, provenance, CDI and break-glass settings, sealed fields)",
+      "fileMatch": ["**/.cdf/config.yaml"],
+      "url": "https://cognitive-delivery.github.io/contract/1.x/config-core.schema.json"
     },
     {
       "name": "Context Passport",
@@ -2770,6 +2782,18 @@
       "url": "https://docs.dagger.io/reference/dagger.schema.json"
     },
     {
+      "name": "Dagger module (dagger-module.toml)",
+      "description": "Module manifest for the Dagger CI/CD engine: runtime, dependencies, and engine version",
+      "fileMatch": ["dagger-module.toml"],
+      "url": "https://docs.dagger.io/reference/dagger-module.schema.json"
+    },
+    {
+      "name": "Dagger workspace (dagger.toml)",
+      "description": "Workspace configuration for the Dagger CI/CD engine: installed modules, their settings, and SDKs",
+      "fileMatch": ["dagger.toml"],
+      "url": "https://docs.dagger.io/reference/dagger-workspace.schema.json"
+    },
+    {
       "name": "Dart Build Config (dart-build.json)",
       "description": "Configuration for Dart's build system",
       "url": "https://www.schemastore.org/dart-build.json"
@@ -4712,6 +4736,15 @@
       "description": "A validating an array of jdownloader2 rules",
       "fileMatch": ["*.jd2mcr", "*.jd2mcr.json", "*.linkcrawlerrules.json"],
       "url": "https://fastly.jsdelivr.net/gh/sergxerj/jdownloader2-crawler-rule-json-schema@main/jd2mcr.schema.json"
+    },
+    {
+      "name": "JDX",
+      "description": "JDX (Jupiter Data eXchange) declaration for registering musical works with collective management societies",
+      "fileMatch": ["*.jdx.json"],
+      "url": "https://jdx.jupiter.ar/schema/1.0/jdx.schema.json",
+      "versions": {
+        "1.0": "https://jdx.jupiter.ar/schema/1.0/jdx.schema.json"
+      }
     },
     {
       "name": "JFrog Applications Config",
@@ -8100,6 +8133,17 @@
       "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json"
     },
     {
+      "name": "ttheme market",
+      "description": "Market file of ttheme, which names a repository of terminal palettes",
+      "fileMatch": ["ttheme-market.toml"],
+      "url": "https://www.schemastore.org/ttheme-market.json"
+    },
+    {
+      "name": "ttheme palette",
+      "description": "Terminal palette file of ttheme",
+      "url": "https://www.schemastore.org/ttheme-palette.json"
+    },
+    {
       "name": "tusk.yml",
       "description": "tusk CLI configuration file",
       "fileMatch": ["tusk.yml", "tusk.yaml"],
@@ -10512,6 +10556,42 @@
       "description": "Valid for any JSON file",
       "fileMatch": [],
       "url": "https://www.schemastore.org/any.json"
+    },
+    {
+      "name": "ZeroPress Build Pages Config",
+      "description": "Configuration for building ZeroPress sites from Markdown",
+      "fileMatch": ["**/.zeropress/config.json"],
+      "url": "https://www.schemastore.org/zeropress-build-pages-config-1.0.json",
+      "versions": {
+        "1.0": "https://www.schemastore.org/zeropress-build-pages-config-1.0.json"
+      }
+    },
+    {
+      "name": "ZeroPress Preview Data",
+      "description": "Site data for ZeroPress static builds and theme previews",
+      "fileMatch": ["zeropress-preview-data.json"],
+      "url": "https://www.schemastore.org/zeropress-preview-data-0.7.json",
+      "versions": {
+        "0.7": "https://www.schemastore.org/zeropress-preview-data-0.7.json"
+      }
+    },
+    {
+      "name": "ZeroPress Theme Runtime",
+      "description": "Theme manifests for the ZeroPress template runtime",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/zeropress-theme-runtime-0.7.json",
+      "versions": {
+        "0.7": "https://www.schemastore.org/zeropress-theme-runtime-0.7.json"
+      }
+    },
+    {
+      "name": "ZeroPress WXR Import Base",
+      "description": "Base settings for importing WordPress exports with ZeroPress",
+      "fileMatch": ["wxr-import-base.json"],
+      "url": "https://www.schemastore.org/zeropress-wxr-import-base-0.7.json",
+      "versions": {
+        "0.7": "https://www.schemastore.org/zeropress-wxr-import-base-0.7.json"
+      }
     },
     {
       "name": "zerops.yml",
