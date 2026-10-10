@@ -1227,6 +1227,12 @@
       "url": "https://format.dev/schema/format-config.json"
     },
     {
+      "name": "Formhaus form definition",
+      "description": "Declarative JSON form definition for Formhaus, a headless form engine. Documentation: https://formhaus.dev",
+      "fileMatch": ["*.formhaus.json"],
+      "url": "https://formhaus.dev/schema/form-definition.json"
+    },
+    {
       "name": "Freifunk.de Community API",
       "description": "Freifunk.de Community API. Documentation: https://github.com/freifunk/directory.api.freifunk.net",
       "fileMatch": ["*.freifunk-api.json"],
@@ -5312,9 +5318,19 @@
       "description": "Mega-Linter configuration file (for Mega-Linter users)",
       "fileMatch": [
         ".mega-linter.yml",
+        ".mega-linter.yaml",
         ".megalinter.yml",
+        ".megalinter.yaml",
         "*.mega-linter-config.yml",
-        "*.megalinter-config.yml"
+        "*.megalinter-config.yml",
+        "**/.config/mega-linter.yml",
+        "**/.config/mega-linter.yaml",
+        "**/.config/.mega-linter.yml",
+        "**/.config/.mega-linter.yaml",
+        "**/.config/megalinter.yml",
+        "**/.config/megalinter.yaml",
+        "**/.config/.megalinter.yml",
+        "**/.config/.megalinter.yaml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/oxsecurity/megalinter@main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json"
     },
@@ -6919,6 +6935,11 @@
         ".rehyperc.yml"
       ],
       "url": "https://www.schemastore.org/rehyperc.json"
+    },
+    {
+      "name": "Reinigungsplan",
+      "description": "Structured cleaning plans with areas, services, recurrence, responsibilities and quality criteria",
+      "url": "https://xn--jonas-gebudereinigung-e2b.de/wp-content/uploads/2026/08/reinigungsplan-schema-1.0.0.json"
     },
     {
       "name": "release-please-config.json",
@@ -12061,6 +12082,24 @@
       "description": "Allstar security policy configuration",
       "fileMatch": [],
       "url": "https://www.schemastore.org/allstar-security.json"
+    },
+    {
+      "name": "debim",
+      "description": "Declarative BIM (Building-as-Code) project manifest",
+      "fileMatch": [
+        "*.debim",
+        "*.debim.yaml",
+        "*.debim.yml",
+        "*.dbim",
+        "*.dbim.yaml",
+        "*.dbim.yml",
+        "project.debim",
+        "project.debim.yaml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/PRIDA-TAKON/debim@main/debim.schema.json",
+      "versions": {
+        "1.0": "https://fastly.jsdelivr.net/gh/PRIDA-TAKON/debim@main/debim.schema.json"
+      }
     }
   ]
 }
