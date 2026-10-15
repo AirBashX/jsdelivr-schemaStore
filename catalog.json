@@ -4708,6 +4708,15 @@
       }
     },
     {
+      "name": "jactionlint",
+      "description": "Configuration file for jactionlint",
+      "fileMatch": [
+        "**/.github/jactionlint.yaml",
+        "**/.github/jactionlint.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/jdx/jactionlint@main/schema/jactionlint-config.json"
+    },
+    {
       "name": "Jasmine",
       "description": "jasmine JSON config file",
       "fileMatch": ["jasmine.json"],
@@ -5294,6 +5303,12 @@
         "**/*.flow.yml"
       ],
       "url": "https://www.schemastore.org/maestro-flow.json"
+    },
+    {
+      "name": "mapcan",
+      "description": "mapcan CAN signal map: buses, devices, frames and signals (CAN, CAN FD, CANopen, SAE J1939)",
+      "fileMatch": ["*.mapcan.yaml", "*.mapcan.yml"],
+      "url": "https://ordu1453.github.io/mapcan/schema/v1.json"
     },
     {
       "name": "MapEHR Mapping",
