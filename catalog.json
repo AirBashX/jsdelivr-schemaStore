@@ -579,6 +579,12 @@
       "url": "https://fastly.jsdelivr.net/gh/architect/parser@v2.3.0/arc-schema.json"
     },
     {
+      "name": "arch-lint.toml",
+      "description": "Configuration file for arch-lint, an architecture linter for Rust and multi-language projects",
+      "fileMatch": ["arch-lint.toml", ".arch-lint.toml"],
+      "url": "https://fastly.jsdelivr.net/gh/ynishi/arch-lint@main/schema/arch-lint.schema.json"
+    },
+    {
       "name": "Archival editor configuration",
       "description": "Per-object editor configuration for an archival site",
       "fileMatch": ["archival_editor.toml"],
@@ -2721,6 +2727,15 @@
       "url": "https://fastly.jsdelivr.net/gh/mozilla/contribute.json@master/schema.json"
     },
     {
+      "name": "Cosmoner app",
+      "description": "Cosmoner app deployment template",
+      "fileMatch": [
+        "**/.cosmoner/deployment.yaml",
+        "**/.cosmoner/deployment.yml"
+      ],
+      "url": "https://cosmoner.com/schemas/app.schema.json"
+    },
+    {
       "name": "crowdin.yml",
       "description": "Crowdin, a crowd-translation platform. Documentation: https://support.crowdin.com/configuration-file/",
       "fileMatch": ["**/crowdin.yml"],
@@ -4432,6 +4447,12 @@
       "description": "standard Grunt tasks",
       "fileMatch": ["**/grunt/*.json", "*-tasks.json"],
       "url": "https://www.schemastore.org/grunt-task.json"
+    },
+    {
+      "name": "gspot",
+      "description": "gspot settings file that selects linters and agent rules for a repository",
+      "fileMatch": ["gspot.toml"],
+      "url": "https://generativespotting.com/gspot.schema.json"
     },
     {
       "name": "HashiCorp Vault",
@@ -7586,6 +7607,12 @@
       "description": "Source Map files version 3",
       "fileMatch": ["*.map"],
       "url": "https://www.schemastore.org/sourcemap-v3.json"
+    },
+    {
+      "name": "sourceledger sources.toml",
+      "description": "Manifest of the public sources a sourceledger dataset is built from",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/simonvanlierde/sourceledger@main/src/sourceledger/sources.schema.json"
     },
     {
       "name": "Sourcery",
