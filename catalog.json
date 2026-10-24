@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "Talewright story manifest",
+      "description": "Talewright story manifest (story.talewright.yaml) for Tale interactive stories",
+      "fileMatch": ["*.talewright.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/squid-farm/talewright@main/tooling/vscode-talewright/schemas/story.schema.json"
+    },
+    {
       "name": "AI Page Manifest",
       "description": "AI Page Manifest (AIPM) v1.2.0, per-page .ai.json metadata for AI crawlers and answer engines",
       "fileMatch": ["*.ai.json"],
@@ -1706,6 +1712,12 @@
         "cache-warmup.yml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/eliashaeussler/cache-warmup@main/res/cache-warmup-config.schema.json"
+    },
+    {
+      "name": "Calibration Reporting Standard (CRS) v0.1",
+      "description": "13-field structured attestation protocol for AI agent calibration disclosure in regulated financial systems. Implements ISO 42001 Clause 9.1 for agentic AI",
+      "fileMatch": ["crs-attestation.json", "*.crs-attestation.json"],
+      "url": "https://ericchantc.github.io/crs-specification/crs-v0.1-schema.json"
     },
     {
       "name": "Calqulus pipeline",
@@ -5311,6 +5323,12 @@
       "description": "Power BI linguistic schema definition",
       "fileMatch": ["*.lsdl.yaml", "*.lsdl.json"],
       "url": "https://www.schemastore.org/lsdlschema.json"
+    },
+    {
+      "name": ".luarc.json",
+      "description": "Lua language server (LuaLS) settings file. Documentation: https://luals.github.io/wiki/settings/",
+      "fileMatch": [".luarc.json", ".luarc.jsonc"],
+      "url": "https://fastly.jsdelivr.net/gh/LuaLS/vscode-lua@master/setting/schema.json"
     },
     {
       "name": ".luaurc",
@@ -11860,7 +11878,7 @@
       "name": "runspec",
       "description": "Interface specification for anything runnable — scripts, apps, and MCP tools",
       "fileMatch": ["runspec.toml"],
-      "url": "https://fastly.jsdelivr.net/gh/JasonFinestone/runspec@main/schema/runspec.schema.json"
+      "url": "https://runspec.app/runspec.schema.json"
     },
     {
       "name": "dacier.yml",
