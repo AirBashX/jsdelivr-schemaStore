@@ -922,6 +922,7 @@
       "url": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.10/bottom.json",
       "versions": {
         "nightly": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/nightly/bottom.json",
+        "0.15.0": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.15.0/bottom.json",
         "0.14.9": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.9/bottom.json",
         "0.14.7": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.7/bottom.json",
         "0.14.0": "https://fastly.jsdelivr.net/gh/ClementTsang/bottom@main/schema/v0.14.0/bottom.json",
@@ -2222,6 +2223,12 @@
       "description": "Dein.vim, a Vim/Neovim plugin manager",
       "fileMatch": ["dein.toml"],
       "url": "https://www.schemastore.org/dein.json"
+    },
+    {
+      "name": "dep_sync workspace manifest",
+      "description": "Manifest for dep_sync Git multi-repository workspace synchronization",
+      "fileMatch": ["**/.dep-sync/manifest.yaml"],
+      "url": "https://www.schemastore.org/dep-sync.json"
     },
     {
       "name": "Dependency cruiser",
@@ -3866,6 +3873,30 @@
       "url": "https://fastly.jsdelivr.net/gh/fossas/fossa-cli@master/docs/references/files/fossa-deps.schema.json"
     },
     {
+      "name": "K2F package manifest",
+      "description": "K2F (Key-to-Flow) v0.3 package manifest — page size, margins, and engine version for the ZIP document format. https://k2f.dev · https://github.com/suzheng/k2f/blob/main/docs/spec/k2f-v0.3.md",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/k2f-manifest.json"
+    },
+    {
+      "name": "K2F semantic node",
+      "description": "K2F v0.3 semantic tree node JSON (content/root.json and included content files). https://k2f.dev",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/k2f-nodes.json"
+    },
+    {
+      "name": "K2F theme",
+      "description": "K2F v0.3 role-based theme (styles/theme.json). https://k2f.dev",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/k2f-styles.json"
+    },
+    {
+      "name": "K2F signatures record",
+      "description": "K2F v0.3 Ed25519 signature record (signatures/v1.json in packed packages). https://k2f.dev",
+      "fileMatch": [],
+      "url": "https://www.schemastore.org/partial-k2f-signatures.json"
+    },
+    {
       "name": "Karakum configuration file",
       "description": "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
       "fileMatch": ["karakum.config.json"],
@@ -4911,8 +4942,9 @@
       "name": "JReleaser",
       "description": "JReleaser config file",
       "fileMatch": ["jreleaser.yml", "jreleaser.json"],
-      "url": "https://www.schemastore.org/jreleaser-1.26.0.json",
+      "url": "https://www.schemastore.org/jreleaser-1.27.0.json",
       "versions": {
+        "1.27.0": "https://www.schemastore.org/jreleaser-1.27.0.json",
         "1.26.0": "https://www.schemastore.org/jreleaser-1.26.0.json",
         "1.25.0": "https://www.schemastore.org/jreleaser-1.25.0.json",
         "1.24.0": "https://www.schemastore.org/jreleaser-1.24.0.json",
@@ -5409,6 +5441,34 @@
         "**/*.flow.yml"
       ],
       "url": "https://www.schemastore.org/maestro-flow.json"
+    },
+    {
+      "name": "Mandrel Agent Spec",
+      "description": "Declarative contract for autonomous AI agent governance (Mandrel Spec source contract)",
+      "fileMatch": [
+        "mandrel.yaml",
+        "mandrel.yml",
+        "*.mandrel.yaml",
+        "*.mandrel.yml",
+        "mandrel-spec.yaml",
+        "mandrel-spec.yml",
+        "*.mandrel-spec.yaml",
+        "*.mandrel-spec.yml"
+      ],
+      "url": "https://mandrelproject.ai/v1/mandrel-spec.schema.json"
+    },
+    {
+      "name": "Mandrel Realized Spec",
+      "description": "Baked and signed declarative contract for autonomous AI agent runtime enforcement (Mandrel Realized Spec)",
+      "fileMatch": [
+        "realized-spec.yaml",
+        "realized-spec.yml",
+        "*.realized-spec.yaml",
+        "*.realized-spec.yml",
+        "*.realized.yaml",
+        "*.realized.yml"
+      ],
+      "url": "https://mandrelproject.ai/v1/mandrel-realized-spec.schema.json"
     },
     {
       "name": "mapcan",
@@ -6400,6 +6460,36 @@
         "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_ssp_schema.json",
         "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_ssp_schema.json"
       }
+    },
+    {
+      "name": "OSD device descriptor",
+      "description": "Open Synth Descriptors: how a synthesizer, drum machine, controller or music software speaks MIDI or OSC (https://github.com/roomi-fields/open-synth-descriptors)",
+      "url": "https://w3id.org/osd/0.5/device.schema.json",
+      "versions": {
+        "0.5": "https://w3id.org/osd/0.5/device.schema.json",
+        "0.4": "https://w3id.org/osd/0.4/device.schema.json"
+      }
+    },
+    {
+      "name": "OSD fingerprint",
+      "description": "Open Synth Descriptors: how a music device is recognised",
+      "url": "https://w3id.org/osd/0.5/fingerprint.schema.json"
+    },
+    {
+      "name": "OSD firmware descriptor",
+      "description": "Open Synth Descriptors: what a firmware changes on a music device",
+      "url": "https://w3id.org/osd/0.5/firmware.schema.json"
+    },
+    {
+      "name": "OSD maker profile",
+      "description": "Open Synth Descriptors: what a maker's music devices share",
+      "url": "https://w3id.org/osd/0.5/profile.schema.json"
+    },
+    {
+      "name": "OSD sound descriptor",
+      "description": "Open Synth Descriptors: a shared sound for a music device, its author and licence",
+      "fileMatch": ["*.osd.json"],
+      "url": "https://w3id.org/osd/0.5/sound.schema.json"
     },
     {
       "name": "OSS Review Toolkit configuration",
@@ -9197,6 +9287,18 @@
       "description": "mirrord up configuration file",
       "fileMatch": ["mirrord-up.yaml", "mirrord-up.yml"],
       "url": "https://fastly.jsdelivr.net/gh/metalbear-co/mirrord@main/mirrord-up-schema.json"
+    },
+    {
+      "name": "fnox",
+      "description": "fnox config, encrypted/remote secret manager",
+      "fileMatch": [
+        ".fnox.toml",
+        ".fnox.*.toml",
+        "fnox.toml",
+        "fnox.*.toml",
+        "**/.config/fnox/config.toml"
+      ],
+      "url": "https://fnox.jdx.dev/schema.json"
     },
     {
       "name": "mise",
@@ -12331,6 +12433,21 @@
       "description": "Release Please configuration for Haijun projects (release-please-config.json)",
       "fileMatch": [],
       "url": "https://www.schemastore.org/haijun-release-please.json"
+    },
+    {
+      "name": "Yazi yazi.toml",
+      "description": "Yazi file manager's general configutraion file",
+      "url": "https://yazi-rs.github.io/schemas/yazi.json"
+    },
+    {
+      "name": "Yazi keymap.toml",
+      "description": "Yazi file manager's kebindings configutraion file",
+      "url": "https://yazi-rs.github.io/schemas/keymap.json"
+    },
+    {
+      "name": "Yazi theme.toml",
+      "description": "Yazi file manager's color scheme configutraion file",
+      "url": "https://yazi-rs.github.io/schemas/theme.json"
     }
   ]
 }
