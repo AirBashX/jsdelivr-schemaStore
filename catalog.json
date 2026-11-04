@@ -2140,6 +2140,18 @@
       "url": "https://fastly.jsdelivr.net/gh/godatadriven/dbt-bouncer@main/schema.json"
     },
     {
+      "name": "dbt Catalogs",
+      "description": "dbt's catalogs.yml file for catalog integrations such as Apache Iceberg",
+      "fileMatch": ["**/*dbt*/catalogs.yaml", "**/*dbt*/catalogs.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/dbt-labs/dbt-jsonschema@main/schemas/latest_fusion/catalogs-latest-fusion.json"
+    },
+    {
+      "name": "dbt Cloud",
+      "description": "dbt's dbt_cloud.yml file with credentials for the dbt platform",
+      "fileMatch": ["dbt_cloud.yaml", "dbt_cloud.yml"],
+      "url": "https://fastly.jsdelivr.net/gh/dbt-labs/dbt-jsonschema@main/schemas/latest_fusion/dbt_cloud-latest-fusion.json"
+    },
+    {
       "name": "dbt Dependencies",
       "description": "dbt's dependencies.yml file for external packages and cross-project refs",
       "fileMatch": ["**/*dbt*/dependencies.yaml", "**/*dbt*/dependencies.yml"],
@@ -6609,6 +6621,21 @@
       "url": "https://www.schemastore.org/pgrls.json"
     },
     {
+      "name": "phenix",
+      "description": "Config files for the phenix cyber-physical orchestration framework. See https://phenix.sceptre.dev/latest/ for documentation",
+      "fileMatch": [
+        "**/phenix-configs/**/*.yml",
+        "**/phenix-configs/**/*.yaml",
+        "**/phenix-images/*.yml",
+        "**/phenix-images/*.yaml",
+        "**/sceptre-phenix-topologies/**/*.yml",
+        "**/sceptre-phenix-topologies/**/*.yaml",
+        "phenix.yml",
+        ".phenix.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/sandialabs/sceptre-phenix@main/schemas/phenix.schema.json"
+    },
+    {
       "name": "pattern.json",
       "description": "Patternplate pattern manifest file",
       "fileMatch": ["pattern.json"],
@@ -8077,6 +8104,16 @@
         ".stylelintrc.json"
       ],
       "url": "https://www.schemastore.org/stylelintrc.json"
+    },
+    {
+      "name": "Supabase CLI config",
+      "description": "Configuration file for the Supabase CLI",
+      "fileMatch": [
+        "**/supabase/config.toml",
+        "**/supabase/config.json",
+        "**/supabase/config.jsonc"
+      ],
+      "url": "https://supabase.com/schemas/config/v1.json"
     },
     {
       "name": "SWADL",
