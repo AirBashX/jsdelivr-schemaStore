@@ -564,6 +564,12 @@
       "url": "https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json"
     },
     {
+      "name": "appfiles.json",
+      "description": "Declares the files an app leaves outside its package and what each one is, for backup, migration, cleanup and uninstall tools",
+      "fileMatch": ["appfiles.json"],
+      "url": "https://fastly.jsdelivr.net/gh/tw93/appfiles@main/appfiles.schema.json"
+    },
+    {
       "name": "appsscript.json",
       "description": "Google Apps Script manifest file",
       "fileMatch": ["appsscript.json"],
@@ -1595,6 +1601,12 @@
       "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/partial-scheduled.json"
     },
     {
+      "name": "partial-workers.json",
+      "description": "Background workers configuration for pyproject.toml",
+      "fileMatch": [],
+      "url": "https://fastly.jsdelivr.net/gh/SchemaStore/schemastore@master/src/schemas/json/partial-workers.json"
+    },
+    {
       "name": "partial-inwards.json",
       "description": "Inwards architecture linter configuration for pyproject.toml",
       "fileMatch": [],
@@ -1759,12 +1771,6 @@
         "cache-warmup.yml"
       ],
       "url": "https://fastly.jsdelivr.net/gh/eliashaeussler/cache-warmup@main/res/cache-warmup-config.schema.json"
-    },
-    {
-      "name": "Calibration Reporting Standard (CRS) v0.1",
-      "description": "13-field structured attestation protocol for AI agent calibration disclosure in regulated financial systems. Implements ISO 42001 Clause 9.1 for agentic AI",
-      "fileMatch": ["crs-attestation.json", "*.crs-attestation.json"],
-      "url": "https://ericchantc.github.io/crs-specification/crs-v0.1-schema.json"
     },
     {
       "name": "Calqulus pipeline",
@@ -5615,6 +5621,16 @@
       "description": "mime type collections",
       "fileMatch": ["mimetypes.json"],
       "url": "https://www.schemastore.org/mimetypes.json"
+    },
+    {
+      "name": "MikroTik MCP",
+      "description": "MikroTik MCP server configuration",
+      "fileMatch": [
+        "mikrotik-mcp.json",
+        "mikrotik-mcp.config.json",
+        "**/.mikrotik-mcp/config.json"
+      ],
+      "url": "https://www.schemastore.org/mikrotik-mcp.json"
     },
     {
       "name": "Minecraft Data Pack Advancement",
