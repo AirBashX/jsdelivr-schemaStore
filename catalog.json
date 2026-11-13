@@ -570,6 +570,20 @@
       "url": "https://fastly.jsdelivr.net/gh/tw93/appfiles@main/appfiles.schema.json"
     },
     {
+      "name": "Appium configuration",
+      "description": "Configuration file for the Appium automation server",
+      "fileMatch": [
+        ".appiumrc",
+        ".appiumrc.json",
+        ".appiumrc.yaml",
+        ".appiumrc.yml"
+      ],
+      "url": "https://fastly.jsdelivr.net/gh/appium/appium@appium@3.9.0/packages/schema/lib/appium-config.schema.json",
+      "versions": {
+        "3.9.0": "https://fastly.jsdelivr.net/gh/appium/appium@appium@3.9.0/packages/schema/lib/appium-config.schema.json"
+      }
+    },
+    {
       "name": "appsscript.json",
       "description": "Google Apps Script manifest file",
       "fileMatch": ["appsscript.json"],
@@ -2702,7 +2716,7 @@
         "cloudformation.yml",
         "cloudformation.yaml"
       ],
-      "url": "https://fastly.jsdelivr.net/gh/awslabs/goformation@master/schema/cloudformation.schema.json"
+      "url": "https://fastly.jsdelivr.net/gh/aws/serverless-application-model@main/schema_source/cloudformation.schema.json"
     },
     {
       "name": "AWS CloudFormation Serverless Application Model (SAM)",
@@ -4284,7 +4298,9 @@
         "**/.gitlab-ci.yml",
         "**/.gitlab-ci.yaml",
         "**/*.gitlab-ci.yml",
-        "**/*.gitlab-ci.yaml"
+        "**/*.gitlab-ci.yaml",
+        "**/.gitlab/ci/*.yml",
+        "**/.gitlab/ci/*.yaml"
       ],
       "url": "https://gitlab.com/gitlab-org/gitlab-foss/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     },
@@ -6763,6 +6779,15 @@
       "url": "https://fastly.jsdelivr.net/gh/nwithan8/plex-prerolls@main/.schema/config.schema.json"
     },
     {
+      "name": "plotdown",
+      "description": "A plot block of plotdown: the options of Observable Plot's Plot.plot() as strict JSON, rendered as a chart in Markdown",
+      "fileMatch": ["*.plotdown.json"],
+      "url": "https://plotdown.cc/schema/plot.schema.json",
+      "versions": {
+        "0.1": "https://plotdown.cc/schema/0.1/plot.schema.json"
+      }
+    },
+    {
       "name": "podbard.yaml",
       "description": "Configuration file for Podbard - a podcast site generator",
       "fileMatch": ["podbard.yaml"],
@@ -6828,7 +6853,7 @@
     },
     {
       "name": "PRML manifest",
-      "description": "Pre-Registered ML Manifest — open spec for committing ML evaluation claims to a SHA-256 hash before the run (CC BY 4.0). https://spec.falsify.dev/v0.1",
+      "description": "Pre-Registered ML Manifest: open specification for recording ML evaluation criteria (metric, threshold, dataset, seed) under a SHA-256 hash (Community Specification License 1.0). https://spec.falsify.dev/v0.1",
       "fileMatch": [
         "*.prml.yaml",
         "*.prml.yml",
