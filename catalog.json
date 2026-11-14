@@ -5571,6 +5571,12 @@
       "url": "https://www.schemastore.org/micro.json"
     },
     {
+      "name": "MDQ",
+      "description": "Questions and exams of the MDQ format",
+      "fileMatch": ["*.mdq.yaml", "*.mdq.yml", "*.mdq.json"],
+      "url": "https://cdn.jsdelivr.net/npm/@mdq-format/schema@0/mdq.schema.json"
+    },
+    {
       "name": "MegaLinter configuration",
       "description": "Mega-Linter configuration file (for Mega-Linter users)",
       "fileMatch": [
@@ -9303,6 +9309,12 @@
       "description": "JSON standard for web component libraries metadata",
       "fileMatch": ["web-types.json", "*.web-types.json"],
       "url": "https://www.schemastore.org/web-types.json"
+    },
+    {
+      "name": "Windmill wmill.yaml",
+      "description": "Windmill CLI configuration file",
+      "fileMatch": ["wmill.yaml"],
+      "url": "https://fastly.jsdelivr.net/gh/windmill-labs/windmill@main/cli/wmill.schema.json"
     },
     {
       "name": "WP-CLI",
