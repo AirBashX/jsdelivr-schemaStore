@@ -3,6 +3,12 @@
   "version": 1,
   "schemas": [
     {
+      "name": "Wirdigen Protocol Description",
+      "description": "Wirdigen protocol description, generated into a Wireshark Lua dissector",
+      "fileMatch": ["*.wirdigen.yaml"],
+      "url": "https://cerclique.github.io/wirdigen/wirdigen.schema.json"
+    },
+    {
       "name": "RFQ package",
       "description": "A request-for-quotation package sent to a manufacturer: the parts to be priced, the documents that describe them, the bill of materials, and the commercial and quality requirements",
       "fileMatch": ["rfq-package.json", "*.rfq-package.json"],
@@ -1406,6 +1412,16 @@
       "description": "The Bamboo Specs allows you to define Bamboo configuration as code, and have corresponding plans/deployments created or updated automatically in Bamboo",
       "fileMatch": ["**/bamboo-specs/*.yaml", "**/bamboo-specs/*.yml"],
       "url": "https://www.schemastore.org/bamboo-spec.json"
+    },
+    {
+      "name": "BayesBoard",
+      "description": "BayesBoard decision board (hypotheses, evidence, typed edges and likelihood ratios)",
+      "fileMatch": ["*.bayesboard.json"],
+      "url": "https://bayesboard.com/schema/v1.3.json",
+      "versions": {
+        "1.2": "https://bayesboard.com/schema/v1.2.json",
+        "1.3": "https://bayesboard.com/schema/v1.3.json"
+      }
     },
     {
       "name": "beef-database-codegen",
@@ -12667,6 +12683,29 @@
       "name": "Yazi theme.toml",
       "description": "Yazi file manager's color scheme configutraion file",
       "url": "https://yazi-rs.github.io/schemas/theme.json"
+    },
+    {
+      "name": "werf.yaml",
+      "description": "werf configuration file",
+      "fileMatch": ["werf.yaml", "werf.yml"],
+      "url": "https://werf.io/docs/v3/schemas/werf.json"
+    },
+    {
+      "name": "werf-giterminism.yaml",
+      "description": "werf giterminism configuration file",
+      "fileMatch": ["werf-giterminism.yaml"],
+      "url": "https://werf.io/docs/v3/schemas/werf-giterminism.json"
+    },
+    {
+      "name": "werf-includes.yaml",
+      "description": "werf includes configuration file",
+      "fileMatch": ["werf-includes.yaml"],
+      "url": "https://werf.io/docs/v3/schemas/werf-includes.json"
+    },
+    {
+      "name": "werf Chart.yaml",
+      "description": "Chart.yaml of a chart deployed with werf, with the werf export-values extension, to select manually instead of Helm Chart.yaml",
+      "url": "https://werf.io/docs/v3/schemas/chart.json"
     }
   ]
 }
