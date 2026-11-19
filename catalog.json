@@ -4147,7 +4147,7 @@
         ".gitversion.yml",
         ".gitversion.yaml"
       ],
-      "url": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
+      "url": "https://gitversion.net/schemas/7.0/GitVersion.configuration.json",
       "versions": {
         "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
         "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
@@ -4158,7 +4158,8 @@
         "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
         "6.6": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
         "6.7": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
-        "6.8": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json"
+        "6.8": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
+        "7.0": "https://gitversion.net/schemas/7.0/GitVersion.configuration.json"
       }
     },
     {
@@ -6339,6 +6340,33 @@
       "description": "Ops configuration file (ops.yaml)",
       "fileMatch": ["ops.yml", "ops.yaml"],
       "url": "https://fastly.jsdelivr.net/gh/LeShaunJ/ops-schema@main/ops.schema.json"
+    },
+    {
+      "name": "OpsTruss",
+      "description": "OpsTruss project file",
+      "fileMatch": ["opstruss.yaml"],
+      "url": "https://opstruss.github.io/schema/project.json",
+      "versions": {
+        "1.0": "https://opstruss.github.io/v1.0/schema/project.json"
+      }
+    },
+    {
+      "name": "OpsTruss plugin",
+      "description": "OpsTruss plugin file",
+      "fileMatch": ["opstruss.plugin.yaml"],
+      "url": "https://opstruss.github.io/schema/plugin.json",
+      "versions": {
+        "1.0": "https://opstruss.github.io/v1.0/schema/plugin.json"
+      }
+    },
+    {
+      "name": "OpsTruss catalog",
+      "description": "OpsTruss catalog file",
+      "fileMatch": ["opstruss.catalog.yaml"],
+      "url": "https://opstruss.github.io/schema/catalog.json",
+      "versions": {
+        "1.0": "https://opstruss.github.io/v1.0/schema/catalog.json"
+      }
     },
     {
       "name": "ONe's service descriptor",
